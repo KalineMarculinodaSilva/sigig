@@ -1,0 +1,355 @@
+status: 200
+content-length: 8144
+via: 1.1 papeda.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: https://rec.ubuntu.com/api/1.0/recommend_app/geany/
+x-cache: HIT from papeda.canonical.com
+age: 261
+expires: Wed, 04 Nov 2015 12:59:02 GMT
+server: Apache
+last-modified: Wed, 04 Nov 2015 12:54:02 GMT
+etag: "b002f586160a0ba0b9a41c0f0b14915f"
+strict-transport-security: max-age=2592000
+cache-control: max-age=300
+date: Wed, 04 Nov 2015 12:54:02 GMT
+content-type: application/json; charset=utf-8
+x-cache-lookup: HIT from papeda.canonical.com:3128
+
+{
+    "rid": "1fe3c38c590e25c66bba0ca568b745f7", 
+    "data": [
+        {
+            "package_name": "filezilla", 
+            "similarity": 0.1863
+        }, 
+        {
+            "package_name": "eclipse-platform", 
+            "similarity": 0.168
+        }, 
+        {
+            "package_name": "mysql-server", 
+            "similarity": 0.1571
+        }, 
+        {
+            "package_name": "inkscape", 
+            "similarity": 0.157
+        }, 
+        {
+            "package_name": "bluefish", 
+            "similarity": 0.1499
+        }, 
+        {
+            "package_name": "meld", 
+            "similarity": 0.1464
+        }, 
+        {
+            "package_name": "qt4-designer", 
+            "similarity": 0.1427
+        }, 
+        {
+            "package_name": "gimp", 
+            "similarity": 0.1427
+        }, 
+        {
+            "package_name": "icedtea-netx-common", 
+            "similarity": 0.1417
+        }, 
+        {
+            "package_name": "gparted", 
+            "similarity": 0.1417
+        }, 
+        {
+            "package_name": "openjdk-6-jre", 
+            "similarity": 0.1393
+        }, 
+        {
+            "package_name": "p7zip-full", 
+            "similarity": 0.1365
+        }, 
+        {
+            "package_name": "audacity", 
+            "similarity": 0.1354
+        }, 
+        {
+            "package_name": "guake", 
+            "similarity": 0.1347
+        }, 
+        {
+            "package_name": "openjdk-7-jre", 
+            "similarity": 0.1345
+        }, 
+        {
+            "package_name": "mono-runtime", 
+            "similarity": 0.1345
+        }, 
+        {
+            "package_name": "blender", 
+            "similarity": 0.1322
+        }, 
+        {
+            "package_name": "qt4-dev-tools", 
+            "similarity": 0.1315
+        }, 
+        {
+            "package_name": "compizconfig-settings-manager", 
+            "similarity": 0.1286
+        }, 
+        {
+            "package_name": "synaptic", 
+            "similarity": 0.1279
+        }, 
+        {
+            "package_name": "alacarte", 
+            "similarity": 0.1276
+        }, 
+        {
+            "package_name": "bzr", 
+            "similarity": 0.1274
+        }, 
+        {
+            "package_name": "gnome-shell", 
+            "similarity": 0.1273
+        }, 
+        {
+            "package_name": "virtualbox-qt", 
+            "similarity": 0.1262
+        }, 
+        {
+            "package_name": "gstreamer0.10-plugins-bad-multiverse", 
+            "similarity": 0.1259
+        }, 
+        {
+            "package_name": "ubuntu-restricted-extras", 
+            "similarity": 0.1259
+        }, 
+        {
+            "package_name": "pidgin", 
+            "similarity": 0.1251
+        }, 
+        {
+            "package_name": "codeblocks", 
+            "similarity": 0.1242
+        }, 
+        {
+            "package_name": "gnome-tweak-tool", 
+            "similarity": 0.1235
+        }, 
+        {
+            "package_name": "wireshark", 
+            "similarity": 0.1228
+        }, 
+        {
+            "package_name": "cheese", 
+            "similarity": 0.1216
+        }, 
+        {
+            "package_name": "shutter", 
+            "similarity": 0.1208
+        }, 
+        {
+            "package_name": "winetricks", 
+            "similarity": 0.1182
+        }, 
+        {
+            "package_name": "kdelibs5-data", 
+            "similarity": 0.1172
+        }, 
+        {
+            "package_name": "kde-runtime", 
+            "similarity": 0.1165
+        }, 
+        {
+            "lift": 1.44573754011743, 
+            "package_name": "vlc", 
+            "similarity": 0.116
+        }, 
+        {
+            "package_name": "libreoffice-base", 
+            "similarity": 0.1158
+        }, 
+        {
+            "package_name": "nautilus-dropbox", 
+            "similarity": 0.115
+        }, 
+        {
+            "package_name": "devhelp", 
+            "similarity": 0.1138
+        }, 
+        {
+            "package_name": "chromium-browser", 
+            "similarity": 0.1128
+        }, 
+        {
+            "package_name": "qtcreator", 
+            "similarity": 0.1127
+        }, 
+        {
+            "package_name": "xchat", 
+            "similarity": 0.1113
+        }, 
+        {
+            "package_name": "imagemagick", 
+            "similarity": 0.1096
+        }, 
+        {
+            "package_name": "wine1.4", 
+            "similarity": 0.1076
+        }, 
+        {
+            "package_name": "mysql-client", 
+            "similarity": 0.1072
+        }, 
+        {
+            "package_name": "emacs23", 
+            "similarity": 0.1066
+        }, 
+        {
+            "package_name": "stellarium", 
+            "similarity": 0.1052
+        }, 
+        {
+            "package_name": "smplayer", 
+            "similarity": 0.1049
+        }, 
+        {
+            "package_name": "tomboy", 
+            "similarity": 0.1041
+        }, 
+        {
+            "package_name": "calibre", 
+            "similarity": 0.1039
+        }, 
+        {
+            "lift": 1.20131739611769, 
+            "package_name": "gstreamer0.10-plugins-bad"
+        }, 
+        {
+            "lift": 1.19783246738255, 
+            "package_name": "gstreamer0.10-plugins-ugly"
+        }, 
+        {
+            "lift": 1.17062370788034, 
+            "package_name": "gstreamer0.10-ffmpeg"
+        }, 
+        {
+            "lift": 1.11161130974269, 
+            "package_name": "flashplugin-installer"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "wine1.2"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "sauerbraten"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "pornview"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "opendict"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "gcrystal"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "tasks"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "bittornado-gui"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "gnome-mousetrap"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "epdfview"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "kshutdown"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "achilles"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "checkbox-gtk"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "acm"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "freetennis"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "gnome-keyring"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "pdfshuffler"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "korganizer"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "rekonq"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "gtodo"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "videoporama"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "blogilo"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "bombono-dvd"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "seamonkey-browser"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "imagination"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "stardict"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "rapidsvn"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "zgv"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "gedit-latex-plugin"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "qtemu"
+        }
+    ], 
+    "app": "geany"
+}

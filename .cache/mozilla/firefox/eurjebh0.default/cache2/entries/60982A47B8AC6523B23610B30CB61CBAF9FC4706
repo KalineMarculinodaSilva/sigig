@@ -1,0 +1,4227 @@
+<!DOCTYPE html>
+<html dir='ltr' lang='pt-br' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr' xmlns:fb='http://www.facebook.com/2008/fbml' xmlns:lang='pt-br'>
+<head>
+<script src='http://static.boo-box.com/javascripts/boo-inject.js' type='text/javascript'></script>
+<meta content='9d0d91053a2b3fa06c36d1f72a74f315469ef703' name='bbx-domain-token'/>
+<script async='async' src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-4298533800014985",
+    enable_page_level_ads: true
+  });
+</script>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<meta content='blogger' name='generator'/>
+<link href='http://www.diolinux.com.br/favicon.ico' rel='icon' type='image/x-icon'/>
+<link href='http://www.diolinux.com.br/2013/07/omo-instalar-o-sublime-text-3-no-via-ppa.html' rel='canonical'/>
+<link rel="alternate" type="application/atom+xml" title="Diolinux -  Open Source, Ubuntu, Android e tecnologia - Atom" href="http://www.diolinux.com.br/feeds/posts/default" />
+<link rel="alternate" type="application/rss+xml" title="Diolinux -  Open Source, Ubuntu, Android e tecnologia - RSS" href="http://www.diolinux.com.br/feeds/posts/default?alt=rss" />
+<link rel="service.post" type="application/atom+xml" title="Diolinux -  Open Source, Ubuntu, Android e tecnologia - Atom" href="https://www.blogger.com/feeds/8360348492097356457/posts/default" />
+
+<link rel="alternate" type="application/atom+xml" title="Diolinux -  Open Source, Ubuntu, Android e tecnologia - Atom" href="http://www.diolinux.com.br/feeds/8889486882878979837/comments/default" />
+<link href='http://2.bp.blogspot.com/-4gvrvhTdhc8/UdS2t2OEu9I/AAAAAAAAHRQ/nEtXjfpa6Ew/s400/Captura+de+tela+de+2013-07-03+20:41:03.png' rel='image_src'/>
+<meta content='Instale um dos melhores editores de códigos para Linux através de um PPA muito simples' name='description'/>
+<meta content='http://www.diolinux.com.br/2013/07/omo-instalar-o-sublime-text-3-no-via-ppa.html' property='og:url'/>
+<meta content='Como instalar o Sublime Text 3 no Ubuntu e derivados via PPA ( Versão para usuários não registrados )' property='og:title'/>
+<meta content='Instale um dos melhores editores de códigos para Linux através de um PPA muito simples' property='og:description'/>
+<meta content='http://2.bp.blogspot.com/-4gvrvhTdhc8/UdS2t2OEu9I/AAAAAAAAHRQ/nEtXjfpa6Ew/w1200-h630-p-k-nu/Captura+de+tela+de+2013-07-03+20:41:03.png' property='og:image'/>
+<!--[if IE]> <script> (function() { var html5 = ("abbr,article,aside,audio,canvas,datalist,details," + "figure,footer,header,hgroup,mark,menu,meter,nav,output," + "progress,section,time,video").split(','); for (var i = 0; i < html5.length; i++) { document.createElement(html5[i]); } try { document.execCommand('BackgroundImageCache', false, true); } catch(e) {} })(); </script> <![endif]-->
+<meta content='KF0NgUmZ0vCIhyTEH69OfMPPA6GSchujSb3LMMExHHA' name='google-site-verification'/>
+<meta content='C060C7AC04B49E6975F1418A48C6F3D8' name='msvalidate.01'/>
+<meta content='m6QHJGNiv5k8zqMbF8uLK2yU5CQ' name='alexaVerifyID'/>
+<link href='http://diolinux.com.br/' hreflang='pt-br' rel='alternate'/>
+<!-- Facebook Meta App ID -->
+<meta content='131827817016596' property='fb:app_id'/>
+<meta content='167950666638006' property='fb:page_id'/>
+<!-- Open Graph Facebook Learn more: https://developers.facebook.com/docs/sharing/webmasters https://udgwebdev.com/otimizando-seu-site-para-publicacao-nas-redes-sociais -->
+<meta content='http://www.diolinux.com.br/2013/07/omo-instalar-o-sublime-text-3-no-via-ppa.html' property='og:url'/>
+<meta content='article' property='og:type'/>
+<!-- Twitter Meta ID -->
+<meta content='http://www.diolinux.com.br' name='twitter:url'/>
+<meta content='summary' name='twitter:card'/>
+<meta name='twitter:creator' value='@blogdiolinux'/>
+<meta content='@blogdiolinux' name='twitter:site'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<meta content='width=device-width, initial-scale=1.0' name='viewport'/>
+<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
+<meta content='cache' http-equiv='Pragma'/>
+<!-- Diolinux's author -->
+<meta content='Diolinux' name='author'/>
+<!--[if(IE 7)]> <style type="text/css" media="all"> #sidebar-subscribe-box{ filter: progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#818194', endColorstr='#e7e5e6'); } header a.search{ background-color:$(header.search); background-image:url(http://4.bp.blogspot.com/-GTfJlUm0qtk/UmkOjvFKpJI/AAAAAAAAA5M/U1pPIQPMw48/s1600/masqoli.png); background-repeat:no-repeat; } .PopularPosts .widget-content ul li{ margin-top:-2px !important;padding:0 !important; } .PopularPosts ul li img{ position:relative; top:9px; } .PopularPosts .item-title{ position:relative; top:-11px; margin-top:0 !important; } .ie7_8{ padding:0 50px; } </style> <![endif]-->
+<!--[if(IE 8)]> <style type="text/css"> #sidebar-subscribe-box{ -ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr='#818194', endColorstr='#e7e5e6')"; } .ie7_8{ padding:0 50px; } </style> <![endif]-->
+<title>
+Como instalar o Sublime Text 3 no Ubuntu e derivados via PPA ( Versão para usuários não registrados )
+        - 
+        Diolinux -  Open Source, Ubuntu, Android e tecnologia
+</title>
+<meta content='Como instalar o Sublime Text 3 no Ubuntu e derivados via PPA ( Versão para usuários não registrados )' property='og:title'/>
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/static/v1/widgets/124887373-widget_css_bundle.css' />
+<link type='text/css' rel='stylesheet' href='https://www.blogger.com/dyn-css/authorization.css?targetBlogID=8360348492097356457&amp;zx=4ab27d92-551f-4398-a6fe-305f3d3414c8' />
+<style id='page-skin-1' type='text/css'><!--
+/*
+-----------------------------------------------
+Blogger Template Style
+Name: Masqoli
+Version: 1.4
+Designer: Zillur Rahman
+URL: http://themeforest.net/user/Jillur_rahman
+----------------------------------------------- */
+/* Variable definitions
+===================
+<Group description="Body" selector="body">
+<Variable name="body.background.color" description="Background Color" type="color" default="#eee"/>
+<Variable name="body.font" description="Body Font" type="font" default="13px/1.5 Arial, Helvetica, sans-serif"/>
+</Group>
+<Group description="Header Color" selector="body">
+<Variable name="header.background.color" description="Background Color" type="color" default="#363231"/>
+<Variable name="header.border.color" description="Border Bottom Color" type="color" default="#373d40"/>
+</Group>
+<Group description="Header Shadow Color" selector="body">
+<Variable name="header.boxshadow1.color" description="Bottom Inside Color" type="color" default="#3e4b51"/>
+<Variable name="header.boxshadow3.color" description="Bottom Outside Color" type="color" default="#bbb"/>
+<Variable name="header.boxshadow2.color" description="Round color" type="color" default="#384348"/>
+</Group>
+<Group description="Header Logo Area Font without Image" selector="body">
+<Variable name="header.logo.font" description="Logo Font" type="font" default="40px/1 'Open Sans Condensed', sans-serif"/>
+<Variable name="header.logo.font.color" description="Logo Font Color" type="color" default="#da431c"/>
+</Group>
+<Group description="Header Menu Font Area" selector="body">
+<Variable name="header.font" description="Menu Font" type="font" default="18px/1 'Open Sans Condensed', sans-serif"/>
+<Variable name="header.font.color" description="Menu Font Color" type="color" default="#fff"/>
+<Variable name="header.font.hover.color" description="Menu Font Hover Color" type="color" default="#eee"/>
+</Group>
+<Group description="Header Search Button Color" selector="body">
+<Variable name="header.search" description="Background Color" type="color" default="#514b49"/>
+<Variable name="header.search.hover" description="Hover Color" type="color" default="#5e5755"/>
+<Variable name="header.search.active" description="Active Color" type="color" default="#514b49"/>
+<Variable name="header.search.icon" description="Icon Color" type="color" default="#fff"/>
+</Group>
+<Group description="Title Font" selector="body">
+<Variable name="post.title" description="Title Font" type="font" default="normal normal 141% Arial, sans-serif"/>
+</Group>
+<Group description="Post Color" selector="body">
+<Variable name="post.background.color" description="Post Background Color" type="color" default="#ffffff"/>
+<Variable name="post.title.font.color" description="Post Title Color" type="color" default="#333"/>
+<Variable name="post.text.font.color" description="Post Text Color" type="color" default="#666"/>
+<Variable name="post.body.link.font.color" description="Post Body Link Color" type="color" default="#1a6a51"/>
+</Group>
+<Group description="Sidebar" selector="body">
+<Variable name="sidebar.background.color" description="Sidebar Background Color" type="color" default="#f7f7f7"/>
+<Variable name="sidebar.widget.background.color" description="Widget Background Color" type="color" default="#fff"/>
+<Variable name="sidebar.widget.border.color" description="Widget Border Bottom Color" type="color" default="#eee"/>
+</Group>
+<Group description="Sidebar Font Color" selector="body">
+<Variable name="sidebar.title.color" description="Title Color" type="color" default="#555"/>
+<Variable name="sidebar.link.color" description="Link Color" type="color" default="#888"/>
+<Variable name="sidebar.Social.text.color" description="Social Text Color" type="color" default="#747474"/>
+</Group>
+<Group description="Footer" selector="body">
+<Variable name="foot.background.color" description="Background Color" type="color" default="#fafafa"/>
+<Variable name="foot.border.color" description="Border Top Color" type="color" default="#d6d6d6"/>
+</Group>
+<Group description="Footer Title Color" selector="body">
+<Variable name="footer.title.color" description="Footer Title Color" type="color" default="#6d6d6d"/>
+<Variable name="footer.nav.color" description="Footer Nav Menu Color" type="color" default="#777"/>
+</Group>
+<Group description="Footer Text Color" selector="body">
+<Variable name="footer.text.font.color" description="Footer Text Color" type="color" default="#6d6d6d"/>
+<Variable name="footer.nav.text.color" description="Footer Copyright Text Color" type="color" default="#999"/>
+</Group>
+<Group description="Read More Button" selector="body">
+<Variable name="read.background.color" description="Background Color" type="color" default="#363231"/>
+<Variable name="read.hover.color" description="Hover Color" type="color" default="#514b49"/>
+<Variable name="read.shadow.inside.color" description="Shadow Inside Color" type="color" default="#514b49"/>
+<Variable name="read.shadow.outside.color" description="Shadow Outside Color" type="color" default="#eee"/>
+</Group>
+<Group description="Read More Text Color" selector="body">
+<Variable name="read.text.color" description="Read More Text Color" type="color" default="#fff"/>
+</Group>
+<Group description="Active Page Number" selector="body">
+<Variable name="active.backgroundNavigation.color" description="Background Color" type="color" default="#363231"/>
+<Variable name="active.text.color" description="Text Color" type="color" default="#fff"/>
+</Group>
+<Group description="Unactive Page Number" selector="body">
+<Variable name="Unactive.backgroundNavigation.color" description="Background Color" type="color" default="#f2f2f2"/>
+<Variable name="Unactive.Border.color" description="Border Color" type="color" default="#ddd"/>
+<Variable name="Unactive.text.color" description="Text Color" type="color" default="#222"/>
+</Group>
+<Group description="Blue Button" selector="body">
+<Variable name="blue.background.color" description="Background Color" type="color" default="#93d0ea"/>
+<Variable name="blue.shadowinside.color" description="Shadow Inside Color" type="color" default="#8fcde7"/>
+<Variable name="blue.shadowoutside.color" description="Shadow Outside Color" type="color" default="#eee"/>
+</Group>
+<Group description="Red Button" selector="body">
+<Variable name="red.background.color" description="Background Color" type="color" default="#f4836a"/>
+<Variable name="red.shadowinside.color" description="Shadow Inside Color" type="color" default="#ef7f65"/>
+<Variable name="red.shadowoutside.color" description="Shadow Outside Color" type="color" default="#eee"/>
+</Group>
+<Group description="Green Button" selector="body">
+<Variable name="green.background.color" description="Background Color" type="color" default="#a5d16d"/>
+<Variable name="green.shadowinside.color" description="Shadow Inside Color" type="color" default="#a4cf6c"/>
+<Variable name="green.shadowoutside.color" description="Shadow Outside Color" type="color" default="#eee"/>
+</Group>
+<Group description="Blue Red Green Text Color" selector="body">
+<Variable name="blueredgreen.text.color" description="Text Color" type="color" default="#fff"/>
+</Group>
+<Group description="Author Info" selector="body">
+<Variable name="author.info.background.color" description="Background Color" type="color" default="#fbfbfb"/>
+<Variable name="author.info.border.color" description="Border Color" type="color" default="#f0f0f0"/>
+</Group>
+<Group description="Author Info Image" selector="body">
+<Variable name="author.info.img.background.color" description="Image Background Color" type="color" default="#dedede"/>
+<Variable name="author.info.img.box.shadow.color" description="Image Box-shadow Color" type="color" default="#888"/>
+</Group>
+<Group description="Related Posts" selector="body">
+<Variable name="related.posts.background.color" description="Background Color" type="color" default="#fff"/>
+<Variable name="related.title.color" description="Related Title Color" type="color" default="#333"/>
+<Variable name="related.posts.link.color" description="Related Link Color" type="color" default="#555"/>
+</Group>
+<Group description="Comments Count Color" selector="body">
+<Variable name="comments.count.color" description="Count Text Color" type="color" default="#585858"/>
+<Variable name="comments.border.color" description="Border Bottom Color" type="color" default="#ddd"/>
+</Group>
+<Group description="Comment Header" selector="body">
+<Variable name="comment.header.name.background.color" description="Name Background Color" type="color" default="#8181F7"/>
+<Variable name="comment.header.date.background.color" description="Date Background Color" type="color" default="#A9F5D0"/>
+<Variable name="comment.header.name.text.color" description="Name text Color" type="color" default="#fff"/>
+<Variable name="comment.header.date.text.color" description="Date text Color" type="color" default="#292929"/>
+</Group>
+<Group description="Comment Content" selector="body">
+<Variable name="comment.content.background.color" description="Background Color" type="color" default="#FEFFF9"/>
+<Variable name="comment.content.border.color" description="Border Color" type="color" default="#E6E6E6"/>
+</Group>
+<Group description="Comment Reply Button" selector="body">
+<Variable name="comment.reply.background.color" description="Background Color" type="color" default="#DDD"/>
+<Variable name="comment.reply.text.color" description="Text Color" type="color" default="#333"/>
+</Group>
+<Group description="Email Subscription V1.4" selector="body">
+<Variable name="email.left.background.color" description="Right Background Color" type="color" default="#e7e5e6"/>
+<Variable name="email.right.background.color" description="Left Background Color" type="color" default="#818194"/>
+<Variable name="email.border.color" description="Border Color" type="color" default="#eee"/>
+<Variable name="email.text.color" description="Text Color" type="color" default="#292929"/>
+</Group>
+<Group description="Email Subscription Mail Form V1.4" selector="body">
+<Variable name="email.form.background.color" description="Background Color" type="color" default="#fff"/>
+<Variable name="email.form.text.color" description="Text Color" type="color" default="#333"/>
+</Group>
+<Group description="Email Subscription Submit Button V1.4" selector="body">
+<Variable name="email.submit.background.color" description="Background Color" type="color" default="#363231"/>
+<Variable name="email.submit.hover.color" description="Hover Color" type="color" default="#433e3d"/>
+<Variable name="email.submit.shadow.color" description="Inset Shadow Color" type="color" default="#eee"/>
+<Variable name="email.submit.text.color" description="Text Color" type="color" default="#fff"/>
+</Group>
+*/
+/* http://meyerweb.com/eric/tools/css/reset/
+---------------------------------
+Reset CSS-------------
+----------------------------------
+*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+border:0;
+font-size:100%;
+font:inherit;
+vertical-align:baseline;
+margin:0;
+padding:0;
+}
+body {
+line-height:1;
+background:#eeeeee;
+color:#333;
+font:13px/1.5 Arial, Helvetica, sans-serif;
+word-wrap:break-word;
+}
+blockquote,q {
+quotes:none;
+}
+table {
+border-collapse:collapse;
+border-spacing:0;
+}
+a:active {
+outline:none;
+}
+a:hover {
+color:#514b49;
+text-decoration:none;
+}
+a img {
+border:0;
+}
+h4 {
+font-weight:700!important;
+}
+.separator a {
+float:none!important;
+clear:both!important;
+margin:0!important;
+}
+.header-wrapper {
+background:#363231;
+box-shadow:0 -1px 0 #3e4b51 inset, 0 0 15px #384348 inset, 0 1px 1px #bbbbbb;
+border-bottom:2px solid #373d40;
+}
+header {
+position:relative;
+z-index:5;
+height:90px;
+padding:10px;
+}
+h1 {
+width:250px;
+height:40px;
+position:absolute;
+top:50%;
+margin-left:-50%;
+margin-top:-20px;
+left:50%;
+}
+h1 a#logo {
+font:40px/1 'Open Sans Condensed', sans-serif;
+color:#da431c;
+font-weight:700;
+text-decoration:none;
+}
+header nav {
+padding-top:5px;
+position:absolute;
+top:50%;
+left:50%;
+cursor:default;
+margin:-11px 0 0 -350px;
+}
+header nav a {
+color:#ea6a51;
+font-weight:700;
+font:18px/1 'Open Sans Condensed', sans-serif;
+display:inline-block;
+text-decoration:none;
+position:relative;
+margin:0 22px 10px;
+}
+.navlink a {
+color:#ffffff;
+font-weight:700;
+}
+.navlink a:hover {
+color:#eeeeee;
+}
+header a.search {
+width:40px;
+height:40px;
+background-color:#514b49;
+cursor:pointer;
+position:absolute;
+border-radius:3px;
+display:block;
+top:50%;
+right:50%;
+margin-right:-50%;
+margin-top:-20px;
+}
+header a.search:before {
+position:absolute;
+content:'';
+border-radius:50%;
+-moz-border-radius:50%;
+-webkit-border-radius:50%;
+border:2px solid #ffffff;
+width:9px;
+height:9px;
+top:11px;
+left:12px;
+}
+header a.search:after {
+position:absolute;
+content:'';
+background-color:#ffffff;
+width:2px;
+height:11px;
+top:20px;
+left:25px;
+-webkit-transform:rotate(-44deg);
+-moz-transform:rotate(-44deg);
+-khtml-transform:rotate(-44deg);
+-ms-transform:rotate(-44deg);
+-o-transform:rotate(-44deg);
+transform:rotate(-44deg);
+}
+header a.search:hover {
+background-color:#5e5755;
+}
+header a.search.active {
+border-radius:0 3px 3px 0;
+background-color:#514b49;
+}
+header a.search form {
+display:none;
+position:absolute;
+top:0;
+right:41px;
+}
+header a.search form input {
+box-shadow:none;
+border:none;
+width:210px;
+border-radius:2px 0 0 2px;
+height:19px;
+padding:12px 12px 9px;
+}
+body#layout {
+display:inline-block;
+}
+body#layout header {
+width:865px;
+}
+body#layout .outer-wrapper {
+width:865px;
+margin:0;
+}
+body#layout .main-wrapper {
+width:70%;
+}
+body#layout .Subscriber .widget-content {
+margin:10px 0 0;
+}
+body#layout .sidebar-wrapper {
+width:27%;
+float:right;
+margin:0;
+}
+body#layout footer {
+width:865px;
+padding:50px 0 40px;
+}
+body#layout footer .footer-content {
+width:23%;
+margin-right:2%;
+float:left;
+}
+body#layout footer .footer-sidebar {
+width:865px;
+float:left;
+}
+.content-wrapper {
+width:100%;
+max-width:1400px;
+margin:0 auto;
+}
+.main-wrapper {
+width:67%;
+float:left;
+word-wrap:break-word;
+overflow:hidden;
+}
+.sidebar-wrapper {
+background:#f7f7f7;
+width:30%;
+float:right;
+word-wrap:break-word;
+overflow:hidden;
+}
+h2 {
+font:normal normal 141% Arial, sans-serif;
+color:#333;
+margin:1.5em 0 .75em;
+}
+.post {
+background:#ffffff;
+box-shadow:0 0 1px #ccc;
+margin-bottom:3%;
+-webkit-border-radius:3px;
+-moz-border-radius:3px;
+-khtml-border-radius:3px;
+-o-border-radius:3px;
+border-radius:3px;
+word-wrap:break-word;
+overflow:hidden;
+}
+.post h2 {
+border-bottom:1px solid #dedede;
+color:#333333;
+margin:.25em 0 0;
+padding:2em 72px;
+}
+.post h2 a,.post h2 a:visited,.post h2 strong {
+display:block;
+text-decoration:none;
+color:#333333;
+}
+.post h2 strong,.post h2 a:hover {
+color:#333333;
+}
+.post-body {
+color:#666666;
+line-height:1.4em;
+font-size:16px;
+padding:2.625em 4.375em 4.375em;
+}
+.post-body a {
+color:#428bca!important;
+text-decoration:underline;
+}
+.post-body h3 {
+font-size:1.02375em;
+text-decoration:none;
+color:#000;
+display:block;
+font-weight:700;
+}
+.post-body i {
+font-style:italic!important;
+}
+.post-body b {
+color:#222;
+font-weight:700!important;
+}
+.post img {
+max-width:100%;
+margin-top:8px;
+margin-bottom:8px;
+}
+.widget iframe,.widget img {
+max-width:100%;
+}
+.date-header {
+background:url(http://2.bp.blogspot.com/-LtL0QV6cIvU/Um-1TD7g5ZI/AAAAAAAAA-w/TrZ0-TFj29g/s1600/icon_clock.png) no-repeat left;
+color:#333333;
+display:inline-block;
+opacity:0.5;
+-moz-opacity:0.5;
+margin:10px 0 10px 25px;
+padding:5px 15px 5px 20px;
+}
+.post-footer {
+display:none;
+color:#333;
+font:normal normal 86% Arial, sans-serif;
+margin:.75em 0;
+}
+.post.hentry {
+margin-top:-4%;
+}
+#author-info {
+background-color:#fbfbfb;
+border:1px solid #f0f0f0;
+position:relative;
+margin-top:50px;
+word-wrap:break-word;
+overflow:hidden;
+padding:5px 5px 5px 20px;
+}
+#author-info img {
+float:left;
+width:120px;
+height:120px;
+box-shadow:0 0 1px #888888;
+border-radius:2px;
+background:#dedede;
+margin:3% 3% 3% 0;
+padding:5px;
+}
+#author-info h5 {
+font-size:1.4em;
+margin:15px 0 10px 150px;
+}
+#author-info h5 a {
+color:inherit!important;
+text-decoration:none !!important;
+}
+#author-info p {
+font-size:14px;
+margin:0 0 0 150px;
+}
+#author-info p a {
+color:#428bca!important;
+}
+.tags span a span {
+color:#dcdce6!important;
+}
+blockquote {
+background:#f9f9f9 url(http://1.bp.blogspot.com/-sLapLGQAUv0/Uk7TgDlH7hI/AAAAAAAAAzE/WfrqSla-AYI/s1600/wmz1.jpg) no-repeat 10px 12px;
+border-left:10px solid #ccc;
+quotes:\201C\201D\2018\2019;
+margin:1.5em 0;
+padding:11px 10px 10px 35px;
+}
+blockquote:before {
+color:#ccc;
+font-size:4em;
+line-height:.1em;
+margin-right:.25em;
+vertical-align:-.4em;
+content:none;
+}
+blockquote p {
+display:inline;
+}
+#comments h4 {
+font-size:30px;
+font-weight:700;
+color:#585858;
+border-bottom:8px solid #dddddd;
+padding-bottom:10px;
+margin:1.5em 0 1em;
+}
+#comments-block {
+line-height:1.6em;
+margin:1em 0 1.5em;
+}
+#comments-block .comment-body {
+margin:.25em 0 0;
+}
+#comments-block .comment-footer {
+border-bottom:2px solid #dedede;
+margin:-.25em 0 0;
+}
+#comments-block .comment-body p {
+margin:0 0 .75em;
+}
+.deleted-comment {
+font-style:italic;
+color:gray;
+}
+@font-face {
+font-family:Philosopher;
+font-style:normal;
+font-weight:400;
+src:local(Philosopher), url(http://themes.googleusercontent.com/static/fonts/philosopher/v4/OttjxgcoEsufOGSINYBGLYbN6UDyHWBl620a-IRfuBk.woff) format(woff);
+}
+.comment .avatar-image-container {
+background:url(http://4.bp.blogspot.com/-mUTHbxGUGWU/UnlONUJIMQI/AAAAAAAABIc/PxXNJPlxJqw/s1600/comment.png) no-repeat left;
+max-height:70px!important;
+margin-top:-5px;
+width:120px!important;
+position:relative;
+z-index:50;
+}
+.comment .comment-block {
+margin-left:120px!important;
+}
+.comment .comment-header {
+background:none repeat scroll 0 0 #A9F5D0;
+margin-left:60px;
+color:#333;
+font-size:15px;
+font-weight:700;
+}
+.comment .comment-header a {
+color:#ffffff!important;
+text-decoration:none;
+}
+.comment .comment-content {
+background:none repeat scroll 0 0 #FEFFF9;
+border-bottom:2px solid #E6E6E6;
+font-size:14px;
+margin:0 0 30px;
+padding:5px 5px 10px 10px;
+}
+.comment .comment-actions a {
+zoom:1;
+background:none repeat scroll 0 0 #DDD!important;
+color:#333!important;
+display:inline-block!important;
+line-height:1!important;
+text-decoration:none!important;
+font-size:16px;
+margin:0 3px!important;
+padding:3px 6px!important;
+}
+.comment-header cite {
+background:none repeat scroll 0 0 #DF7401;
+border:1px solid #FFF;
+color:#FFF;
+position:relative;
+z-index:99;
+margin-left:-21px;
+padding:3px 20px;
+}
+cite.blog-author {
+background:none repeat scroll 0 0 #8181F7!important;
+}
+.icon.blog-author {
+display:none!important;
+background:url() no-repeat scroll 0 0;
+margin-left:90px;
+width:60px!important;
+height:60px!important;
+position:absolute;
+right:5px;
+bottom:5px;
+top:10px;
+}
+.comment .avatar-image-container img {
+border:medium none!important;
+-moz-border-radius:50%;
+-webkit-border-radius:50%;
+border-radius:50%;
+height:70px!important;
+width:70px!important;
+max-height:70px!important;
+max-width:70px!important;
+}
+.comment .comment-actions a:hover {
+background:#CCC!important;
+text-decoration:none!important;
+}
+.comments {
+font-family:Philosopher, arial, serif!important;
+font-size:1em;
+color:#000;
+}
+.comments .continue a {
+display:block!important;
+font-weight:700!important;
+color:#E34600;
+font-size:16px;
+padding:.5em!important;
+}
+.comments .continue a:hover {
+color:#4D3123;
+text-decoration:none;
+}
+.item-control {
+display:none!important;
+}
+.comments .continue {
+border-top:2px solid transparent!important;
+}
+#blog-pager-newer-link {
+float:left;
+color:#363231;
+font-weight:700;
+}
+#blog-pager-older-link {
+float:right;
+color:#363231;
+font-weight:700;
+}
+.feed-links {
+display:none;
+clear:both;
+line-height:2.5em;
+}
+.sidebar {
+color:#666;
+line-height:1.5em;
+}
+.sidebar h2 {
+background:#ffffff;
+display:inline;
+zoom:1;
+font-size:11px;
+color:#555555;
+font-weight:700;
+margin:0;
+padding:10px;
+}
+.sidebar ul {
+background-color:#ffffff;
+list-style:none;
+padding:15px 20px;
+}
+.sidebar li {
+padding-top:0;
+padding-right:0;
+padding-bottom:.25em;
+margin:0;
+}
+.sidebar ul li a {
+color:#888888;
+}
+.sidebar .widget {
+border-bottom:8px solid #eeeeee;
+margin:0;
+padding:1.5em;
+}
+.main .widget {
+padding-top:3em;
+padding-bottom:4%;
+margin:0;
+}
+.main .Blog {
+border-bottom-width:0;
+}
+.ad img {
+width:128px;
+height:128px;
+border-top:2px solid #fff;
+border-left:2px solid #fff;
+border-bottom:2px solid #fff;
+border-right:2px solid #fff;
+outline:1px solid #e4e4e4;
+margin:0 3px 3px 0;
+}
+.profile-img {
+float:left;
+border-top:1px solid #ccc;
+border-right:1px solid #ccc;
+border-bottom:1px solid #ccc;
+border-left:1px solid #ccc;
+margin:0 5px 5px 0;
+padding:4px;
+}
+.profile-data {
+font:normal normal 86% Arial, sans-serif;
+color:#333;
+margin:0;
+}
+.profile-textblock {
+line-height:1.6em;
+margin:.5em 0;
+}
+.profile-link {
+font:normal normal 86% Arial, sans-serif;
+}
+footer {
+background:#171616;
+z-index:10;
+border-top:1px solid #d6d6d6;
+position:relative;
+padding:50px 50px 40px;
+}
+footer .footer-sidebar {
+max-width:1400px;
+overflow:hidden;
+position:relative;
+margin:0 auto;
+}
+footer .footer-content {
+float:left;
+width:23%;
+font-size:12px;
+color:#eeeeee;
+margin-right:6%;
+}
+footer .footer-content a {
+margin:3px 0;
+}
+footer .footer-content h2 {
+color:#eeeeee;
+font-weight:700;
+font-size:13px;
+text-transform:uppercase;
+margin:0;
+}
+footer .footer-content p {
+padding:15px 0;
+}
+footer .footer-navigation {
+overflow:hidden;
+width:14%;
+margin-right:3%;
+}
+footer .footer-navigation a {
+font:normal normal 141% Arial, sans-serif;
+white-space:nowrap;
+display:inline-block;
+font-weight:700;
+color:#eeeeee;
+text-decoration:none;
+font-size:13px;
+margin:0 100px 5px 0;
+}
+footer .footer-navigation p {
+width:161px;
+color:#999999;
+font-size:11px;
+}
+footer .footer-featured {
+margin-right:0;
+}
+footer .footer-featured h2 {
+margin-bottom:0;
+}
+footer .footer-featured img {
+background:#f4f4f4;
+width:103px;
+height:134px;
+float:left;
+text-indent:-999px;
+overflow:hidden;
+-moz-border-radius:2px 50px 2px 2px;
+-webkit-border-radius:2px 50px 2px 2px;
+-khtml-border-radius:2px 50px 2px 2px;
+-ms-border-radius:2px 50px 2px 2px;
+-o-border-radius:2px 50px 2px 2px;
+border-radius:2px 50px 2px 2px;
+-moz-box-shadow:2px 2px 0 #ddd;
+-webkit-box-shadow:2px 2px 0 #ddd;
+-khtml-box-shadow:2px 2px 0 #ddd;
+-ms-box-shadow:2px 2px 0 #ddd;
+-o-box-shadow:2px 2px 0 #ddd;
+box-shadow:2px 2px 0 #ddd;
+margin:0 20px 0 0;
+}
+#navbar-iframe {
+height:0;
+visibility:hidden;
+display:none;
+}
+.readmore a {
+right:0;
+bottom:0;
+z-index:10;
+background:#363231;
+box-shadow:0 0 5px #514b49 inset, 0 1px 1px #eeeeee;
+border-radius:3px 0 0 3px;
+border-top:2px;
+border-right:2px;
+border-bottom:2px;
+border-left:2px;
+display:inline-block;
+float:right;
+color:#fff!important;
+font-size:11px;
+text-shadow:1px 1px 0 rgba(0,0,0,0.2);
+font-family:Tahoma,Arial,Helvetica,sans-serif;
+text-decoration:none;
+margin:10px 0;
+padding:5px 15px;
+}
+.readmore a:hover {
+background-color:#514b49;
+}
+.button {
+display:inline-block;
+text-transform:uppercase;
+-webkit-border-radius:2px;
+-moz-border-radius:2px;
+-khtml-border-radius:2px;
+-o-border-radius:2px;
+border-radius:2px;
+font-weight:700;
+border:none;
+color:#eeeeee;
+text-decoration:none;
+font-family:'Open Sans Condensed',sans-serif;
+font-size:14px;
+line-height:1;
+cursor:pointer;
+padding:1em 1.5em .75em;
+}
+.button.blue {
+background-color:#93d0ea;
+color:#eeeeee;
+box-shadow:0 0 5px #8fcde7 inset, 0 1px 1px #eeeeee;
+}
+.button.blue1 {
+background-color:#93d0ea;
+}
+.button.green {
+background-color:#a5d16d;
+color:#eeeeee;
+box-shadow:0 0 5px #a4cf6c inset, 0 1px 1px #eeeeee;
+}
+a.button.green.big,a.button.green.medium,a.button.green.small {
+text-decoration:none;
+font-weight:700;
+}
+.button.red {
+background-color:#f42c2c;
+color:#eeeeee;
+box-shadow:0 0 5px #ef7f65 inset, 0 1px 1px #e9e0e0;
+}
+.button.red1 {
+background-color:#f42c2c;
+}
+.button.orange {
+background-color:#ff8b62;
+box-shadow:0 0 5px #f68962 inset, 0 1px 1px #eee;
+}
+.button.small {
+font-size:11px;
+}
+.button.big {
+font-size:18px;
+padding:1.2em 2.5em 1em;
+}
+#sidebar .sidebar-group.about {
+line-height:1.8;
+color:#747474;
+padding:20px;
+}
+#sidebar .sidebar-group h5 {
+font-size:11px;
+color:#666;
+}
+#sidebar .sidebar-group h5 a {
+opacity:0.8;
+-moz-opacity:0.8;
+text-decoration:none!important;
+}
+.social-icons {
+text-align:center;
+line-height:1;
+padding:18px 0 0;
+}
+.social-icons a {
+display:inline-block;
+width:47px;
+height:46px;
+background:url(http://1.bp.blogspot.com/-8QZd3bW3Z24/UZl8hFmHSII/AAAAAAAAAPE/rlRmk4bHpGI/s1600/like.png);
+opacity:0.8;
+-moz-opacity:0.8;
+margin-right:1px;
+border-radius:50%;
+}
+.social-icons a:hover {
+opacity:1;
+-moz-opacity:1;
+}
+.social-icons a.facebook {
+background-position:0 -47px;
+}
+.social-icons a.googleplus {
+background-position:0 -94px;
+}
+.social-icons a.rss {
+background-position:0 -141px;
+}
+.social-icons a:before {
+margin-left:-6px;
+}
+#sidebar .sidebar-group.twitter {
+padding:25px;
+}
+#sidebar .sidebar-group.twitter li {
+background-color:#fff;
+margin-bottom:1px;
+color:#888;
+font-size:13px;
+padding:16px;
+}
+#sidebar .sidebar-group.twitter li>span {
+font-size:12px;
+margin-top:10px;
+display:none;
+}
+#sidebar .sidebar-group.twitter li > span a {
+color:#aaa!important;
+text-decoration:none!important;
+}
+#sidebar .sidebar-group.twitter li .date {
+float:right;
+}
+#sidebar .sidebar-group.twitter li a {
+color:#aaa!important;
+}
+#followTwitterButton {
+padding:15px 0 0 52px;
+}
+[data-hint] {
+position:relative;
+display:inline-block;
+}
+[data-hint]:before,[data-hint]:after {
+position:absolute;
+visibility:hidden;
+opacity:0;
+z-index:1000000;
+pointer-events:none;
+-webkit-transition:.3s ease;
+-moz-transition:.3s ease;
+-khtml-transition:.3s ease;
+-ms-transition:.3s ease;
+-o-transition:.3s ease;
+transition:.3s ease;
+bottom:100%;
+left:50%;
+}
+[data-hint]:hover:before,[data-hint]:hover:after {
+visibility:visible;
+opacity:1;
+-moz-opacity:1;
+-webkit-transform:translateY(-8px);
+-moz-transform:translateY(-8px);
+-ms-transform:translateY(-8px);
+-khtml-transform:translateY(-8px);
+-o-transform:translateY(-8px);
+transform:translateY(-8px);
+}
+[data-hint]:before {
+content:'';
+position:absolute;
+background:transparent;
+border-top:6px solid transparent;
+border-right:6px solid transparent;
+border-bottom:6px solid transparent;
+border-left:6px solid transparent;
+z-index:1000001;
+border-top-color:#383838;
+margin-bottom:-12px;
+}
+[data-hint]:after {
+content:attr(data-hint);
+background:#383838;
+color:#FFF;
+text-shadow:0 -1px 0 #000;
+font-size:12px;
+line-height:12px;
+white-space:nowrap;
+-webkit-box-shadow:4px 4px 8px rgba(0,0,0,0.3);
+-moz-box-shadow:4px 4px 8px rgba(0,0,0,0.3);
+-khtml-box-shadow:4px 4px 8px rgba(0,0,0,0.3);
+-ms-box-shadow:4px 4px 8px rgba(0,0,0,0.3);
+-o-box-shadow:4px 4px 8px rgba(0,0,0,0.3);
+box-shadow:4px 4px 8px rgba(0,0,0,0.3);
+margin-left:-18px;
+padding:8px 10px;
+}
+.related-posts-title {
+background:#ffffff;
+color:#333333;
+display:inline;
+zoom:1;
+font-size:20px;
+border-radius:2px 2px 0 0;
+padding:10px;
+}
+#related-posts {
+list-style:none;
+background-color:#ffffff;
+overflow:hidden;
+border-radius:2px;
+box-shadow:0 0 1px #ccc;
+padding:2em 1em 2em 5em;
+}
+#related-posts img {
+width:130px;
+height:130px;
+border:0;
+}
+#related-posts h3 {
+font-size:1em;
+font-weight:medium;
+color:#0c386e;
+font-family:Georgia, &#8220;
+margin-bottom:0;
+margin-left:6em;
+margin-top:-3.1em;
+padding-top:0;
+}
+#related-posts a {
+border-left:.5px solid transparent;
+float:left;
+margin-right:10px;
+width:150px;
+color:#555555;
+text-decoration:none!important;
+display:block;
+padding:0;
+}
+#related-posts a:hover {
+opacity:0.6;
+-moz-opacity:0.6;
+filter:alpha(opacity=60);
+}
+.PopularPosts ul li img {
+width:100%;
+max-width:40px;
+height:100%;
+max-height:40px;
+border:2px solid #fff;
+outline:1px solid #e4e4e4;
+padding-right:0;
+margin-right:10px;
+}
+.PopularPosts .widget-content ul li {
+border-bottom:1px dotted #eee;
+position:relative;
+padding:7px 0 0;
+}
+.PopularPosts .item-title {
+padding-bottom:0;
+margin-top:2px;
+color:#222!important;
+font-weight:600!important;
+}
+.PopularPosts .item-snippet {
+color:#666;
+font-weight:300!important;
+}
+.PopularPosts ul li:hover {
+background:#f4f4f4;
+}
+ul.bdlab_recent_comments {
+list-style:none;
+margin:0;
+padding:15px 20px;
+}
+.bdlab_recent_comments li {
+background:none!important;
+border-bottom:1px dotted #eee;
+display:block;
+clear:both;
+overflow:hidden;
+list-style:none;
+padding:5px 0!important;
+}
+.bdlab_recent_comments li:hover {
+background:#f4f4f4!important;
+}
+.bdlab_recent_comments li .avatarImage {
+float:left;
+position:relative;
+overflow:hidden;
+margin:0 6px 0 0;
+padding:3px;
+}
+.bdlab_recent_comments li img {
+width:100%;
+max-width:40px;
+height:100%;
+max-height:40px;
+border:2px solid #fff;
+outline:1px solid #e4e4e4;
+margin-right:10px;
+position:relative;
+overflow:hidden;
+display:block;
+padding:0;
+}
+.bdlab_recent_comments li span {
+padding-top:4px;
+display:block;
+}
+.showpageNum a,.showpage a {
+background-color:#f2f2f2;
+text-decoration:none;
+white-space:nowrap;
+color:#222222;
+border:1px solid #dddddd;
+margin:10px 3px;
+padding:5px 10px;
+}
+.showpageNum a:hover,.showpage a:hover {
+color:#ffffff;
+text-decoration:none;
+background-color:#363231;
+border:1px solid #363231;
+}
+.showpageOf {
+float:right;
+opacity:0.5;
+-moz-opacity:0.5;
+margin:0;
+}
+.showpagePoint {
+color:#ffffff;
+text-decoration:none;
+background-color:#363231;
+font-size:12px;
+border:1px solid #363231;
+margin:10px 3px;
+padding:5px 10px;
+}
+.tags {
+text-align:right;
+background:none;
+margin-top:50px;
+}
+.tags a {
+font-size:.75em;
+color:#aaa;
+background:#292929;
+display:inline-block;
+border-radius:2px;
+opacity:0.9;
+-moz-opacity:0.9;
+text-decoration:none;
+padding:2px 7px;
+}
+.tags a:hover {
+opacity:0.5;
+-moz-opacity:0.5;
+}
+.label {
+background:#f9f9f9;
+border-top:1px solid #e0e0e0;
+border-right:1px solid #e0e0e0;
+border-bottom:1px solid #e0e0e0;
+border-left:1px solid #e0e0e0;
+font-size:36px;
+border-radius:2px;
+margin:5px 35px 35px -1px;
+padding:2%;
+}
+.label a {
+color:#292929;
+opacity:0.5;
+-moz-opacity:0.5;
+}
+#finderror {
+background:#fff;
+margin-top:6%;
+margin-bottom:4%;
+text-align:center;
+position:relative;
+-webkit-border-radius:2px 30px;
+-moz-border-radius:2px 30px;
+-khtml-border-radius:2px 30px;
+-o-border-radius:2px 30px;
+border-radius:2px 30px;
+-webkit-box-shadow:2px 2px 0 #dedede;
+-moz-box-shadow:2px 2px 0 #dedede;
+-khtml-box-shadow:2px 2px 0 #dedede;
+-o-box-shadow:2px 2px 0 #dedede;
+box-shadow:2px 2px 0 #dedede;
+padding:50px;
+}
+#finderror h2 {
+font-size:30px;
+margin:0;
+}
+#finderror p {
+line-height:1.6em;
+font-size:20px;
+}
+.recentpost_title {
+margin-top:-1em;
+padding-top:1.5em;
+padding-bottom:1.2em;
+font-size:20px;
+}
+.blog-pager,#blog-pager {
+background:#ffffff;
+}
+#sidebar-subscribe-box {
+width:95.54%;
+background-color:#0a8cf0;
+background-image:0 color-stop(1,#0a8cf0) );
+border:1px solid #eeeeee;
+box-shadow:1x 1px 1px #eeeeee inset;
+height:265px;
+border-radius:3px;
+position:relative;
+padding:3px 0;
+}
+.disapear-now {
+display: none !important;
+}
+.sidebar-subscribe-box-wrapper,.sidebar-subscribe-box-wrapper p {
+color:#292929;
+font-size:30px;
+line-height:10px;
+margin-top:20px;
+text-align:left;
+padding:1px 29px 0;
+}
+.Subscriber .widget-content {
+margin:2.5em 0 0;
+}
+.Subscriber h2 {
+font-size:20px;
+margin:35px 0 0;
+}
+.sidebar-subscribe-box-form {
+clear:both;
+display:block;
+margin:10px 0;
+}
+form.sidebar-subscribe-box-form {
+clear:both;
+display:block;
+width:auto;
+margin:10px 0 0;
+}
+.sidebar-subscribe-box-email-field {
+-moz-border-radius:2px;
+-webkit-border-radius:2px;
+border-radius:2px;
+background:#ffffff;
+border:1px solid #ffffff;
+color:#333333;
+line-height:1;
+font-size:15px;
+position:absolute;
+top:125px;
+left:59px;
+width:250px;
+padding:10px 20px;
+}
+.sidebar-subscribe-box-email-button {
+background:#363231;
+border-radius:2px;
+box-shadow:0 0 1px #eeeeee inset;
+border:none;
+color:#ffffff;
+cursor:pointer;
+font-family:Arial;
+font-weight:600;
+position:absolute;
+top:190px;
+left:59px;
+text-shadow:1px 1px 0 rgba(255,255,255,.2);
+width:100%;
+max-width:100px;
+padding:10px;
+}
+.sidebar-subscribe-box-email-button:hover,.sidebar-subscribe-box-email-button:focus {
+background:#433e3d;
+}
+iframe,object,embed,.yt-border iframe,.yt-border object,.yt-border embed,table {
+width:100%;
+}
+.embed {
+border-radius:3px;
+-moz-box-shadow:0 2px 4px rgba(0,0,0,0.2);
+-webkit-box-shadow:0 2px 4px rgba(0,0,0,0.2);
+background:#FFF;
+border:1px solid #ddd;
+box-shadow:0 2px 4px rgba(0,0,0,0.2);
+margin:0;
+padding:4px;
+}
+#footer-section {
+background:#f5f5f5 url(http://1.bp.blogspot.com/-n5s9Bu0JCgg/UA_AfQ5qLkI/AAAAAAAAFMU/G9FOuh4SP7k/s0/bg-pattern.png) repeat top left;
+border-top:1px solid #aaa;
+box-shadow:inset 0 4px 6px -3px #aaa;
+font-family:cambria;
+font-size:14px;
+height:100px;
+text-align:center;
+width:100%;
+margin:10px -30px 5px;
+padding:0 30px;
+}
+.clear {
+clear:both;
+}
+#BackToTop {
+display:none;
+height:50px;
+width:50px;
+position:fixed;
+top:20px;
+right:20px;
+background:#363231 url(http://2.bp.blogspot.com/-rlQbCTvsOgk/Unh-5YetURI/AAAAAAAABIA/xOLxOJJltzI/s1600/backtotop.png) no-repeat right center;
+text-indent:-800px;
+overflow:hidden;
+opacity:0.8;
+border-radius:2px;
+}
+#BackToTop:hover {
+background-color:#5e5755;
+}
+#bp_toc {
+border:0 solid #000;
+background:#fff;
+width:100%;
+margin-top:10px;
+padding:10px 0;
+}
+#bp_toc a {
+text-decoration:none!important;
+}
+#bp_toc a:hover {
+text-decoration:underline!important;
+}
+.toc-header-col1,.toc-header-col2,.toc-header-col3 {
+background:#292929;
+width:250px;
+border-bottom:5px solid #99dbff;
+padding:10px;
+}
+.toc-header-col2 {
+border-right:2px solid #fff;
+border-left:2px solid #fff;
+width:75px;
+border-bottom:5px solid #ed4e69;
+}
+.toc-header-col3 {
+width:125px;
+}
+.toc-header-col1 a:link,.toc-header-col1 a:visited,.toc-header-col2 a:link,.toc-header-col2 a:visited,.toc-header-col3 a:link,.toc-header-col3 a:visited {
+font-family:"Trebuchet MS", sans-serif;
+font-size:14px;
+font-weight:700;
+line-height:1.4em;
+font-style:normal;
+border-collapse:separate;
+color:#ebebeb;
+text-decoration:none;
+}
+.toc-header-col1 a:hover,.toc-header-col2 a:hover,.toc-header-col3 a:hover {
+text-decoration:underline;
+}
+.toc-entry-col1,.toc-entry-col2,.toc-entry-col3 {
+background:#f8f8f8;
+border-bottom:2px solid #fff;
+padding:10px;
+}
+.toc-entry-col2 {
+border-right:2px solid #fff;
+border-left:2px solid #fff;
+}
+.toc-entry-col1 a,.toc-entry-col2 a,.toc-entry-col3 a {
+color:#45818e;
+font-size:12px;
+font-family:verdana;
+}
+.toc-note {
+background-color:#333;
+font-size:20px;
+display:inline;
+zoom:1;
+text-align:center;
+color:#999;
+padding:10px;
+}
+.main-wrapper .widget-content iframe:first-child {
+width:95%;
+}
+header h1:first-child {
+top:20%!important;
+}
+.header-wrapper header a.search {
+width:45px;
+height:45px;
+}
+#strong-author {
+text-transform:capitalize;
+}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,header a.search.active form {
+display:block;
+}
+ol,ul,#sidebar .sidebar-group.twitter ul {
+list-style:none;
+}
+blockquote:before,blockquote:after,q:before,q:after,blockquote:after {
+content:none;
+}
+a:link,a:visited {
+color:#363231;
+text-decoration:none;
+}
+header nav a:hover,#finderror a {
+color:#fff;
+}
+.comment-link,.comments .comments-content .comment-header,.comments .comments-content .comment-content {
+margin:0;
+}
+#comments-block .comment-author,.profile-datablock {
+margin:.5em 0;
+}
+#blog-pager,.ad,.sidebar-group.about p {
+text-align:center;
+}
+a.button:hover,.button.green:hover {
+opacity:0.9;
+-moz-opacity:0.9;
+}
+@media max-width 1500px {
+h1 {
+left:0!important;
+}
+}
+@media max-width 555px {
+#logo #DioLogo {
+margin-top:-40px;
+width:85%;
+padding-top:5px;
+padding-left:10px;
+}
+.header-wrapper header {
+padding-top:40px;
+padding-bottom:100px;
+}
+.header-wrapper .search {
+display:block;
+position:absolute;
+left:0;
+width:100%!important;
+padding-top:10px;
+top:45px;
+height:40px;
+background-color:rgba(68,65,65,0.77);
+}
+.header-wrapper .search input {
+margin-top:5px;
+}
+.header-wrapper select {
+padding-top:2.7%;
+padding-bottom:2.7%;
+margin-top:40px;
+}
+.header-wrapper header h1 {
+margin-top:35px;
+padding:10px 0;
+}
+}
+/* Fix for visited links */
+.item-content a:visited, .content-wrapper a:visited {
+color: #666 !important;
+}
+.header-wrapper .navlink a:link, a:visited {
+color: #eee !important;
+}
+.post-title.entry-title a {
+color: #111 !important;
+}
+.post-body a:visited, blockquote.tr_bq a:visited {
+color: #006BB6 !important
+}
+.readmore a:visited, .readmore a:link {
+color: #fff !important;
+}
+@media (max-width: 600px) {
+#blog-pager span, #blog-pager span a {
+display: block !important;
+}
+#blog-pager span { width: 100% !important; }
+#blog-pager .showpageOf:first-child,
+#blog-pager span:nth-last-child(-n+6) {
+display: none !important;
+}
+#blog-pager span:last-child { display: block; }
+.header-wrapper header select {
+display: none !important;
+}
+.header-wrapper header {
+height: 12em !important;
+}
+.header-wrapper #DioLogo {
+margin-top: -0.3em !important;
+}
+.header-wrapper a.search {
+margin-top: 3em !important;
+width: 65% !important;
+}
+}
+
+--></style>
+<!-- // Blog Search Query // -->
+<style type='text/css'>
+        #blog-pager.blog-pager {
+          display:none;
+        }
+        #sidebar-subscribe-box{
+          width:100%;
+          margin-top:3%;
+          margin-bottom:3%;
+        }
+      </style>
+<!-- = // Responsive // = -->
+<style type='text/css'>
+      @media all and (max-width: 1500px) {
+        h1 {left:50px;margin-left:0}
+        header nav {left:400px;margin-left:0;padding-right:80px}
+        header a.search {right:50px;margin-right:0}
+        .content-wrapper {width:auto;margin-left:50px;margin-right:50px;}
+        .post{font-size:15px;}
+      }
+      @media all and (max-width: 1470px) {
+        header{height:85px}
+        .post{font-size:14px;}
+      }
+      @media all and (max-width: 1170px) {
+        h1 {left:100px}
+        header a.search {right:100px;margin-right:0}
+        .main-wrapper{width:90%;margin:0 auto;float:none}
+        .sidebar-wrapper, #BackToTop{display:none !important;}
+        footer .footer-sidebar {max-width:90%;}
+      }
+      @media all and (max-width: 840px) {
+        h1{position:static;width:auto;padding:10px 0 20px 0;margin:0;text-align:center;}
+        h1 a{font-size:36px !important;}
+        header{height:90px}
+        header nav{position:static;width:auto;margin:0 !important;text-align:center;padding-right:0;}
+        header nav a{padding:5px;font-size:18px;margin:0 10px}
+        #sidebar-subscribe-box{width:100%}
+        .youmax-video-tnail-box{width:95.4% !important}
+        .post{width:100%;text-align:center}
+        .post h2 a{font-size:28px}
+        .post-body{padding:3em}
+        footer{padding:30px 0 10px;}
+        footer .footer-content{display:none}
+        footer .footer-navigation{display:block;float:none;width:auto;margin:0;text-align:center}
+        footer .footer-navigation a{margin:0 10px 10px 0 !important;padding:0 10px}
+        footer .footer-navigation p{width:auto}
+        .post {
+          width: 100%;
+          text-align: left;
+          padding: 0;
+          display: block;
+          overflow: hidden;
+          float: none;
+        }
+        .content-wrapper {
+          margin: 0;
+        }
+      }
+      @media all and (max-width: 600px) {
+        .content-wrapper{margin:20px}
+        .slider-wrapper .theme-default, .nivo-controlNav {display:none}
+        #sidebar-subscribe-box{display:none}
+        .Subscriber .widget-content{margin:0;}
+        .Subscriber h2{display:none}
+        .post h2{padding:2em}
+        .post h2 a{font-size:24px;text-align:left}
+        .post-body{padding:2em;font-size:15px}
+        header a.search{margin-top:-45px;}
+        h1{padding:10px 0 10px 0}
+        .recentpost_title{padding-top:30px;}
+        header select{width:96%;font:inherit;font-size:14px;padding:4px;margin:0 2% 2%}
+        #author-info, #related-posts, .related-posts-title {display:none}
+      }
+      @media all and (max-width: 400px) {
+        .content-wrapper{margin:10px}
+        .post h2{padding:1.5em}
+        .post h2 a{font-size:18px;text-align:left}
+        .post-body{padding:1.5em;font-size:13px}
+        header a.search {display:none;}
+      }
+    </style>
+<!-- =//Home page design//= -->
+<style>
+      .blog-posts.hfeed article.post.hentry {
+        margin-top: 0 !important;
+        margin-bottom: 2.15em !important;
+      }
+  </style>
+<style type='text/css'>
+    
+    html, body {
+      background: none !important; /* remove a imagem do background colocada pelo script de publicidade */
+    }
+
+  .img-diolinux {
+    margin-top: 4px;
+      margin-left: 20px;
+  }
+
+  #HTML3 iframe {
+    background: none !important;
+      height: 206px !important;
+    width: 300px !important;
+        
+    }
+
+    .widget-container-image {
+        margin: 1.5em auto;
+    width: 80%;
+  }
+
+  #Image1_img, #Image2_img, #Image3_img, #Image4_img {
+      margin: 30px auto 0;
+        display: block;
+    }
+
+  @media screen and (max-width: 699px) {
+    #blog-pager span:nth-last-child(-n+6) {
+      display: none !important;
+        }
+  }
+
+  @media screen and (min-width: 700px) {
+    #blog-pager span:nth-last-child(-n+6) {
+      display: inline-block !important;
+        }
+  }  
+  </style>
+<script async='async' src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js' type='text/javascript'></script>
+<!-- DATA ECHO Load Images only if necessary <script> //<![CDATA[ (function(root,factory){if(typeof define==='function'&&define.amd){define(factory);}else if(typeof exports==='object'){module.exports=factory;}else{root.echo=factory(root);}})(this,function(root){'use strict';var exports={};var callback=function(){};var offset,poll,throttle,unload;var inView=function(element,view){var box=element.getBoundingClientRect();return(box.right>=view.l&&box.bottom>=view.t&&box.left<=view.r&&box.top<=view.b);};var debounce=function(){clearTimeout(poll);poll=setTimeout(exports.render,throttle);};exports.init=function(opts){opts=opts||{};var offsetAll=opts.offset||0;var offsetVertical=opts.offsetVertical||offsetAll;var offsetHorizontal=opts.offsetHorizontal||offsetAll;var optionToInt=function(opt,fallback){return parseInt(opt||fallback,10);};offset={t:optionToInt(opts.offsetTop,offsetVertical),b:optionToInt(opts.offsetBottom,offsetVertical),l:optionToInt(opts.offsetLeft,offsetHorizontal),r:optionToInt(opts.offsetRight,offsetHorizontal)};throttle=optionToInt(opts.throttle,250);unload=!!opts.unload;callback=opts.callback||callback;exports.render();if(document.addEventListener){root.addEventListener('scroll',debounce,false);root.addEventListener('load',debounce,false);}else{root.attachEvent('onscroll',debounce);root.attachEvent('onload',debounce);}};exports.render=function(){var nodes=document.querySelectorAll('img[data-echo]');var length=nodes.length;var src,elem;var view={l:0- offset.l,t:0- offset.t,b:(root.innerHeight||document.documentElement.clientHeight)+ offset.b,r:(root.innerWidth||document.documentElement.clientWidth)+ offset.r};for(var i=0;i<length;i++){elem=nodes[i];if(inView(elem,view)){if(unload){elem.setAttribute('data-echo-placeholder',elem.src);} elem.src=elem.getAttribute('data-echo');if(!unload){elem.removeAttribute('data-echo');} callback(elem,'load');}else if(unload&&!!(src=elem.getAttribute('data-echo-placeholder'))){elem.src=src;elem.removeAttribute('data-echo-placeholder');callback(elem,'unload');}} if(!length){exports.detach();}};exports.detach=function(){if(document.removeEventListener){root.removeEventListener('scroll',debounce);}else{root.detachEvent('onscroll',debounce);} clearTimeout(poll);};return exports;}); echo.init({ offset: 100, throttle: 250, unload: false }); //]]> </script> -->
+<style type='text/css'>
+/* Footer Color Links */
+.footer-sidebar div a, 
+.footer-sidebar div a:visited, 
+.footer-sidebar div a:link 
+{
+    color: #fff;
+}
+
+.footer-sidebar div a:hover
+{
+    color: #ccc;
+}
+</style>
+<script type="text/javascript">function a(){var b=window.location.href,c=b.split("?");switch(c.length){case 1:return b+"?m=1";case 2:return 0<=c[1].search("(^|&)m=")?null:b+"&m=1";default:return null}}var d=navigator.userAgent;if(-1!=d.indexOf("Mobile")&&-1!=d.indexOf("WebKit")&&-1==d.indexOf("iPad")||-1!=d.indexOf("Opera Mini")||-1!=d.indexOf("IEMobile")){var e=a();e&&window.location.replace(e)};
+</script></head>
+<script async='async' src='//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-4298533800014985",
+    enable_page_level_ads: true
+  });
+</script>
+<body>
+<div id='fb-root'></div>
+<script async='async'>
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+<div class='outer-wrapper'>
+<!-- skip links for text browsers -->
+<span id='skiplinks' style='display:none;'>
+<a href='#main'>
+          pular para o principal 
+        </a>
+        |
+        <a href='#sidebar'>
+          pular para barra lateral
+        </a>
+</span>
+<div class='header-wrapper'>
+<div class='ie7_8'>
+<header>
+<h1>
+<a href='http://www.diolinux.com.br/' id='logo'>
+<!-- Logos Anteriores: #1 http://i60.tinypic.com/2uz83sw.jpg #2 http://i58.tinypic.com/5ocg1g.png -->
+<img alt='Diolinux' class='img-diolinux' id='DioLogo' src='https://lh3.googleusercontent.com/U4TdCiaml5rbdQ6smsCTLvz84wQcdU0RFghBPdQygbH_vlPugkBDDQipL7HL_16pKHIQShg2nhHNmugSdmwEA_Eqm6womth4m9jU9t5PNWOULOu31rWV0bZIjiGp5C0_9IsSxNY73zbqGW_vhYWLTnxnmbh61w7FBngQr9Yi9Fct-Z6iBHJ5NNDecwrukfJK83ZMPXvcjONAdlVVf3CeEKKWe41p2YD3ksaunRVgqkLJN6GGmk3eSkgpoXXgVAoFmxBOgc0VyJVfEfmohDVCGucUqYk2LKdY0yHc4YRh65zvAn5ut4i32A9LatOuFg888xu1rNDnSl2DcTz7QS0Dl7YvBeuLJngL6Cz6IWAuR9WxHX6RhpYAZ2HBsZy5liCWCwlKcdXGIl4VR_wTLSF3etJY-ROMN5IMW5VntqjXsdLjGrEUsFzttuc_R7nxMB8RXMvglaLaZF5-09MEpyaXQe3xwYX5FORW4lBJdxBTwRTYGw075nXRp47JWzIUs-eCFtXGoYst7iPQCsKN2q-rjgu_Sui1C8KJ5xjq9jTHXn_2qK9LvFv9CnFjtEd22ac7YEIcSCjrT-VYGA0it7cPSkvvOObIMF4W=w296-h95-no'/>
+</a>
+</h1>
+<nav class='navlink'>
+<a href='http://goo.gl/LIHsHK' target='_blank'>
+                Anuncie
+              </a>
+<a href='http://ead.diolinux.com.br' target='_blank'>
+                EAD
+              </a>
+<a href='http://www.diolinux.com.br/search/label/Ubuntu'>
+                Ubuntu
+              </a>
+<a href='http://www.diolinux.com.br/search/label/android' target='_blank'>
+                Android
+              </a>
+<a href='http://www.diolinux.com.br/p/contato.html'>
+                Contato
+              </a>
+<a href='http://www.diolinux.com.br/search/label/DioCast' target='_blank'>
+                DioCast
+              </a>
+<a href='http://www.diostore.com.br' target='_blank'>
+                DioStore
+              </a>
+<a href='http://ebook.diolinux.com.br/' target='_blank'>
+                e-Book
+              </a>
+</nav>
+<a class='search'>
+<form action='/search/max-results=10' method='get'>
+<input id='s' name='q' placeholder='Pesquise aqui...' type='text'/>
+</form>
+</a>
+</header>
+</div>
+</div>
+<div class='clear'></div>
+<div class='ie7_8'>
+<div class='content-wrapper'>
+<div class='main-wrapper'>
+<div class='main section' id='main'><div class='widget HTML' data-version='1' id='HTML14'>
+<div class='widget-content'>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- anuncio lateral responsivo -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4298533800014985"
+     data-ad-slot="1430428952"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8360348492097356457&widgetType=HTML&widgetId=HTML14&action=editWidget&sectionId=main' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML14"));' target='configHTML14' title='Editar'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' data-version='1' id='HTML12'>
+<div class='widget-content'>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Kewer -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4298533800014985"
+     data-ad-slot="7895764950"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8360348492097356457&widgetType=HTML&widgetId=HTML12&action=editWidget&sectionId=main' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML12"));' target='configHTML12' title='Editar'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Blog' data-version='1' id='Blog1'>
+<div class='blog-posts hfeed'>
+<article class='post hentry' id='8889486882878979837' itemscope='' itemtype='http://schema.org/BlogPosting'>
+<a name='8889486882878979837'></a>
+<h2 class='post-title entry-title'>
+<a href='http://www.diolinux.com.br/2013/07/omo-instalar-o-sublime-text-3-no-via-ppa.html'>
+Como instalar o Sublime Text 3 no Ubuntu e derivados via PPA ( Versão para usuários não registrados )
+</a>
+<font style='background:transparent url(https://4.bp.blogspot.com/-XdiSD662J0w/Um-6uT9UYaI/AAAAAAAAA_k/xVOVLVBVZEg/s1600/author_icon.png) no-repeat scroll top left;padding-left:16px;font-size:11px;opacity:0.8;-moz-opacity:0.8'>
+Dionatan Simioni
+</font>
+<font style='background:transparent url(https://2.bp.blogspot.com/-LtL0QV6cIvU/Um-1TD7g5ZI/AAAAAAAAA-w/TrZ0-TFj29g/s1600/icon_clock.png) no-repeat scroll top left;margin-left:5px;padding-left:20px;font-size:11px;opacity:0.8;-moz-opacity:0.8'>
+quarta-feira, 3 de julho de 2013
+</font>
+</h2>
+<div class='post-header-line-1'></div>
+<div class='post-body entry-content' id='post-body-8889486882878979837' itemprop='articleBody'>
+<meta content='http://2.bp.blogspot.com/-4gvrvhTdhc8/UdS2t2OEu9I/AAAAAAAAHRQ/nEtXjfpa6Ew/s400/Captura+de+tela+de+2013-07-03+20:41:03.png' property='og:image'/>
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<div>
+<h2 style="text-align: left;">
+Um dos melhores programas para os programadores agora numa instalação facilitada</h2>
+<div>
+<br /></div>
+<div style="text-align: justify;">
+O Sublime Text é considerado por muitos o melhor editor de código que existe, seja pelos seus muitos recursos ou pela sua capacidade de configuração, ele é um editor multiplataforma mas a verdade é que instalar ele no Ubuntu normalmente era mais difícil do que deveria ser, pelo menos até agora...</div>
+<h3 style="text-align: left;">
+Sublime Text 3 no Ubuntu</h3>
+<div class="separator" style="clear: both; text-align: center;">
+<a href="http://2.bp.blogspot.com/-4gvrvhTdhc8/UdS2t2OEu9I/AAAAAAAAHRQ/nEtXjfpa6Ew/s1366/Captura+de+tela+de+2013-07-03+20:41:03.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img alt="Sublime Text 3 no Ubuntu" border="0" src="http://2.bp.blogspot.com/-4gvrvhTdhc8/UdS2t2OEu9I/AAAAAAAAHRQ/nEtXjfpa6Ew/s400/Captura+de+tela+de+2013-07-03+20:41:03.png" height="223" title="Sublime Text 3 no Ubuntu" width="400" /></a></div>
+<div class="separator" style="clear: both; text-align: center;">
+<br /></div>
+<div class="separator" style="clear: both; text-align: justify;">
+O Sublime Text na verdade é um software pago, seu registro custa algo em torna de 70 Dólares, bem caro para os usuários brasileiros especialmente, mas acontece que o programa possui versões beta, que não necessidade de registro, e podem ser usadas por tempo ilimitado.</div>
+<div class="separator" style="clear: both; text-align: justify;">
+Então o que vamos fazer é instalar esta versão de testes ilimitada que não deixa a dever em praticamente nada a versão paga, a não ser o suporte e talvez algum bug ( até agora nada expressivo foi relatado ), o PPA foi criado pela equipe do <a href="http://www.webupd8.org/2013/07/sublime-text-3-ubuntu-ppa-now-available.html" rel="nofollow" target="_blank">WebUp8</a> e pode ser instalado com o pequeno tutorial abaixo:</div>
+<div class="separator" style="clear: both; text-align: justify;">
+Abra o seu terminal e cole os comandos sequencialmente:</div>
+<div class="separator" style="clear: both; text-align: justify;">
+<br /></div>
+<blockquote class="tr_bq">
+<b>sudo add-apt-repository ppa:webupd8team/sublime-text-3</b></blockquote>
+</div>
+<blockquote class="tr_bq">
+<b>sudo apt-get update&nbsp;</b></blockquote>
+<div>
+<blockquote class="tr_bq">
+<b>sudo apt-get install sublime-text-installer</b></blockquote>
+Com este PPA você recebera notificações de atualizações no editor inclusive, facilitando muito a sua vida.<br />
+Até a próxima dica, fontes e crédito <a href="http://www.webupd8.org/2013/07/sublime-text-3-ubuntu-ppa-now-available.html" rel="nofollow" target="_blank">aqui</a>.<br />
+<br />
+<b style="font-size: x-large;">Quer continuar por dentro de tudo o que acontece por aqui?</b></div>
+<div style="text-align: center;">
+<span style="font-size: large;"><br /></span></div>
+<div style="text-align: center;">
+<span style="font-size: large;">Então curta nossa página no <b><a href="http://www.facebook.com/blogdiolinux" rel="nofollow" target="_blank">FACEBOOK</a></b>, siga o blog no <b><a href="http://twitter.com/blogdiolinux" rel="nofollow" target="_blank">TWITTER</a></b>&nbsp; - Siga também nossos escritores&nbsp;</span></div>
+<div style="text-align: center;">
+<span style="font-size: large;"><b><a href="http://twitter.com/dionatanvs" rel="nofollow" style="background-color: white;" target="_blank">@dionatanvs</a></b> - <span style="background-color: white;"><b><a href="https://plus.google.com/118122558560252945399" rel="nofollow" target="_blank">+Dionatan Simioni</a></b> </span>- <b><a href="https://plus.google.com/114409485839266773845/posts" rel="nofollow" target="_blank">+ Elian Medeiros</a>&nbsp;</b></span><br />
+<span style="font-size: large;"><b><br /></b></span>
+<span style="color: blue; font-size: large;"><b><a href="http://www.diolinux.com.br/2012/11/app-do-diolinux-para-dispositivos-moveis.html" rel="nofollow" target="_blank">Baixe o APP do Diolinux para o seu Smartphone</a></b></span><br />
+<br />
+<div style="text-align: left;">
+<b><span style="font-size: large;">Se você tiver alguma dúvida procure um de nossos grupos de discussão no Facebook:</span></b></div>
+<div style="text-align: left;">
+<div style="text-align: center;">
+<br /></div>
+</div>
+<div style="text-align: left;">
+<div style="text-align: center;">
+<span style="font-size: large;"><span style="color: #3d85c6;"><b><a href="http://www.facebook.com/groups/usuarioslinuxrs/" rel="nofollow" target="_blank">Usuários Linux - RS</a></b></span> &nbsp; &nbsp;<b><span style="color: #3d85c6;"><a href="http://www.facebook.com/groups/droidworld/" rel="nofollow" target="_blank">Android World Brasil </a>&nbsp;&nbsp;</span></b></span></div>
+<div style="text-align: center;">
+<span style="font-size: large;"><b><span style="color: #3d85c6;"><br /></span></b></span></div>
+<div style="text-align: left;">
+<span style="font-size: large;"><b>Canais no YouTube</b></span></div>
+<div style="text-align: center;">
+<span style="font-size: large;"><b><br /></b></span></div>
+<div style="text-align: center;">
+<span style="font-size: large;"><b><a href="http://www.youtube.com/user/Diolinux" rel="nofollow" target="_blank">Diolinux</a>&nbsp; &nbsp;<a href="http://www.youtube.com/strondusgames" rel="nofollow" target="_blank">Strondus Games</a>&nbsp;&nbsp;</b></span></div>
+</div>
+</div>
+</div>
+<div class='clear'></div>
+<script async='async'>
+                                (function() {
+                                  var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+                                                                  po.src = 'https://apis.google.com/js/plusone.js';
+                                                                  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+                                                                  })();
+                              </script>
+<script>
+                                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<div class='horizontal-social-buttons' style='padding:50px 0 0 25%;'>
+<div style='float:left;padding-right:6%'>
+<fb:like colorscheme='light' font='' href='http://www.diolinux.com.br/2013/07/omo-instalar-o-sublime-text-3-no-via-ppa.html' layout='button_count' send='true' show_faces='false'></fb:like>
+</div>
+<div style='float:left;'>
+<g:plusone annotation='bubble' href='http://www.diolinux.com.br/2013/07/omo-instalar-o-sublime-text-3-no-via-ppa.html' size='medium'></g:plusone>
+</div>
+<div style='float:left;'>
+<a class='twitter-share-button' data-via='blogdiolinux' href='https://twitter.com/share'>
+                                  Tweet
+                                </a>
+</div>
+</div>
+<div style='clear: both;'></div>
+<div id='author-info'>
+<img alt='Dionatan Simioni' class='avatar avatar-120 photo' src='http://bit.ly/1dCc9Gb' title='Dionatan Simioni'/>
+<h5>
+                                  por
+                                  <strong id='strong-author'>
+Dionatan Simioni
+</strong>
+</h5>
+<p>
+                                  Blogueiro, Youtuber, Escritor e Professor, usuário de Ubuntu e Android, apaixonado por games e tecnologia.
+                                </p>
+<p>
+                                  Siga-me @
+                                  <a href='https://www.twitter.com/dionatanvs' rel='nofollow' target='_blank'>
+                                    Twitter
+                                  </a>
+                                  |
+                                  <a href='https://www.facebook.com/dionatan.vs' rel='nofollow' target='_blank'>
+                                    Facebook
+                                  </a>
+                                  |
+                                  <a href='https://plus.google.com/+DionatanSimioni' rel='Publisher' target='_blank'>
+                                    Google Plus
+                                  </a>
+</p>
+</div>
+<div class='widget HTML' id='HTML17'>
+<div class='widget-content'>
+<script async='async' src='//widget.sambaads.com/widget.js?p=06a5b09e90db52cf789c2e6856106387&c=tecnologia&t=linux&target=self&w=100%&h=100%&resp=true'></script>
+</div>
+<div class='clear'></div>
+</div>
+<div class='tags'>
+                            Tags:
+                            
+<span itemscope='' itemtype=''>
+<a href='http://www.diolinux.com.br/search/label/dica?&max-results=8' itemprop='url' rel='nofollow'>
+<span itemprop='title'>
+dica
+</span>
+</a>
+</span>
+
+                                /
+                              
+<span itemscope='' itemtype=''>
+<a href='http://www.diolinux.com.br/search/label/Dionatan?&max-results=8' itemprop='url' rel='nofollow'>
+<span itemprop='title'>
+Dionatan
+</span>
+</a>
+</span>
+
+                                /
+                              
+<span itemscope='' itemtype=''>
+<a href='http://www.diolinux.com.br/search/label/editor?&max-results=8' itemprop='url' rel='nofollow'>
+<span itemprop='title'>
+editor
+</span>
+</a>
+</span>
+
+                                /
+                              
+<span itemscope='' itemtype=''>
+<a href='http://www.diolinux.com.br/search/label/instalar?&max-results=8' itemprop='url' rel='nofollow'>
+<span itemprop='title'>
+instalar
+</span>
+</a>
+</span>
+
+                                /
+                              
+<span itemscope='' itemtype=''>
+<a href='http://www.diolinux.com.br/search/label/linux%20mint?&max-results=8' itemprop='url' rel='nofollow'>
+<span itemprop='title'>
+linux mint
+</span>
+</a>
+</span>
+
+                                /
+                              
+<span itemscope='' itemtype=''>
+<a href='http://www.diolinux.com.br/search/label/programa?&max-results=8' itemprop='url' rel='nofollow'>
+<span itemprop='title'>
+programa
+</span>
+</a>
+</span>
+
+                                /
+                              
+<span itemscope='' itemtype=''>
+<a href='http://www.diolinux.com.br/search/label/Programa%C3%A7%C3%A3o?&max-results=8' itemprop='url' rel='nofollow'>
+<span itemprop='title'>
+Programação
+</span>
+</a>
+</span>
+
+                                /
+                              
+<span itemscope='' itemtype=''>
+<a href='http://www.diolinux.com.br/search/label/tutorial?&max-results=8' itemprop='url' rel='nofollow'>
+<span itemprop='title'>
+tutorial
+</span>
+</a>
+</span>
+
+                                /
+                              
+<span itemscope='' itemtype=''>
+<a href='http://www.diolinux.com.br/search/label/Ubuntu?&max-results=8' itemprop='url' rel='nofollow'>
+<span itemprop='title'>
+Ubuntu
+</span>
+</a>
+</span>
+</div>
+<div style='clear: both;'></div>
+</div>
+<div class='post-footer'>
+<div class='post-footer-line post-footer-line-1'>
+<span class='post-author vcard' itemscope='itemscope' itemtype='https://schema.org/Person'>
+<span class='fn author'>
+<a href='https://plus.google.com/118122558560252945399' rel='author' title='author profile'>
+<span itemprop='name'>
+Dionatan Simioni
+</span>
+</a>
+</span>
+</span>
+<span class='post-timestamp'>
+às
+<a class='timestamp-link' href='http://www.diolinux.com.br/2013/07/omo-instalar-o-sublime-text-3-no-via-ppa.html' rel='bookmark' title='permanent link'>
+<abbr class='published' title='2013-07-03T20:50:00-03:00'>
+<span class='updated'>
+20:50
+</span>
+</abbr>
+</a>
+</span>
+<span class='post-comment-link'>
+</span>
+<span class='post-icons'>
+<span class='item-action'>
+<a href='https://www.blogger.com/email-post.g?blogID=8360348492097356457&postID=8889486882878979837' title='Enviar esta postagem'>
+<img alt='email_icon' class='icon-action' height='13' src='https://www.blogger.com/img/icon18_email.gif' width='18'/>
+</a>
+</span>
+<span class='item-control blog-admin pid-753145358'>
+<a href='https://www.blogger.com/post-edit.g?blogID=8360348492097356457&postID=8889486882878979837&from=pencil' title='Editar postagem'>
+<img alt='action_edit_icon' class='icon-action' height='18' src='https://www.blogger.com/img/icon18_edit_allbkg.gif' width='18'/>
+</a>
+</span>
+</span>
+<span class='post-backlinks post-comment-link'>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-2'>
+<span class='post-labels'>
+Marcadores:
+<a href='http://www.diolinux.com.br/search/label/dica' rel='tag'>
+dica
+</a>
+
+                                ,
+                              
+<a href='http://www.diolinux.com.br/search/label/Dionatan' rel='tag'>
+Dionatan
+</a>
+
+                                ,
+                              
+<a href='http://www.diolinux.com.br/search/label/editor' rel='tag'>
+editor
+</a>
+
+                                ,
+                              
+<a href='http://www.diolinux.com.br/search/label/instalar' rel='tag'>
+instalar
+</a>
+
+                                ,
+                              
+<a href='http://www.diolinux.com.br/search/label/linux%20mint' rel='tag'>
+linux mint
+</a>
+
+                                ,
+                              
+<a href='http://www.diolinux.com.br/search/label/programa' rel='tag'>
+programa
+</a>
+
+                                ,
+                              
+<a href='http://www.diolinux.com.br/search/label/Programa%C3%A7%C3%A3o' rel='tag'>
+Programação
+</a>
+
+                                ,
+                              
+<a href='http://www.diolinux.com.br/search/label/tutorial' rel='tag'>
+tutorial
+</a>
+
+                                ,
+                              
+<a href='http://www.diolinux.com.br/search/label/Ubuntu' rel='tag'>
+Ubuntu
+</a>
+</span>
+</div>
+<div class='post-footer-line post-footer-line-3'></div>
+<div id='fb-root'></div>
+<script>
+                          (function(d){
+                            var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+                            js = d.createElement('script'); js.id = id; js.async = true;
+                                                 js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                                                 d.getElementsByTagName('head')[0].appendChild(js);
+                                                 }(document));</script>
+<div style='margin: 20px 0 0 0;'>
+<fb:comments colorscheme='light' href='http://www.diolinux.com.br/2013/07/omo-instalar-o-sublime-text-3-no-via-ppa.html' title='Como instalar o Sublime Text 3 no Ubuntu e derivados via PPA ( Versão para usuários não registrados )' width='900' xid='8889486882878979837'></fb:comments>
+</div>
+</div>
+</article>
+<div id='sidebar-subscribe-box'>
+<div class='sidebar-subscribe-box-wrapper'>
+<p>
+                          Junte-se a nós
+                          <font style='color:#dedede'>
+                            Assine agora!
+                          </font>
+</p>
+<p style='color:#dedede;text-transform:uppercase;font-size:13px;font-family:verdana'>
+                          Receba todas as atualizações do blog no seu E-mail
+                        </p>
+<div class='sidebar-subscribe-box-form'>
+<form action='https://feedburner.google.com/fb/a/mailverify?uri=Diolinux' class='sidebar-subscribe-box-form' method='post' onsubmit='window.open(&#39;https://feedburner.google.com/fb/a/mailverify?uri=Diolinux&#39;, &#39;popupwindow&#39;, &#39;scrollbars=yes,width=550,height=520&#39;);return true' target='popupwindow'>
+<input name='uri' type='hidden' value='Diolinux'/>
+<input name='loc' type='hidden' value='pt_BR'/>
+<input autocomplete='yes' class='sidebar-subscribe-box-email-field' name='email' placeholder='seu@email.com'/>
+<input class='sidebar-subscribe-box-email-button' title='' type='submit' value='Assine!'/>
+</form>
+</div>
+</div>
+</div>
+<div id='fb-root'></div>
+<script async='async'>
+                    (function(d){
+                      var js, id = 'facebook-jssdk'; if (d.getElementById(id)) {return;}
+                      js = d.createElement('script'); js.id = id; js.async = true;
+                                           js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+                                           d.getElementsByTagName('head')[0].appendChild(js);
+                                           }(document));</script>
+<div style='margin: 20px 0 0 0;'>
+<fb:comments colorscheme='light' href='http://www.diolinux.com.br/2013/07/omo-instalar-o-sublime-text-3-no-via-ppa.html' title='Como instalar o Sublime Text 3 no Ubuntu e derivados via PPA ( Versão para usuários não registrados )' width='760' xid='8889486882878979837'></fb:comments>
+</div>
+<div id='disqus_thread'></div>
+<script async='async'>
+                    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                    var disqus_shortname = 'diolinux-blog'; // required: replace example with your forum shortname
+                    /* * * DON'T EDIT BELOW THIS LINE * * */
+                    (function() {
+                      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                                                       dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                                                       (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                                                       })();
+                  </script>
+<noscript>
+                    Por favor habilite JavaScript para ver o 
+                    <a href='http://disqus.com/?ref_noscript'>
+                      comentários do Disqus.
+                    </a>
+</noscript>
+<a class='dsq-brlink' href='http://disqus.com'>
+                    comments powered by 
+                    <span class='logo-disqus'>
+                      Disqus
+                    </span>
+</a>
+<script async='async'>
+                    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+                    var disqus_shortname = 'diolinux-blog'; // required: replace example with your forum shortname
+                    /* * * DON'T EDIT BELOW THIS LINE * * */
+                    (function () {
+                      var s = document.createElement('script'); s.async = true;
+                                                     s.type = 'text/javascript';
+                                                     s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+                                                     (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+                                                     }());
+                  </script>
+</div>
+<div class='blog-pager' id='blog-pager'>
+<span id='blog-pager-newer-link'>
+<a class='blog-pager-newer-link' href='http://www.diolinux.com.br/2013/07/canonical-unifica-contas-de-usuario-do-ubuntu.html' id='Blog1_blog-pager-newer-link' title='Postagem mais recente'>
+                          &#8249;&#8249; 
+                          Postagem mais recente
+</a>
+</span>
+<span id='blog-pager-older-link'>
+<a class='blog-pager-older-link' href='http://www.diolinux.com.br/2013/07/iumalinux-uma-distro-baseada-no-ubuntu-com-mate.html' id='Blog1_blog-pager-older-link' title='Postagem mais antiga'>
+Postagem mais antiga
+                          &#8250;&#8250; 
+                        </a>
+</span>
+</div>
+<div class='clear'></div>
+<div class='post-feeds'>
+</div>
+</div>
+</div>
+</div>
+<aside class='sidebar-wrapper'>
+<div class='sidebar section' id='sidebar'><div class='widget HTML' data-version='1' id='HTML1'>
+<div class='widget-content'>
+<div class="sidebar-group about">
+<p><strong> Junte-se a nós! </strong> <em>Estamos onde você está!</em></p>
+<div class="social-icons">
+<a href="https://twitter.com/blogdiolinux" class="twitter" target="_blank" data-hint="Siga!">
+</a>
+<a href="https://facebook.com/blogdiolinux" class="facebook" target="_blank" data-hint="Curta!">
+</a>
+<a href="https://plus.google.com/+DiolinuxBr" class="googleplus" target="_blank" data-hint="Circule!">
+</a>
+<a href="https://feeds.feedburner.com/Diolinux" class="rss" target="_blank" data-hint="Assine!">
+</a>
+</div>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8360348492097356457&widgetType=HTML&widgetId=HTML1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML1"));' target='configHTML1' title='Editar'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' data-version='1' id='HTML11'>
+<div class='widget-content'>
+<script async="async" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- Lateral -->
+<ins class="adsbygoogle"
+   style="display:block"
+   data-ad-client="ca-pub-4298533800014985"
+   data-ad-slot="7988763751"
+   data-ad-format="auto"></ins>
+
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8360348492097356457&widgetType=HTML&widgetId=HTML11&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML11"));' target='configHTML11' title='Editar'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Translate' data-version='1' id='Translate1'>
+<h2 class='title'>Translate this website</h2>
+<div id='google_translate_element'></div>
+<script>
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'pt',
+        autoDisplay: 'true',
+        layout: google.translate.TranslateElement.InlineLayout.VERTICAL
+      }, 'google_translate_element');
+    }
+  </script>
+<script src='//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit'></script>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8360348492097356457&widgetType=Translate&widgetId=Translate1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("Translate1"));' target='configTranslate1' title='Editar'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Image' data-version='1' id='Image2'>
+<h2>Clique e conheça</h2>
+<div class='widget-content'>
+<a href='http://www.diolinux.com.br/p/area-vip-apoiadores.html'>
+<img alt='Clique e conheça' height='100' id='Image2_img' src='http://2.bp.blogspot.com/-hCP7LthdJLs/V87UDels6GI/AAAAAAAAZRk/rRxrdndMQNUVfvgKyuf2QsFJc8thjwaIgCK4B/s1600/apoiadores.png' width='400'/>
+</a>
+<br/>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8360348492097356457&widgetType=Image&widgetId=Image2&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("Image2"));' target='configImage2' title='Editar'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Image' data-version='1' id='Image1'>
+<h2>Estamos no Telegram!</h2>
+<div class='widget-content'>
+<a href='https://telegram.me/DiolinuxOficial'>
+<img alt='Estamos no Telegram!' height='208' id='Image1_img' src='http://2.bp.blogspot.com/-od4hAOry5TU/V8hVTzUwtbI/AAAAAAAAZMU/hc03rGhxGogqoV2e3hlRXJCsPS75QAiKACK4B/s1600/canal%2Bdiolinux%2Btelegram.png' width='370'/>
+</a>
+<br/>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8360348492097356457&widgetType=Image&widgetId=Image1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("Image1"));' target='configImage1' title='Editar'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget PopularPosts' data-version='1' id='PopularPosts1'>
+<h2>
+DESTAQUES
+</h2>
+<div class='widget-content popular-posts'>
+<ul>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.diolinux.com.br/2017/02/ubuntu-16042-lts-como-atualizar.html' target='_blank'>
+<img alt='thumbnail2' border='0' height='72' src='https://2.bp.blogspot.com/-AWCelWq5f_g/WKc4onZBbvI/AAAAAAAAcjw/SPiWeLWWPkgoYxk9KMogmbGt5F2u_UTwACLcB/s72-c/ubuntu%2B16.04.2%2BLTS.png' width='72'/>
+</a>
+</div>
+<div class='item-title'>
+<a href='http://www.diolinux.com.br/2017/02/ubuntu-16042-lts-como-atualizar.html'>
+Ubuntu 16.04.2 LTS lançado, veja como instalar as melhorias
+</a>
+</div>
+<div class='item-snippet'>
+   A Canonical liberou nesta semana a nova atualização para o Ubuntu 16.04 LTS, recebendo assim a numeração de 16.04.2. Existem algumas obse...
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.diolinux.com.br/2017/02/ubuntu-kylin-desenvolve-uma-nova-interface.html' target='_blank'>
+<img alt='thumbnail2' border='0' height='72' src='https://4.bp.blogspot.com/-mbyQcGkJ4Z4/WKSiAWtBjZI/AAAAAAAAchY/wIMtLxrATWUwYfDnPgJks_vzfKfVKNmLwCLcB/s72-c/ubuntu%2Bkylin%2BUKUI.jpg' width='72'/>
+</a>
+</div>
+<div class='item-title'>
+<a href='http://www.diolinux.com.br/2017/02/ubuntu-kylin-desenvolve-uma-nova-interface.html'>
+Ubuntu Kylin desenvolve uma nova interface para o Ubuntu semelhante ao Windows 7
+</a>
+</div>
+<div class='item-snippet'>
+   O Ubuntu Kylin é a versão para o mercado chinês do Ubuntu e diferente das outras variações do sistema, o Kylin é o que vem mais se esforç...
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.diolinux.com.br/2017/02/7-programas-para-linux-que-voce-nao-encontra-no-windows.html' target='_blank'>
+<img alt='thumbnail2' border='0' height='72' src='https://1.bp.blogspot.com/-DdNiSH9qgfs/WJytP9STURI/AAAAAAAAcW4/IyZGDx-_DLAtpRB2-VhjDjYfL6ck044AgCLcB/s72-c/Apps%2Bexclusivos.png' width='72'/>
+</a>
+</div>
+<div class='item-title'>
+<a href='http://www.diolinux.com.br/2017/02/7-programas-para-linux-que-voce-nao-encontra-no-windows.html'>
+7 programas para Linux que você não encontra no Windows
+</a>
+</div>
+<div class='item-snippet'>
+   É comum vermos as pessoas falando que o Windows tem muitos programas que não existem em outras plataformas e isso não está incorreto de f...
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.diolinux.com.br/2013/10/como-espionar-conversas-no-whatsapp.html' target='_blank'>
+<img alt='thumbnail2' border='0' height='72' src='https://2.bp.blogspot.com/-zIIlv8-o1W4/V1lyCKHjTXI/AAAAAAAAX2Q/QVaVDjxgWn8iX7gIACjEX0MLuX_WIEcswCLcB/s72-c/Spymaster-Pro-whatsapp-android-iphone.png' width='72'/>
+</a>
+</div>
+<div class='item-title'>
+<a href='http://www.diolinux.com.br/2013/10/como-espionar-conversas-no-whatsapp.html'>
+Como espionar conversas no WhatsApp sem que seus filhos descubram?
+</a>
+</div>
+<div class='item-snippet'>
+  Vamos combinar: todos nós somos um pouco super protetores quando se trata dos nossos filhos. Eu costumava deixar meus filhos enfurecidos p...
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.diolinux.com.br/2017/02/como-reparar-o-seu-sistema-sem-ser-radical.html' target='_blank'>
+<img alt='thumbnail2' border='0' height='72' src='https://4.bp.blogspot.com/-ht96GQTtpBk/WKs9DiVpxfI/AAAAAAAAclY/Y5Bzd9xz1MguycUOgTXUH4TR2YRJY5kiQCLcB/s72-c/mas%2Bque%2Bbela%2Btela%2Bazul.png' width='72'/>
+</a>
+</div>
+<div class='item-title'>
+<a href='http://www.diolinux.com.br/2017/02/como-reparar-o-seu-sistema-sem-ser-radical.html'>
+Como reparar o seu sistema sem ser V1D4L0K4!
+</a>
+</div>
+<div class='item-snippet'>
+   No artigo de hoje vamos falar sobre algumas práticas que eu considero extremamente válidas para qualquer pessoa que se julga um usuário d...
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.diolinux.com.br/2017/02/5-aplicativos-gratis-para-pessoas-criativas.html' target='_blank'>
+<img alt='thumbnail2' border='0' height='72' src='https://3.bp.blogspot.com/-qov1Yxp1NfA/WKHtEuI5hnI/AAAAAAAAce0/rCfoD_sYGKEdWCFH7R5OvW4Zfmb8Tug2QCLcB/s72-c/5%2Bapps%2Bpara%2Bpessoas%2Bcriativas.png' width='72'/>
+</a>
+</div>
+<div class='item-title'>
+<a href='http://www.diolinux.com.br/2017/02/5-aplicativos-gratis-para-pessoas-criativas.html'>
+5 aplicativos grátis para pessoas criativas!
+</a>
+</div>
+<div class='item-snippet'>
+   Se você é daqueles caras que está em constante produtividade e gosta de criar, inventar, customizar e publicar as suas obras, esse artigo...
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.diolinux.com.br/2017/02/a-evolucao-do-unity-8-para-desktops-e-o-futur-do-ubuntu.html' target='_blank'>
+<img alt='thumbnail2' border='0' height='72' src='https://2.bp.blogspot.com/-RhwS5vscmVM/WKxLy5vfzEI/AAAAAAAAclw/gU6iA0Y-Q7wpF8qR2kmym8ZdDeVTxNp5wCLcB/s72-c/ubuntu%2Bunity%2B8%2Bhistory.png' width='72'/>
+</a>
+</div>
+<div class='item-title'>
+<a href='http://www.diolinux.com.br/2017/02/a-evolucao-do-unity-8-para-desktops-e-o-futur-do-ubuntu.html'>
+A evolução do Unity 8 para Desktops e onde o Ubuntu vai parar
+</a>
+</div>
+<div class='item-snippet'>
+   A chegada do Ubuntu 17.04 em Abril nós teremos uma versão muito mais lapidada do Unity 8 para desktops, entretanto, o caminho ainda parec...
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.diolinux.com.br/2016/04/7-coisas-para-fazer-depois-de-instalar-o-ubuntu-1604-lts.html' target='_blank'>
+<img alt='thumbnail2' border='0' height='72' src='https://1.bp.blogspot.com/-ZSo6qTblDB8/Vxi7rVpLrXI/AAAAAAAAWRA/Ke59AzcnU0MaW5B3EdYzbO-wq2Nx1thrQCLcB/s72-c/7%2Bcoisas%2Bpara%2Bfazer%2Bdepois%2Bde%2Binstalar%2Bo%2BUbuntu.png' width='72'/>
+</a>
+</div>
+<div class='item-title'>
+<a href='http://www.diolinux.com.br/2016/04/7-coisas-para-fazer-depois-de-instalar-o-ubuntu-1604-lts.html'>
+7 coisas importantes para fazer depois de instalar o Ubuntu 16.04 LTS
+</a>
+</div>
+<div class='item-snippet'>
+   Agora que o Ubuntu 16.04 LTS Xenial Xerus foi lançado - faça o download aqui  - chegou a hora de alinhar o sistema para a sua utilização,...
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.diolinux.com.br/2017/02/green-recorder-um-novo-app-para-gravar-a-tela-no-ubuntu.html' target='_blank'>
+<img alt='thumbnail2' border='0' height='72' src='https://1.bp.blogspot.com/-ubVxEarXhMs/WKS0WxBh6oI/AAAAAAAAciM/ucomGRKzVD8YCD_kgJK3dzVho0gBod9KQCLcB/s72-c/green%2Brecorder%2Blinux.png' width='72'/>
+</a>
+</div>
+<div class='item-title'>
+<a href='http://www.diolinux.com.br/2017/02/green-recorder-um-novo-app-para-gravar-a-tela-no-ubuntu.html'>
+Green Recorder - Um novo App para gravar a tela do seu Ubuntu
+</a>
+</div>
+<div class='item-snippet'>
+  Quem gosta de fazer captura de tela, gameplays ou tutoriais, sempre está de olho em aplicações com a funcionalidade de gravação de desktop...
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+<li>
+<div class='item-content'>
+<div class='item-thumbnail'>
+<a href='http://www.diolinux.com.br/2015/02/pack-com-mais-de-4-mil-fontes-para-download.html' target='_blank'>
+<img alt='thumbnail2' border='0' height='72' src='http://2.bp.blogspot.com/-vaj8EB5O5BQ/VNKGiMSt_iI/AAAAAAAAOQE/TlLpQ9fEfew/s72-c/Captura%2Bde%2Btela%2Bde%2B2015-02-04%2B18%3A42%3A04.png' width='72'/>
+</a>
+</div>
+<div class='item-title'>
+<a href='http://www.diolinux.com.br/2015/02/pack-com-mais-de-4-mil-fontes-para-download.html'>
+Pack com mais de 4 mil fontes para trabalhar com Design - Download
+</a>
+</div>
+<div class='item-snippet'>
+ Baixe agora um pacotão com quase 4.500 fontes para você usar nos seus trabalhos, no GIMP, Photoshop, Inkscape, Corel, Illustrator ou seja l...
+</div>
+</div>
+<div style='clear: both;'></div>
+</li>
+</ul>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8360348492097356457&widgetType=PopularPosts&widgetId=PopularPosts1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("PopularPosts1"));' target='configPopularPosts1' title='Editar'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div><div class='widget HTML' data-version='1' id='HTML3'>
+<div class='widget-content'>
+<center><iframe src="https://www.facebook.com/plugins/likebox.php?href=https://www.facebook.com/blogdiolinux&width=&height=308&show_faces=true&colorscheme=light&stream=false&show_border=false&header=false" scrolling="no" frameborder="0" style="border:none;background:#fff;overflow:hidden; width:100%; height:258px;padding-bottom:10px;display:block !important" allowtransparency="true"></iframe></center>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8360348492097356457&widgetType=HTML&widgetId=HTML3&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML3"));' target='configHTML3' title='Editar'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' data-version='1' id='HTML8'>
+<div class='widget-content'>
+<center><!-- Posicione esta tag no cabeçalho ou imediatamente antes da tag de fechamento do corpo. -->
+<script src="https://apis.google.com/js/platform.js" async defer>
+  {lang: 'pt-BR'}
+</script>
+
+<!-- Posicione esta tag onde você deseja que o widget apareça. -->
+<div class="g-page" data-href="//plus.google.com/u/0/113260051287211567826" data-rel="publisher"></div></center>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8360348492097356457&widgetType=HTML&widgetId=HTML8&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML8"));' target='configHTML8' title='Editar'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget Image' data-version='1' id='Image3'>
+<h2>Maestrus</h2>
+<div class='widget-content'>
+<a href='http://bit.ly/diolinux-maestrus' target='_blank'>
+<img alt='Maestrus' height='100' id='Image3_img' src='http://3.bp.blogspot.com/-B-BQBMj-jO0/V7JCxNIqHPI/AAAAAAAAY2k/StamJMZ3tF4uHBkV_bRoCyzuPt-iYiesACK4B/s1600/maestrus.jpg' width='350'/>
+</a>
+<br/>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8360348492097356457&widgetType=Image&widgetId=Image3&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("Image3"));' target='configImage3' title='Editar'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget BlogArchive' data-version='1' id='BlogArchive1'>
+<h2>Memória do blog</h2>
+<div class='widget-content'>
+<div id='ArchiveList'>
+<div id='BlogArchive1_ArchiveList'>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/search?updated-min=2017-01-01T00:00:00-02:00&updated-max=2018-01-01T00:00:00-02:00&max-results=50'>
+2017
+</a>
+<span class='post-count' dir='ltr'>(60)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2017_02_01_archive.html'>
+Fevereiro
+</a>
+<span class='post-count' dir='ltr'>(19)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2017_01_01_archive.html'>
+Janeiro
+</a>
+<span class='post-count' dir='ltr'>(41)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/search?updated-min=2016-01-01T00:00:00-02:00&updated-max=2017-01-01T00:00:00-02:00&max-results=50'>
+2016
+</a>
+<span class='post-count' dir='ltr'>(774)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2016_12_01_archive.html'>
+Dezembro
+</a>
+<span class='post-count' dir='ltr'>(65)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2016_11_01_archive.html'>
+Novembro
+</a>
+<span class='post-count' dir='ltr'>(46)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2016_10_01_archive.html'>
+Outubro
+</a>
+<span class='post-count' dir='ltr'>(29)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2016_09_01_archive.html'>
+Setembro
+</a>
+<span class='post-count' dir='ltr'>(54)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2016_08_01_archive.html'>
+Agosto
+</a>
+<span class='post-count' dir='ltr'>(73)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2016_07_01_archive.html'>
+Julho
+</a>
+<span class='post-count' dir='ltr'>(51)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2016_06_01_archive.html'>
+Junho
+</a>
+<span class='post-count' dir='ltr'>(60)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2016_05_01_archive.html'>
+Maio
+</a>
+<span class='post-count' dir='ltr'>(82)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2016_04_01_archive.html'>
+Abril
+</a>
+<span class='post-count' dir='ltr'>(89)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2016_03_01_archive.html'>
+Março
+</a>
+<span class='post-count' dir='ltr'>(70)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2016_02_01_archive.html'>
+Fevereiro
+</a>
+<span class='post-count' dir='ltr'>(86)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2016_01_01_archive.html'>
+Janeiro
+</a>
+<span class='post-count' dir='ltr'>(69)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/search?updated-min=2015-01-01T00:00:00-02:00&updated-max=2016-01-01T00:00:00-02:00&max-results=50'>
+2015
+</a>
+<span class='post-count' dir='ltr'>(738)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2015_12_01_archive.html'>
+Dezembro
+</a>
+<span class='post-count' dir='ltr'>(72)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2015_11_01_archive.html'>
+Novembro
+</a>
+<span class='post-count' dir='ltr'>(98)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2015_10_01_archive.html'>
+Outubro
+</a>
+<span class='post-count' dir='ltr'>(97)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2015_09_01_archive.html'>
+Setembro
+</a>
+<span class='post-count' dir='ltr'>(80)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2015_08_01_archive.html'>
+Agosto
+</a>
+<span class='post-count' dir='ltr'>(62)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2015_07_01_archive.html'>
+Julho
+</a>
+<span class='post-count' dir='ltr'>(53)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2015_06_01_archive.html'>
+Junho
+</a>
+<span class='post-count' dir='ltr'>(70)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2015_05_01_archive.html'>
+Maio
+</a>
+<span class='post-count' dir='ltr'>(80)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2015_04_01_archive.html'>
+Abril
+</a>
+<span class='post-count' dir='ltr'>(39)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2015_03_01_archive.html'>
+Março
+</a>
+<span class='post-count' dir='ltr'>(32)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2015_02_01_archive.html'>
+Fevereiro
+</a>
+<span class='post-count' dir='ltr'>(28)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2015_01_01_archive.html'>
+Janeiro
+</a>
+<span class='post-count' dir='ltr'>(27)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/search?updated-min=2014-01-01T00:00:00-02:00&updated-max=2015-01-01T00:00:00-02:00&max-results=50'>
+2014
+</a>
+<span class='post-count' dir='ltr'>(498)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2014_12_01_archive.html'>
+Dezembro
+</a>
+<span class='post-count' dir='ltr'>(29)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2014_11_01_archive.html'>
+Novembro
+</a>
+<span class='post-count' dir='ltr'>(33)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2014_10_01_archive.html'>
+Outubro
+</a>
+<span class='post-count' dir='ltr'>(35)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2014_09_01_archive.html'>
+Setembro
+</a>
+<span class='post-count' dir='ltr'>(46)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2014_08_01_archive.html'>
+Agosto
+</a>
+<span class='post-count' dir='ltr'>(32)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2014_07_01_archive.html'>
+Julho
+</a>
+<span class='post-count' dir='ltr'>(32)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2014_06_01_archive.html'>
+Junho
+</a>
+<span class='post-count' dir='ltr'>(38)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2014_05_01_archive.html'>
+Maio
+</a>
+<span class='post-count' dir='ltr'>(39)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2014_04_01_archive.html'>
+Abril
+</a>
+<span class='post-count' dir='ltr'>(42)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2014_03_01_archive.html'>
+Março
+</a>
+<span class='post-count' dir='ltr'>(48)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2014_02_01_archive.html'>
+Fevereiro
+</a>
+<span class='post-count' dir='ltr'>(64)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2014_01_01_archive.html'>
+Janeiro
+</a>
+<span class='post-count' dir='ltr'>(60)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/search?updated-min=2013-01-01T00:00:00-02:00&updated-max=2014-01-01T00:00:00-02:00&max-results=50'>
+2013
+</a>
+<span class='post-count' dir='ltr'>(826)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2013_12_01_archive.html'>
+Dezembro
+</a>
+<span class='post-count' dir='ltr'>(26)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2013_11_01_archive.html'>
+Novembro
+</a>
+<span class='post-count' dir='ltr'>(64)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2013_10_01_archive.html'>
+Outubro
+</a>
+<span class='post-count' dir='ltr'>(73)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2013_09_01_archive.html'>
+Setembro
+</a>
+<span class='post-count' dir='ltr'>(65)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2013_08_01_archive.html'>
+Agosto
+</a>
+<span class='post-count' dir='ltr'>(84)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate expanded'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy toggle-open'>
+
+        &#9660;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2013_07_01_archive.html'>
+Julho
+</a>
+<span class='post-count' dir='ltr'>(145)</span>
+<ul class='posts'>
+<li><a href='http://www.diolinux.com.br/2013/07/pessoas-carentes-pegam-virus-android.html'>Notícia: &quot;Pessoas carentes pegam vírus no Android&quot;...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/ubuntu-forum-volta-funcionar.html'>Ubuntu Fórum volta a funcionar depois de ataque</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/teclas-de-atalho-facebook.html'>Conheça as teclas de atalhos do Facebook</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/sonic-hedgehog-2-detonado.html'>Sonic the Hedgehog #2 - Detonado</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/como-instalar-o-jolicloud-desktop.html'>Como instalar o Jolicloud Desktop no Ubuntu</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/slenderpants-linux-download.html'>Slenderpants para Linux</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/virus-americano-pedofilia-fbi.html'>Vírus de Computador faz homem se entregar a políci...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/como-instalar-gnome-desktop-38-no-ubuntu.html'>Como Instalar Gnome Desktop 3.8 no Ubuntu</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/instalar-ultima-versao-estavel-do-kazam.html'>Instalar a última versão estável do Kazam Screenca...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/replicant-fsf-quer-criar-um-android.html'>Replicant: FSF quer criar um Android totalmente Op...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/ver-ubuntu-edge-em-3D.html'>Quer conhecer o Ubuntu Edge? Que tal dar uma olhad...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/zombie-grinder-um-novo-rpg-game-para-linux.html'>Zombie Grinder - Um novo RPG Game para Linux | Dow...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/jogar-poker-online-no-linux.html'>Jogar Poker Online no Linux</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/feedly-suas-noticas-rss-e-google-reader.html'>Feedly - Suas Notícas, RSS e Google Reader tudo em...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/android-haunted-night-running-game.html'>Android: Haunted Night - Running Game</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/jogando-no-linux-contra-rebirth.html'>Jogando no Linux - Contra ReBirth</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/avocado-rede-social-dos-namorados.html'>Avocado - A rede social dos namorados para Android...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/real-horror-history-game-de-terror.html'>Real Horror History - Game de Terror Online</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/uncomplicated-gtk-theme-para-ubuntu.html'>Uncomplicated GTK Theme para Ubuntu e Linux Mint</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/dois-jogos-de-quiz-para-android.html'>Dois jogos de Quiz para Android | Topa ou não topa...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/world-of-padman-um-fps-para-linux-download-desura.html'>World of Padman, um FPS para Linux que vai te faze...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/matando-processos-no-linux-pelo-terminal.html'>Matando processos no Linux pelo terminal</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/games-dicas-e-lancamentos-linux.html'>Melhores da Semana: Games, dicas e muitos lançamen...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/abobos-big-adventure-revivendo-todos-os-classicos-do-NES.html'>Abobo&#39;s Big Adventure: Revivendo todos os clássico...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/recordscreenpy-gravando-tela-do-linux.html'>Recordscreen.py: Gravando a tela do Linux com um S...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/burnout-linux-gameplay.html'>Burnout Linux Gameplay | Cadê meu para-brisa?</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/como-configurar-gerenciadores-de-login-ubuntu.html'>Como criar uma distro Linux baseada no Ubuntu part...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/ubuntu-1310-alpha-2-download.html'>Ubuntu 13.10 Alpha 2 disponível para download com ...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/libre-office-41-instalacao-ubuntu.html'>Libre Office 4.1 lançado | Tutorial de instalação ...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/novidades-android-jelly-bean-43.html'>Android Jelly Bean 4.3 lançado pela Google | Confi...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/udacity-o-melhor-software-para-editar-audio-linux-windows-mac.html'>Audacity - O melhor software para editar áudio no ...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/gravar-a-tela-no-ubuntu-gameplays.html'>Screencastor, uma nova ferramenta para gravar o de...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/gimp-tutorial-como-criar-um-efeito-sombra.html'>GIMP Tutorial: Como criar um efeito de sombra em o...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/aviary-um-editor-de-imagens-com-filtros.html'>Aviary: Um editor de imagens com filtros e adesivo...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/vivaldi-um-novo-tablet-com-kde-plasma-active.html'>Vivaldi: Um novo Tablet com KDE Plasma Active</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/monochroma-um-game-obra-de-arte-para-linux-gameplay.html'>MonoChroma um game obra de arte para Linux | Gamep...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/fedora-gnome-software-center-.html'>Gnome Software Center &quot;copia&quot; o iPad e pode aparec...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/kernel-3102-disponivel-instalar-ubuntu.html'>Kernel 3.10.2 disponível + Tutorial de instalação</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/audio-recorder-install-ubuntu.html'>Audio Recorder: Um nova ferramenta para gravar áud...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/demonstracao-do-ambiente-desktop.html'>Demonstração do Ambiente Desktop Cinnamon 1.8 no U...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/tema-de-icones-moka-para-ubuntu-e-linux.html'>Tema de ícones Moka para Ubuntu e Linux Mint ( Apa...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/anonical-anuncia-primeiro-smartphone-com-mac-e-windows-na-propaganda.html'>Canonical anuncia primeiro Smartphone com Ubuntu e...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/lxde-e-razor-qt-serao-um-mesmo-ambiente.html'>LXDE e Razor-QT serão um mesmo ambiente gráfico no...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/substituindo-o-nautilus-pelo-nemo-no-ubuntu.html'>Substituindo o Nautilus pelo Nemo no Ubuntu</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/apresentando-o-regata-os-131-box.html'>Apresentando o Regata OS 13.1 BOX</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/disponivel-linux-mint-15-kde-download.html'>Novo Linux Mint 15 KDE disponível para Download</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/forum-do-ubuntu-atacado-e-tem-milhoes-de-contas-vazadas.html'>Fórum do Ubuntu é atacado e tem 1,8 milhões de con...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/gameplay-de-sonic-3d-rodando-no-linux.html'>Gameplay de Sonic 3D rodando no Linux</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/fast-racing-game-de-corrida-gratis-para-android.html'>Fast Racing - Game de Corrida Grátis para Android</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/resumo-semanal-noticias-linux.html'>Melhores da Semana Diolinux</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/akfu-um-novo-mmorpg-disponivel-para-linux.html'>Wakfu, um novo MMORPG disponível para Ubuntu</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/Linux-agora-roda-directx-3d.html'>Linux agora roda DirectX 3D e mercado de games se ...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/como-instalar-o-xampp-32-64-bits.html'>Nova versão do Servidor XAMPP traz atualizações de...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/minecraft-epico-1.html'>Minecraft ÉPICO #1</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/wine-16-lancado-veja-como-instalar-no-ubuntu.html'>Wine 1.6 lançado! Veja como instalar no Ubuntu e n...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/como-melhorar-o-desempenho-do-wine.html'>Melhore o desempenho do WINE aumentando a memória ...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/abrir-o-terminal-pelo-nautilus.html'>Como adicionar a opção &quot;Abrir num terminal&quot; no men...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/feliz-aniversario-20-anos-de-slackware.html'>Feliz Aniversário: 20 anos de Slackware!</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/vlc-player-21-sera-portado-para-qt5.html'>VLC Player 2.1 será portado para QT5</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/assassins-creed-ii-gratis-na-xbox-live.html'>Assassin&#39;s Creed II - Grátis na xbox live</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/como-fazer-o-libre-office-abrir-muito-rapido.html'>Como fazer o Libre Office abrir muito mais rápido</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/tema-gtk-azul-greybird-para-ubuntu.html'>Deixando o Ubuntu mais azul com o tema GTK GreyBir...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/nstalando-facilmente-drivers-de-placas-ati-no-ubuntu-e-linux-mint.html'>Instalando facilmente Drivers de Placas ATI no Ubu...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/mir-20-mais-lento-que-o-x-e-o-modo-game.html'>Mir 20% mais lento que o &quot;X&quot; e o &quot;modo game&quot; do Ub...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/falling-fred-cuidado-com-cabeca-android.html'>Falling Fred: Cuidado com a cabeça! | Android</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/serious-sam-3-bfe-gold-com-90-desconto-steam-linux.html'>Serious Sam 3 BFE Gold com 90% de desconto da Stea...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/crytek-contrata-programadores-linux.html'>Crytek contrata programadores Linux para apoiar a ...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/lucas-nussbaum-quer-ubuntizar-o-debian.html'>Lucas Nussbaum quer &quot;Ubuntizar o Debian&quot;</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/gameplay-power-rangers-samurai-dolphin.html'>Novo Vídeo do Canal do Diolinux - Power Rangers Sa...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/o-ubuntu-poderia-fazer-como-o-mac-os.html'>O Ubuntu poderia fazer como o Mac OS?</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/tails-distro-linux-para-navegar-na-deep-web.html'>Navegando na Deep Web com o Tails Linux</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/diodon-gerenciador-de-clipboard-para-ubuntu.html'>Diodon - Gerenciador de Clipboard para Ubuntu</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/extensao-skype-gnome-shell.html'>Uma melhor integração do Skype com o Gnome Shell c...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/mulher-morre-eletrocutada-ao-atender-iphone.html'>Mulher morre eletrocutada ao atender iPhone 5</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/desvendando-deep-web.html'>Desvendando a Deep Web</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/silicon-disc-burner-ganha-nova-versao.html'>Silicon Disc Burner ganha nova versão</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/ogando-sega-genesis-mega-drive-sem-emulador.html'>Jogando Sega Genesis ( Mega Drive ) sem Emulador</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/matrix-rodando-no-windows-xp-wtf-humor.html'>Matrix rodando no Windows XP WTF! | Humor</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/concurso-de-papeis-de-parede-para-o-ubuntu-saucy-salamander.html'>Concurso de papeis de parede para o Ubuntu 13.10 S...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/noticias-segunda-semana-de-julho-2013.html'>Melhores da Semana #2: Games, GIMP, Raspberry PI p...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/steam-roda-games-de-64-bits.html'>Steam roda games de 64 bits exclusivamente no Linu...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/nova-sede-da-samsung-no-vale-do-silicio.html'>Nova sede da Samsung no Vale do Silício</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/linux-mint-xfce-15-download.html'>Linux Mint 15 XFCE disponível para download</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/dota-2-disponivel-para-linux-na-steam.html'>Dota 2 disponível para Linux na Steam</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/como-editar-os-menus-do-ubuntu.html'>Como criar uma distro Linux baseada no Ubuntu part...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/install-newest-nvidia-drivers-on-linux-ubuntu-mint.html'>Instalando as Últimas versões dos Drivers das plac...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/eadwerks-consegue-arrecadar-fundos-para-portar-engine-para-o-linux.html'>Leadwerks consegue arrecadar fundos suficiente no ...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/life-goes-on-primeiro-gameplay-do-canal.html'>Life Goes On - Primeiro gameplay do Canal do Dioli...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/microsoft-investe-no-openstreet-maps.html'>Microsoft investe no OpenStreet Maps para concorre...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/rtista-recria-super-mario-bros-com-comida.html'>Artista recria &quot;Super Mario Bros&quot; com Comida</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/wheres-my-water-para-android.html'>Where&#39;s My Water? para Android</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/system-settings-do-ubuntu-atualizado-mockup.html'>System-Settings do Ubuntu recebe atualizações visu...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/guitar-gods-um-game-no-estilo-guitar-hero-para-linux.html'>Guitar Gods: Um game no estilo Guitar Hero para Li...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/editor-de-menu-alacarte-para-ubuntu.html'>Editor de Menu Alacarte para Ubuntu</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/virtual-photo-gallery-para-android.html'>Virtual Photo Gallery para Android</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/rockstar-games-divulga-gameplay-de-gta-5.html'>Rockstar Games divulga gameplay de GTA 5</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/ghost-miner-minecraft-com-terror.html'>Ghost Miner: Minecraft com terror</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/jogos-de-super-nintendo-online.html'>SnexBox - Jogue os clássicos do Super Nintendo dir...</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/ezame-um-novo-editor-de-menus-para-ubuntu.html'>Ezame - Um novo editor de Menus para Ubuntu</a></li>
+<li><a href='http://www.diolinux.com.br/2013/07/ovidades-no-gnome.html'>Novidades no Gnome: Novo menu de notificações e no...</a></li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2013_06_01_archive.html'>
+Junho
+</a>
+<span class='post-count' dir='ltr'>(107)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2013_05_01_archive.html'>
+Maio
+</a>
+<span class='post-count' dir='ltr'>(83)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2013_04_01_archive.html'>
+Abril
+</a>
+<span class='post-count' dir='ltr'>(70)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2013_03_01_archive.html'>
+Março
+</a>
+<span class='post-count' dir='ltr'>(33)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2013_02_01_archive.html'>
+Fevereiro
+</a>
+<span class='post-count' dir='ltr'>(29)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2013_01_01_archive.html'>
+Janeiro
+</a>
+<span class='post-count' dir='ltr'>(47)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/search?updated-min=2012-01-01T00:00:00-02:00&updated-max=2013-01-01T00:00:00-02:00&max-results=50'>
+2012
+</a>
+<span class='post-count' dir='ltr'>(854)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2012_12_01_archive.html'>
+Dezembro
+</a>
+<span class='post-count' dir='ltr'>(47)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2012_11_01_archive.html'>
+Novembro
+</a>
+<span class='post-count' dir='ltr'>(78)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2012_10_01_archive.html'>
+Outubro
+</a>
+<span class='post-count' dir='ltr'>(81)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2012_09_01_archive.html'>
+Setembro
+</a>
+<span class='post-count' dir='ltr'>(104)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2012_08_01_archive.html'>
+Agosto
+</a>
+<span class='post-count' dir='ltr'>(214)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2012_07_01_archive.html'>
+Julho
+</a>
+<span class='post-count' dir='ltr'>(109)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2012_06_01_archive.html'>
+Junho
+</a>
+<span class='post-count' dir='ltr'>(130)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2012_05_01_archive.html'>
+Maio
+</a>
+<span class='post-count' dir='ltr'>(47)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2012_04_01_archive.html'>
+Abril
+</a>
+<span class='post-count' dir='ltr'>(6)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2012_03_01_archive.html'>
+Março
+</a>
+<span class='post-count' dir='ltr'>(1)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2012_02_01_archive.html'>
+Fevereiro
+</a>
+<span class='post-count' dir='ltr'>(19)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2012_01_01_archive.html'>
+Janeiro
+</a>
+<span class='post-count' dir='ltr'>(18)</span>
+</li>
+</ul>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/search?updated-min=2011-01-01T00:00:00-02:00&updated-max=2012-01-01T00:00:00-02:00&max-results=50'>
+2011
+</a>
+<span class='post-count' dir='ltr'>(64)</span>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2011_12_01_archive.html'>
+Dezembro
+</a>
+<span class='post-count' dir='ltr'>(8)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2011_11_01_archive.html'>
+Novembro
+</a>
+<span class='post-count' dir='ltr'>(11)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2011_10_01_archive.html'>
+Outubro
+</a>
+<span class='post-count' dir='ltr'>(13)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2011_09_01_archive.html'>
+Setembro
+</a>
+<span class='post-count' dir='ltr'>(11)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2011_08_01_archive.html'>
+Agosto
+</a>
+<span class='post-count' dir='ltr'>(5)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2011_07_01_archive.html'>
+Julho
+</a>
+<span class='post-count' dir='ltr'>(2)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2011_06_01_archive.html'>
+Junho
+</a>
+<span class='post-count' dir='ltr'>(3)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2011_05_01_archive.html'>
+Maio
+</a>
+<span class='post-count' dir='ltr'>(4)</span>
+</li>
+</ul>
+<ul class='hierarchy'>
+<li class='archivedate collapsed'>
+<a class='toggle' href='javascript:void(0)'>
+<span class='zippy'>
+
+        &#9658;&#160;
+      
+</span>
+</a>
+<a class='post-count-link' href='http://www.diolinux.com.br/2011_04_01_archive.html'>
+Abril
+</a>
+<span class='post-count' dir='ltr'>(7)</span>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8360348492097356457&widgetType=BlogArchive&widgetId=BlogArchive1&action=editWidget&sectionId=sidebar' onclick='return _WidgetManager._PopupConfig(document.getElementById("BlogArchive1"));' target='configBlogArchive1' title='Editar'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div>
+</div></div>
+</aside>
+<!-- spacer for skins that want sidebar and main to be the same height-->
+<div class='clear'></div>
+</div>
+</div>
+<div class='clear'></div>
+<footer>
+<div class='footer-sidebar'>
+<div class='footer-content footer-navigation'>
+<div class='section' id='lowerbar1'><div class='widget HTML' data-version='1' id='HTML7'>
+<div class='widget-content'>
+<div class="footer-copy" style="font-weight: normal;"><div><div><span =""  style="font-size:medium;"><b>Diolinux &#169; 2012-2016</b></span></div></div></div><div style="font-weight: normal;"><span =""  style="font-size:100%;"><b><a href="http://www.diolinux.com.br/p/parceiros-do-diolinux.html">Parceiros</a></b></span></div><div style="font-weight: normal;"><span =""  style="font-size:100%;"><b><a href="http://www.diolinux.com.br/p/media-kit.html">Anuncie</a></b></span></div><div style="font-weight: normal;"><span =""  style="font-size:100%;"><b><a href="http://www.diolinux.com.br/p/envie-seus-artigos.html">Envie seu artigo</a></b></span></div><div style="font-weight: normal;"><span =""  style="font-size:100%;"><b><a href="http://www.diolinux.com.br/p/contato.html">Contato</a></b></span></div><div style="font-weight: normal;"><span =""  style="font-size:100%;"><b><a href="http://www.diolinux.com.br/p/area-vip-apoiadores.html">Apoiadores</a></b></span></div><div style="font-weight: normal;"><span =""  style="font-size:100%;"><b><a href="http://www.diolinux.com.br/p/busca.html">Busca avançada</a></b></span></div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8360348492097356457&widgetType=HTML&widgetId=HTML7&action=editWidget&sectionId=lowerbar1' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML7"));' target='configHTML7' title='Editar'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+<div class='footer-content'>
+<div class='section' id='lowerbar2'><div class='widget HTML' data-version='1' id='HTML5'>
+<div class='widget-content'>
+<h2 style="font-family: Georgia, serif; font-size: 100%; font-style: normal; font-variant: normal; font-weight: normal; line-height: normal;"><br /></h2><div><span =""   style="font-family:&quot;;color:#dddddd;"><a href="http://www.ubuntu.com/" style="color: white; text-decoration: underline;">Ubuntu</a> e Canonical são marcas </span></div><div><span =""  style="font-family:&quot;;">registradas de <a href="http://www.canonical.com/" style="color: white; text-decoration: underline;">Canonical Ltd.</a></span></div>
+<a href="http://www.blogarama.com/Unknown-Blogs/512699-Diolinux---Open-Source-Ubuntu-Android-e-tecnologia-Blog?claim=318353" target="_blank">Follow me on Blogarama</a>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8360348492097356457&widgetType=HTML&widgetId=HTML5&action=editWidget&sectionId=lowerbar2' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML5"));' target='configHTML5' title='Editar'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+<div class='footer-content'>
+<div class='section' id='lowerbar3'><div class='widget HTML' data-version='1' id='HTML10'>
+<h2 class='title'>
+Parceiros
+</h2>
+<div class='widget-content'>
+<style>.parceiros a {color:#f5f5f5;}</style><br /><div class="parceiros" dir="ltr" style="font-weight: normal; text-align: left;" trbidi="on"><a href="http://sejalivre.org/" target="_blank">Seja Livre</a><br /><a href="http://livrenavegar.com.br/" rel="nofollow" target="_blank">Livre Navegar</a><br /><a href="http://www.ubuntero.com.br/" target="_blank">Ubuntero</a><div><a href="http://porthalmarau.com.br/" target="_blank">Porthal</a><br /><a href="http://www.nanoinformatica.com.br/" target="_blank">Nano Informática</a><br /><a href="https://www.youtube.com/user/tocadotux" target="_blank">Toca do Tux</a><br /></div><a href="http://www.metamorphoselinux.net/" target="_blank">Metamorphose Linux</a></div><div class="parceiros" dir="ltr" style="font-weight: normal; text-align: left;" trbidi="on"><a href="http://www.uniaolivre.com/">União Livre</a></div><div class="parceiros" dir="ltr" style="font-weight: normal; text-align: left;" trbidi="on"><a href="http://www.vivaolinux.com.br/" target="_blank">Viva o Linux</a></div><div class="parceiros" dir="ltr" style="font-weight: normal; text-align: left;" trbidi="on"><a href="http://www.edivaldobrito.com.br/">Blog do Edivaldo<br /></a></div><div class="parceiros" dir="ltr" style="font-weight: normal; text-align: left;" trbidi="on"><a href="http://www.talesam.org/blog/">Tales Mendonça</a></div><div class="parceiros" dir="ltr" style="font-weight: normal; text-align: left;" trbidi="on"><b><a href="http://coletivo.semanadolinux.com.br/">Coletivo - Semana do Linux</a></b></div><div class="parceiros" dir="ltr" style="text-align: left;" trbidi="on"><b><a href="https://arena4g.com/">Arena 4G</a></b></div>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8360348492097356457&widgetType=HTML&widgetId=HTML10&action=editWidget&sectionId=lowerbar3' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML10"));' target='configHTML10' title='Editar'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div></div>
+</div>
+<div class='footer-content footer-featured'>
+<div class='section' id='lowerbar4'><div class='widget HTML' data-version='1' id='HTML6'>
+<div class='widget-content'>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Topo -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4298533800014985"
+     data-ad-slot="6512030551"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+<div class='clear'></div>
+<span class='widget-item-control'>
+<span class='item-control blog-admin'>
+<a class='quickedit' href='//www.blogger.com/rearrange?blogID=8360348492097356457&widgetType=HTML&widgetId=HTML6&action=editWidget&sectionId=lowerbar4' onclick='return _WidgetManager._PopupConfig(document.getElementById("HTML6"));' target='configHTML6' title='Editar'>
+<img alt='' height='18' src='https://resources.blogblog.com/img/icon18_wrench_allbkg.png' width='18'/>
+</a>
+</span>
+</span>
+<div class='clear'></div>
+</div><div class='widget HTML' data-version='1' id='HTML4'>
+<script async='async' type='text/javascript'>
+                  var disqus_shortname = 'diolinux-blog';
+                  var disqus_blogger_current_url = "http://www.diolinux.com.br/2013/07/omo-instalar-o-sublime-text-3-no-via-ppa.html";
+                  if (!disqus_blogger_current_url.length) {
+                    disqus_blogger_current_url = "http://www.diolinux.com.br/2013/07/omo-instalar-o-sublime-text-3-no-via-ppa.html";
+                  }
+                  var disqus_blogger_homepage_url = "http://www.diolinux.com.br/";
+                  var disqus_blogger_canonical_homepage_url = "http://www.diolinux.com.br/";
+                </script>
+<script async='async' type='text/javascript'>
+                    (function() {
+                      var bloggerjs = document.createElement('script');
+                                                             bloggerjs.type = 'text/javascript';
+                                                             bloggerjs.async = true;
+                                                             bloggerjs.src = 'http://'+disqus_shortname+'.disqus.com/blogger_item.js';
+                                                             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(bloggerjs);
+                                                             })();
+                  </script>
+<style type='text/css'>
+                  .post-comment-link { visibility: hidden; }
+                </style>
+<script async='async' type='text/javascript'>
+                  (function() {
+                    var bloggerjs = document.createElement('script');
+                                                           bloggerjs.type = 'text/javascript';
+                                                           bloggerjs.async = true;
+                                                           bloggerjs.src = 'http://'+disqus_shortname+'.disqus.com/blogger_index.js';
+                                                           (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(bloggerjs);
+                                                           })();
+                </script>
+</div></div>
+</div>
+<div style='clear: both;'></div>
+</div>
+</footer>
+</div>
+<!-- //Menu and Search Start// -->
+<script type='text/javascript'>
+    //<![CDATA[
+    // Turn the navigation menu into an ul Menu
+    var navItems = [{
+      text: 'Menu',
+      url: '/'}],navSelect, nav = $('nav'),win = $(window),index = nav.find('a').filter('.active').index();index = (index !== -1) ? index + 1 : 0;win.resize(function() {if (win.width() < 600) {if (!navSelect) {navSelect = $('<select>');Array.prototype.push.apply(navItems, nav.find('a').map(function() {return {text: this.textContent,url: this.href};}).get());$.each(navItems, function() {navSelect.append($('<option>', {text: this.text}));});navSelect.on('change', function() {window.location = navItems[this.selectedIndex].url;});navSelect.prop('selectedIndex', index);navSelect.appendTo('header');}nav.hide();navSelect.show();} else {nav.show();navSelect && navSelect.hide();}}).resize();// Active The search text field
+    var search = $('.search');search.click(function(e) {e.preventDefault();if (search.is('.active') && $(e.target).is(search)) {search.removeClass('active');} else {search.addClass('active');search.find('input').focus();}}); $('body').click(function(e) { if (search.is('.active') && !$(e.target).is('.search, .search form, .search input')) {search.removeClass('active');}
+                                                                                                                                                                                                                                                             });
+    //]]>
+  </script>
+<!-- //404 error page// -->
+<!-- // Menu and Search End// -->
+<script type='text/javascript'>
+    //<![CDATA[
+    /************************************************************************
+  *************************************************************************
+  @Name :         BackToTop - jQuery Plugin
+  @Revison :      1.0
+  @Date :         12/2011
+  @Author:        ALPIXEL AGENCY - (www.myjqueryplugins.com - www.alpixel.fr)
+  @Support:       FF, IE7, IE8, MAC Firefox, MAC Safari
+  @License :      Open Source - MIT License : http://www.opensource.org/licenses/mit-license.php
+  **************************************************************************
+  *************************************************************************/
+    $(document).ready(function() {
+      eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('(4($){$.3={l:{g:\'N J I\',f:G,n:A,r:\'z\',d:\'9\'},i:4(5){1=$.x({},$.3.l,5),$.3.m();c(1.f)$(w).F(4(){c($(u).q()!=0){k(1.d){8\'p\':2.v(\'7\');6;8\'9\':2.y(\'7\');6;s:2.o()}}B{k(1.d){8\'p\':2.C(\'7\');6;8\'9\':2.D(\'7\');6;s:2.E()}}});$(\'#3\').t(4(e){e.H();$(\'b,j\').K({q:0},1.n,1.r)})},m:4(){2=$(\'<a />\',{L:\'3\',M:\'#b\',j:\'<h>\'+1.g+\'</h>\'}).O(\'b\');c(!1.f)2.o()}};3=4(5){$.3.i(5)}})(P);',52,52,'|opts|divBack|BackToTop|function|options|break|fast|case|slide||body|if|appearMethod||autoShow|text|span|init|html|switch|defaults|_constructLink|timeEffect|show|fade|scrollTop|effectScroll|default|click|this|fadeIn|window|extend|slideDown|linear|500|else|fadeOut|slideUp|hide|scroll|true|preventDefault|top|to|animate|id|href|Back|prependTo|jQuery'.split('|'),0,{}));
+    });
+    //]]>
+  </script>
+<!--Related Posts with thumbnails Scripts Start-->
+<!-- remove -->
+<script type='text/javascript'>
+      var defaultnoimage="";
+      var maxresults=8;
+      var splittercolor="#d4eaf2";
+      var relatedpoststitle="";
+    </script>
+<!-- remove -->
+<script type='text/javascript'>
+      //<![CDATA[
+      var relatedTitles=new Array();var relatedTitlesNum=0;var relatedUrls=new Array();var thumburl=new Array();function related_results_labels_thumbs(json){for(var i=0;i<json.feed.entry.length;i++){var entry=json.feed.entry[i];relatedTitles[relatedTitlesNum]=entry.title.$t;try{thumburl[relatedTitlesNum]=entry.media$thumbnail.url}catch(error){s=entry.content.$t;a=s.indexOf("<img");b=s.indexOf("src=\"",a);c=s.indexOf("\"",b+5);d=s.substr(b+5,c-b-5);if((a!=-1)&&(b!=-1)&&(c!=-1)&&(d!="")){thumburl[relatedTitlesNum]=d}else{if(typeof(defaultnoimage)!=='undefined')thumburl[relatedTitlesNum]=defaultnoimage;else thumburl[relatedTitlesNum]="http://3.bp.blogspot.com/-PpjfsStySz0/UF91FE7rxfI/AAAAAAAACl8/092MmUHSFQ0/s1600/no_image.jpg"}}if(relatedTitles[relatedTitlesNum].length>120)relatedTitles[relatedTitlesNum]=relatedTitles[relatedTitlesNum].substring(0,120)+"...";for(var k=0;k<entry.link.length;k++){if(entry.link[k].rel=='alternate'){relatedUrls[relatedTitlesNum]=entry.link[k].href;relatedTitlesNum++}}}}function removeRelatedDuplicates_thumbs(){var tmp=new Array(0);var tmp2=new Array(0);var tmp3=new Array(0);for(var i=0;i<relatedUrls.length;i++){if(!contains_thumbs(tmp,relatedUrls[i])){tmp.length+=1;tmp[tmp.length-1]=relatedUrls[i];tmp2.length+=1;tmp3.length+=1;tmp2[tmp2.length-1]=relatedTitles[i];tmp3[tmp3.length-1]=thumburl[i]}}relatedTitles=tmp2;relatedUrls=tmp;thumburl=tmp3}function contains_thumbs(a,e){for(var j=0;j<a.length;j++)if(a[j]==e)return true;return false}function printRelatedLabels_thumbs(current){var splitbarcolor;if(typeof(splittercolor)!=='undefined')splitbarcolor=splittercolor;else splitbarcolor="#FFFFFF";for(var i=0;i<relatedUrls.length;i++){if((relatedUrls[i]==current)||(!relatedTitles[i])){relatedUrls.splice(i,1);relatedTitles.splice(i,1);thumburl.splice(i,1);i--}}var r=Math.floor((relatedTitles.length-1)*Math.random());var i=0;if(relatedTitles.length>0)document.write('<h2>'+relatedpoststitle+'</h2>');document.write('<div style="clear: both;"/>');while(i<relatedTitles.length&&i<20&&i<maxresults){document.write('<a style="text-decoration:none;');if(i!=0)document.write('"');else document.write('"');document.write(' href="'+relatedUrls[r]+'"><img src="'+thumburl[r]+'"/><br/><div style="height:65px;border: 0pt none;margin: 3px 0pt 0pt;padding: 0pt;font-style: normal;font-variant: normal;font-weight: normal;font-size: 12px;line-height: normal;font-size-adjust: none;font-stretch: normal;">'+relatedTitles[r]+'</div></a>');i++;if(r<relatedTitles.length-1){r++}else{r=0}}document.write('</div>');relatedUrls.splice(0,relatedUrls.length);thumburl.splice(0,thumburl.length);relatedTitles.splice(0,relatedTitles.length)}
+      //]]>
+    </script>
+<!--Related Posts with thumbnails Scripts End-->
+<!--Recent Comment-->
+<script type='text/javascript'>
+    //<![CDATA[
+    var _0xd2d1 = 'http://2.bp.blogspot.com/-pMWFbCZlqOM/Uno4Y2lSqcI/AAAAAAAABIs/IYXNA6FT4lw/s1600/avatar.jpg, More &raquo;,undefined,<ul class="bdlab_recent_comments">,length,entry,feed,<li>,link,rel,alternate,href,$t,name,author,src,gd$image,/s1600/,indexOf,/s,-c/,replace,/s220/,/s512-c/,http:,blogblog.com/img/b16-rounded.gif,http://2.bp.blogspot.com/-_OKHDzWru6I/UbYr9jSvRoI/AAAAAAAABDE/HcRPJWAaAT4/s,/_logo.png,blogblog.com/img/openid16-rounded.gif,http://1.bp.blogspot.com/-D7pNfR5eNl8/UbYsZt4G7HI/AAAAAAAABDM/IA1zP-u5sSI/s,/_ogo.png,blogblog.com/img/blank.gif,gravatar.com,&s=,avatarRound,,<div class="avatarImage ,"><img class="," src="," alt="," width="," height=","/></div>,<a href=",">,</a>,content,substring,&hellip;,<span>,</span>,</li>,</ul>,display:none;,write,<a href=""></a>'.split(","),
+        numComments = numComments || 5, avatarSize = avatarSize || 60, characters = characters || 40, defaultAvatar = defaultAvatar || _0xd2d1[0], moreLinktext = moreLinktext || _0xd2d1[1], showAvatar = typeof showAvatar === _0xd2d1[2] ? !0 : showAvatar, showMorelink = typeof showMorelink === _0xd2d1[2] ? !1 : showMorelink, roundAvatar = typeof roundAvatar === _0xd2d1[2] ? !0 : roundAvatar, hideCredits = typeof hideCredits === _0xd2d1[2] ? !1 : hideCredits;
+    function bdlab_recent_comments(h) {
+      var b;
+      b = _0xd2d1[3];
+      for (var e = 0; e < numComments; e++) {
+        var f, d, a, g;
+        if (e == h[_0xd2d1[6]][_0xd2d1[5]][_0xd2d1[4]]) break;
+        b += _0xd2d1[7];
+        var c = h[_0xd2d1[6]][_0xd2d1[5]][e];
+        for (d = 0; d < c[_0xd2d1[8]][_0xd2d1[4]]; d++)
+          if (c[_0xd2d1[8]][d][_0xd2d1[9]] == _0xd2d1[10]) {
+            f = c[_0xd2d1[8]][d][_0xd2d1[11]];
+            break;
+          }
+        d = c[_0xd2d1[14]][0][_0xd2d1[13]][_0xd2d1[12]];
+        a = c[_0xd2d1[14]][0][_0xd2d1[16]][_0xd2d1[15]]; - 1 != a[_0xd2d1[18]](_0xd2d1[17]) ? a = a[_0xd2d1[21]](_0xd2d1[17], _0xd2d1[19] + avatarSize + _0xd2d1[20]) : -1 != a[_0xd2d1[18]](_0xd2d1[22]) ? a = a[_0xd2d1[21]](_0xd2d1[22], _0xd2d1[19] + avatarSize + _0xd2d1[20]) : -1 != a[_0xd2d1[18]](_0xd2d1[23]) && 0 !== a[_0xd2d1[18]](_0xd2d1[24]) ? a = _0xd2d1[24] + a[_0xd2d1[21]](_0xd2d1[23], _0xd2d1[19] + avatarSize + _0xd2d1[20]) : -1 != a[_0xd2d1[18]](_0xd2d1[25]) ? a = _0xd2d1[26] + avatarSize + _0xd2d1[27] : -1 != a[_0xd2d1[18]](_0xd2d1[28]) ? a = _0xd2d1[29] + avatarSize + _0xd2d1[30] : -1 != a[_0xd2d1[18]](_0xd2d1[31]) && (a = -1 != defaultAvatar[_0xd2d1[18]](_0xd2d1[32]) ? defaultAvatar + _0xd2d1[33] + avatarSize : defaultAvatar);
+        !0 === showAvatar && (g = !0 === roundAvatar ? _0xd2d1[34] : _0xd2d1[35], b += _0xd2d1[36] + g + _0xd2d1[37] + g + _0xd2d1[38] + a + _0xd2d1[39] + d + _0xd2d1[40] + avatarSize + _0xd2d1[41] + avatarSize + _0xd2d1[42]);
+        b += _0xd2d1[43] + f + _0xd2d1[44] + d + _0xd2d1[45];
+        c = c[_0xd2d1[46]][_0xd2d1[12]][_0xd2d1[21]](/(<([^>]+)>)/ig, _0xd2d1[35]);
+        c !== _0xd2d1[35] && c[_0xd2d1[4]] > characters && (c = c[_0xd2d1[47]](0, characters), c += _0xd2d1[48], !0 === showMorelink && (c += _0xd2d1[43] + f + _0xd2d1[44] + moreLinktext + _0xd2d1[45]));
+        b += _0xd2d1[49] + c + _0xd2d1[50];
+        b += _0xd2d1[51];
+      }
+      b += _0xd2d1[52];
+      b += _0xd2d1[35];
+      document[_0xd2d1[54]](b);
+    }
+    document[_0xd2d1[54]](_0xd2d1[55]);
+    //]]>
+  </script>
+<script type='text/javascript'>
+    //<![CDATA[
+    /* credit to: http://www.myjqueryplugins.com/BackToTop */
+    jQuery(document).ready(function($){
+      BackToTop({
+        autoShow : true,
+        text : '.',
+        timeEffect : 300
+      });
+    });
+    //]]>
+  </script>
+<script>
+    /* Google Initialize */
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                               (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+       ga('create', 'UA-56134620-1', 'auto');
+       ga('send', 'pageview');
+  </script>
+<!-- SCHEMA: Search Engine Link -->
+<script type='application/ld+json'>
+  {
+    "@context": "http://schema.org",
+    "@type": "Diolinux",
+    "url": "http://www.diolinux.com.br/",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "http://www.diolinux.com.br/search?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+<script type='text/javascript'>
+  //<![CDATA[
+    $(document).ready(function() {
+      $links = $('article .readmore a');
+      $summary_links = $('article .summary_links');
+
+      for (var index = 0; index < $links.length; index++) {
+        $summary_links[index].href = $links[index].href
+      }
+    });
+
+    $
+  //]]>
+  </script>
+<style>
+    /* Avoid the ads change the background of Html's tag */
+    html { background: #fff !important; }
+  </style>
+
+<script type="text/javascript" src="https://www.blogger.com/static/v1/widgets/1016236460-widgets.js"></script>
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>
+<script type='text/javascript'>
+window['__wavt'] = 'AOuZoY4k1vRHOQqVqCgssrbOqGXPeSATQA:1487705832989';_WidgetManager._Init('//www.blogger.com/rearrange?blogID\x3d8360348492097356457','//www.diolinux.com.br/2013/07/omo-instalar-o-sublime-text-3-no-via-ppa.html','8360348492097356457');
+_WidgetManager._SetDataContext([{'name': 'blog', 'data': {'blogId': '8360348492097356457', 'bloggerUrl': 'https://www.blogger.com', 'title': 'Diolinux -  Open Source, Ubuntu, Android e tecnologia', 'pageType': 'item', 'postId': '8889486882878979837', 'url': 'http://www.diolinux.com.br/2013/07/omo-instalar-o-sublime-text-3-no-via-ppa.html', 'canonicalUrl': 'http://www.diolinux.com.br/2013/07/omo-instalar-o-sublime-text-3-no-via-ppa.html', 'homepageUrl': 'http://www.diolinux.com.br/', 'searchUrl': 'http://www.diolinux.com.br/search', 'canonicalHomepageUrl': 'http://www.diolinux.com.br/', 'blogspotFaviconUrl': 'http://www.diolinux.com.br/favicon.ico', 'hasCustomDomain': true, 'enabledCommentProfileImages': true, 'gPlusViewType': 'FILTERED_POSTMOD', 'adultContent': false, 'analyticsAccountNumber': 'UA-33284464-1', 'useUniversalAnalytics': false, 'pageName': 'Como instalar o Sublime Text 3 no Ubuntu e derivados via PPA ( Versão para usuários não registrados )', 'pageTitle': 'Diolinux -  Open Source, Ubuntu, Android e tecnologia: Como instalar o Sublime Text 3 no Ubuntu e derivados via PPA ( Versão para usuários não registrados )', 'metaDescription': 'Instale um dos melhores editores de códigos para Linux através de um PPA muito simples', 'encoding': 'UTF-8', 'locale': 'pt_BR', 'localeUnderscoreDelimited': 'pt_br', 'isPrivate': false, 'isMobile': false, 'isMobileRequest': false, 'mobileClass': '', 'isPrivateBlog': false, 'languageDirection': 'ltr', 'feedLinks': '\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Diolinux -  Open Source, Ubuntu, Android e tecnologia - Atom\x22 href\x3d\x22http://www.diolinux.com.br/feeds/posts/default\x22 /\x3e\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/rss+xml\x22 title\x3d\x22Diolinux -  Open Source, Ubuntu, Android e tecnologia - RSS\x22 href\x3d\x22http://www.diolinux.com.br/feeds/posts/default?alt\x3drss\x22 /\x3e\n\x3clink rel\x3d\x22service.post\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Diolinux -  Open Source, Ubuntu, Android e tecnologia - Atom\x22 href\x3d\x22https://www.blogger.com/feeds/8360348492097356457/posts/default\x22 /\x3e\n\n\x3clink rel\x3d\x22alternate\x22 type\x3d\x22application/atom+xml\x22 title\x3d\x22Diolinux -  Open Source, Ubuntu, Android e tecnologia - Atom\x22 href\x3d\x22http://www.diolinux.com.br/feeds/8889486882878979837/comments/default\x22 /\x3e\n', 'meTag': '', 'openIdOpTag': '', 'postImageThumbnailUrl': 'http://2.bp.blogspot.com/-4gvrvhTdhc8/UdS2t2OEu9I/AAAAAAAAHRQ/nEtXjfpa6Ew/s72-c/Captura+de+tela+de+2013-07-03+20:41:03.png', 'postImageUrl': 'http://2.bp.blogspot.com/-4gvrvhTdhc8/UdS2t2OEu9I/AAAAAAAAHRQ/nEtXjfpa6Ew/s400/Captura+de+tela+de+2013-07-03+20:41:03.png', 'mobileHeadScript': '', 'adsenseClientId': 'ca-pub-4298533800014985', 'adsenseHostId': 'ca-host-pub-1556223355139109', 'view': '', 'dynamicViewsCommentsSrc': '//www.blogblog.com/dynamicviews/4224c15c4e7c9321/js/comments.js', 'dynamicViewsScriptSrc': '//www.blogblog.com/dynamicviews/4e551dbee4655456', 'plusOneApiSrc': 'https://apis.google.com/js/plusone.js', 'sharing': {'platforms': [{'name': 'Gerar link', 'key': 'link', 'shareMessage': 'Gerar link', 'target': ''}, {'name': 'Facebook', 'key': 'facebook', 'shareMessage': 'Compartilhar no Facebook', 'target': 'facebook'}, {'name': 'BlogThis!', 'key': 'blogThis', 'shareMessage': 'BlogThis!', 'target': 'blog'}, {'name': 'Twitter', 'key': 'twitter', 'shareMessage': 'Compartilhar no Twitter', 'target': 'twitter'}, {'name': 'Pinterest', 'key': 'pinterest', 'shareMessage': 'Compartilhar no Pinterest', 'target': 'pinterest'}, {'name': 'Google+', 'key': 'googlePlus', 'shareMessage': 'Compartilhar no Google+', 'target': 'googleplus'}, {'name': 'E-mail', 'key': 'email', 'shareMessage': 'E-mail', 'target': 'email'}], 'googlePlusShareButtonWidth': 300, 'googlePlusBootstrap': '\x3cscript type\x3d\x22text/javascript\x22\x3ewindow.___gcfg \x3d {\x27lang\x27: \x27pt_BR\x27};\x3c/script\x3e'}}}, {'name': 'features', 'data': {'enhancedSourcesets': 'true', 'unsupported_browser_message': 'false'}}, {'name': 'messages', 'data': {'linkCopiedToClipboard': 'Link copiado para a área de transferência.', 'postLink': 'Link da postagem'}}, {'name': 'template', 'data': {'name': 'custom', 'localizedName': 'Personalizar', 'isResponsive': false, 'isAlternateRendering': false, 'isCustom': true}}, {'name': 'view', 'data': {'classic': {'name': 'classic', 'url': '?view\x3dclassic'}, 'flipcard': {'name': 'flipcard', 'url': '?view\x3dflipcard'}, 'magazine': {'name': 'magazine', 'url': '?view\x3dmagazine'}, 'mosaic': {'name': 'mosaic', 'url': '?view\x3dmosaic'}, 'sidebar': {'name': 'sidebar', 'url': '?view\x3dsidebar'}, 'snapshot': {'name': 'snapshot', 'url': '?view\x3dsnapshot'}, 'timeslide': {'name': 'timeslide', 'url': '?view\x3dtimeslide'}, 'isMobile': false, 'title': 'Como instalar o Sublime Text 3 no Ubuntu e derivados via PPA ( Versão para usuários não registrados )', 'description': 'Instale um dos melhores editores de códigos para Linux através de um PPA muito simples', 'featuredImage': 'http://2.bp.blogspot.com/-4gvrvhTdhc8/UdS2t2OEu9I/AAAAAAAAHRQ/nEtXjfpa6Ew/s400/Captura+de+tela+de+2013-07-03+20:41:03.png', 'url': 'http://www.diolinux.com.br/2013/07/omo-instalar-o-sublime-text-3-no-via-ppa.html', 'type': 'item', 'isSingleItem': true, 'isMultipleItems': false, 'isError': false, 'isPage': false, 'isPost': true, 'isHomepage': false, 'isArchive': false, 'isLabelSearch': false, 'postId': 8889486882878979837}}]);
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML14', 'main', null, document.getElementById('HTML14'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML12', 'main', null, document.getElementById('HTML12'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogView', new _WidgetInfo('Blog1', 'main', null, document.getElementById('Blog1'), {'cmtInteractionsEnabled': false, 'showBacklinks': true, 'postId': '8889486882878979837', 'lightboxEnabled': true, 'lightboxModuleUrl': 'https://www.blogger.com/static/v1/jsbin/1493617956-lbx__pt_br.js', 'lightboxCssUrl': 'https://www.blogger.com/static/v1/v-css/368954415-lightbox_bundle.css'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML1', 'sidebar', null, document.getElementById('HTML1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML11', 'sidebar', null, document.getElementById('HTML11'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_TranslateView', new _WidgetInfo('Translate1', 'sidebar', null, document.getElementById('Translate1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ImageView', new _WidgetInfo('Image2', 'sidebar', null, document.getElementById('Image2'), {'resize': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ImageView', new _WidgetInfo('Image1', 'sidebar', null, document.getElementById('Image1'), {'resize': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_PopularPostsView', new _WidgetInfo('PopularPosts1', 'sidebar', null, document.getElementById('PopularPosts1'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML3', 'sidebar', null, document.getElementById('HTML3'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML8', 'sidebar', null, document.getElementById('HTML8'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_ImageView', new _WidgetInfo('Image3', 'sidebar', null, document.getElementById('Image3'), {'resize': false}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_BlogArchiveView', new _WidgetInfo('BlogArchive1', 'sidebar', null, document.getElementById('BlogArchive1'), {'languageDirection': 'ltr', 'loadingMessage': 'Carregando\x26hellip;'}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML7', 'lowerbar1', null, document.getElementById('HTML7'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML5', 'lowerbar2', null, document.getElementById('HTML5'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML10', 'lowerbar3', null, document.getElementById('HTML10'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML6', 'lowerbar4', null, document.getElementById('HTML6'), {}, 'displayModeFull'));
+_WidgetManager._RegisterWidget('_HTMLView', new _WidgetInfo('HTML4', 'lowerbar4', null, document.getElementById('HTML4'), {}, 'displayModeFull'));
+</script>
+</body>
+</html>����      X�.�X�.�=x��       Q    :http://www.diolinux.com.br/2013/07/omo-instalar-o-sublime-text-3-no-via-ppa.html necko:classified 1 strongly-framed 1 request-method GET response-head HTTP/1.1 200 OK
+x-robots-tag: all
+Content-Type: text/html; charset=UTF-8
+Expires: Thu, 23 Feb 2017 18:45:07 GMT
+Date: Thu, 23 Feb 2017 18:45:07 GMT
+Cache-Control: private, max-age=0
+Last-Modified: Tue, 21 Feb 2017 19:36:10 GMT
+Etag: W/"0b5838c89f52b7fca374cd14d25b91774c2727dec8a9855a02012dcf9f7341fd"
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Content-Length: 164417
+Server: GSE
+ original-response-headers x-robots-tag: all
+Content-Type: text/html; charset=UTF-8
+Expires: Thu, 23 Feb 2017 18:45:07 GMT
+Date: Thu, 23 Feb 2017 18:45:07 GMT
+Cache-Control: private, max-age=0
+Last-Modified: Tue, 21 Feb 2017 19:36:10 GMT
+Etag: W/"0b5838c89f52b7fca374cd14d25b91774c2727dec8a9855a02012dcf9f7341fd"
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 1; mode=block
+Content-Length: 164417
+Server: GSE
+ uncompressed-len 0 predictor::resource-count 77 predictor::http://static.boo-box.com/javascripts/boo-inject.js 1,1,1487875750,4096 predictor::http://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js 1,1,1487875750,4096 predictor::https://www.blogger.com/static/v1/widgets/124887373-widget_css_bundle.css 1,1,1487875750,4096 predictor::https://www.blogger.com/dyn-css/authorization.css?targetBlogID=8360348492097356457&zx=4ab27d92-551f-4398-a6fe-305f3d3414c8 1,1,1487875750,4096 predictor::https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js 1,1,1487875750,4096 predictor::https://resources.blogblog.com/img/icon18_wrench_allbkg.png 1,1,1487875750,4096 predictor::http://2.bp.blogspot.com/-4gvrvhTdhc8/UdS2t2OEu9I/AAAAAAAAHRQ/nEtXjfpa6Ew/s400/Captura+de+tela+de+2013-07-03+20:41:03.png 1,1,1487875750,4096 predictor::http://bit.ly/1dCc9Gb 1,1,1487875750,4096 predictor::http://widget.sambaads.com/widget.js?p=06a5b09e90db52cf789c2e6856106387&c=tecnologia&t=linux&target=self&w=100%&h=100%&resp=true 1,1,1487875750,4096 predictor::https://www.blogger.com/img/icon18_email.gif 1,1,1487875750,4096 predictor::https://www.blogger.com/img/icon18_edit_allbkg.gif 1,1,1487875750,4096 predictor::http://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit 1,1,1487875750,4096 predictor::http://2.bp.blogspot.com/-hCP7LthdJLs/V87UDels6GI/AAAAAAAAZRk/rRxrdndMQNUVfvgKyuf2QsFJc8thjwaIgCK4B/s1600/apoiadores.png 1,1,1487875750,4096 predictor::http://2.bp.blogspot.com/-od4hAOry5TU/V8hVTzUwtbI/AAAAAAAAZMU/hc03rGhxGogqoV2e3hlRXJCsPS75QAiKACK4B/s1600/canal%2Bdiolinux%2Btelegram.png 1,1,1487875750,4096 predictor::https://2.bp.blogspot.com/-AWCelWq5f_g/WKc4onZBbvI/AAAAAAAAcjw/SPiWeLWWPkgoYxk9KMogmbGt5F2u_UTwACLcB/s72-c/ubuntu%2B16.04.2%2BLTS.png 1,1,1487875750,4096 predictor::https://4.bp.blogspot.com/-mbyQcGkJ4Z4/WKSiAWtBjZI/AAAAAAAAchY/wIMtLxrATWUwYfDnPgJks_vzfKfVKNmLwCLcB/s72-c/ubuntu%2Bkylin%2BUKUI.jpg 1,1,1487875750,4096 predictor::https://1.bp.blogspot.com/-DdNiSH9qgfs/WJytP9STURI/AAAAAAAAcW4/IyZGDx-_DLAtpRB2-VhjDjYfL6ck044AgCLcB/s72-c/Apps%2Bexclusivos.png 1,1,1487875750,4096 predictor::https://2.bp.blogspot.com/-zIIlv8-o1W4/V1lyCKHjTXI/AAAAAAAAX2Q/QVaVDjxgWn8iX7gIACjEX0MLuX_WIEcswCLcB/s72-c/Spymaster-Pro-whatsapp-android-iphone.png 1,1,1487875750,4096 predictor::https://4.bp.blogspot.com/-ht96GQTtpBk/WKs9DiVpxfI/AAAAAAAAclY/Y5Bzd9xz1MguycUOgTXUH4TR2YRJY5kiQCLcB/s72-c/mas%2Bque%2Bbela%2Btela%2Bazul.png 1,1,1487875750,4096 predictor::https://3.bp.blogspot.com/-qov1Yxp1NfA/WKHtEuI5hnI/AAAAAAAAce0/rCfoD_sYGKEdWCFH7R5OvW4Zfmb8Tug2QCLcB/s72-c/5%2Bapps%2Bpara%2Bpessoas%2Bcriativas.png 1,1,1487875750,4096 predictor::https://2.bp.blogspot.com/-RhwS5vscmVM/WKxLy5vfzEI/AAAAAAAAclw/gU6iA0Y-Q7wpF8qR2kmym8ZdDeVTxNp5wCLcB/s72-c/ubuntu%2Bunity%2B8%2Bhistory.png 1,1,1487875750,4096 predictor::https://1.bp.blogspot.com/-ZSo6qTblDB8/Vxi7rVpLrXI/AAAAAAAAWRA/Ke59AzcnU0MaW5B3EdYzbO-wq2Nx1thrQCLcB/s72-c/7%2Bcoisas%2Bpara%2Bfazer%2Bdepois%2Bde%2Binstalar%2Bo%2BUbuntu.png 1,1,1487875750,4096 predictor::https://1.bp.blogspot.com/-ubVxEarXhMs/WKS0WxBh6oI/AAAAAAAAciM/ucomGRKzVD8YCD_kgJK3dzVho0gBod9KQCLcB/s72-c/green%2Brecorder%2Blinux.png 1,1,1487875750,4096 predictor::http://2.bp.blogspot.com/-vaj8EB5O5BQ/VNKGiMSt_iI/AAAAAAAAOQE/TlLpQ9fEfew/s72-c/Captura%2Bde%2Btela%2Bde%2B2015-02-04%2B18%3A42%3A04.png 1,1,1487875750,4096 predictor::https://apis.google.com/js/platform.js 1,1,1487875750,4096 predictor::http://3.bp.blogspot.com/-B-BQBMj-jO0/V7JCxNIqHPI/AAAAAAAAY2k/StamJMZ3tF4uHBkV_bRoCyzuPt-iYiesACK4B/s1600/maestrus.jpg 1,1,1487875750,4096 predictor::https://www.blogger.com/static/v1/widgets/1016236460-widgets.js 1,1,1487875750,4096 predictor::https://apis.google.com/js/plusone.js 1,1,1487875750,4096 predictor::http://b.scorecardresearch.com/beacon.js 1,1,1487875750,4096 predictor::http://tags.t.tailtarget.com/t3m.js?i=TT-10372-1/CT-102 1,1,1487875750,4096 predictor::http://b.scorecardresearch.com/b?c1=8&c2=13864735&c3=&ns__t=1487875751897&ns_c=UTF-8&cv=3.1&c8=Como%20instalar%20o%20Sublime%20Text%203%20no%20Ubuntu%20e%20derivados%20via%20PPA%20(%20Vers%C3%A3o%20para%20usu%C3%A1rios%20n%C3%A3o%20registrados%20)%20-%20Diolinux%20-%20Open%20Source%2C%20Ubuntu%2C%20Android%20e%20tecnologia&c7=http%3A%2F%2Fwww.diolinux.com.br%2F2013%2F07%2Fomo-instalar-o-sublime-text-3-no-via-ppa.html&c9=https%3A%2F%2Fwww.google.com.br%2F 1,1,1487875750,4096 predictor::http://connect.facebook.net/en_US/all.js#xfbml=1 1,1,1487875750,4096 predictor::https://pagead2.googlesyndication.com/pub-config/r20160913/ca-pub-4298533800014985.js 1,1,1487875750,4096 predictor::http://pagead2.googlesyndication.com/pagead/js/r20170215/r20170110/show_ads_impl.js 1,1,1487875750,4096 predictor::http://platform.twitter.com/widgets.js 1,1,1487875750,4096 predictor::http://diolinux-blog.disqus.com/embed.js 1,1,1487875750,4096 predictor::http://diolinux-blog.disqus.com/count.js 1,1,1487875750,4096 predictor::http://1.bp.blogspot.com/-8QZd3bW3Z24/UZl8hFmHSII/AAAAAAAAAPE/rlRmk4bHpGI/s1600/like.png 1,1,1487875750,4096 predictor::https://4.bp.blogspot.com/-XdiSD662J0w/Um-6uT9UYaI/AAAAAAAAA_k/xVOVLVBVZEg/s1600/author_icon.png 1,1,1487875750,4096 predictor::https://2.bp.blogspot.com/-LtL0QV6cIvU/Um-1TD7g5ZI/AAAAAAAAA-w/TrZ0-TFj29g/s1600/icon_clock.png 1,1,1487875750,4096 predictor::http://1.bp.blogspot.com/-sLapLGQAUv0/Uk7TgDlH7hI/AAAAAAAAAzE/WfrqSla-AYI/s1600/wmz1.jpg 1,1,1487875750,4096 predictor::https://translate.googleapis.com/translate_static/css/translateelement.css 1,1,1487875750,4096 predictor::https://translate.googleapis.com/translate_static/js/element/main.js 1,1,1487875750,4096 predictor::http://diolinux-blog.disqus.com/blogger_item.js 1,1,1487875750,4096 predictor::http://diolinux-blog.disqus.com/blogger_index.js 1,1,1487875750,4096 predictor::http://www.google-analytics.com/analytics.js 1,1,1487875750,4096 predictor::https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.pt_BR.gfsuXz2cYVI.O/m=page,plusone/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCMOrbQNox3-ecOiWrChstF_mG0efA/cb=gapi.loaded_0 1,1,1487875750,4096 predictor::https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.pt_BR.gfsuXz2cYVI.O/m=auth/exm=page,plusone/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCMOrbQNox3-ecOiWrChstF_mG0efA/cb=gapi.loaded_1 1,1,1487875750,4096 predictor::http://d.tailtarget.com/conversion.js 1,1,1487875750,4096 predictor::https://translate.googleapis.com/translate_static/js/element/61/element_main.js 1,1,1487875750,4096 predictor::https://pagead2.googlesyndication.com/pagead/osd.js 1,1,1487875750,4096 predictor::https://platform.twitter.com/js/button.5b89bce04f133ec533459161985cf461.js 1,1,1487875750,4096 predictor::https://www.facebook.com/impression.php/f36b242105193a/?lid=115&payload=%7B%22source%22%3A%22jssdk%22%7D 1,1,1487875750,4096 predictor::http://d.tailtarget.com/base.js 1,1,1487875750,4096 predictor::http://tt-10372-1.seg.t.tailtarget.com/trk?tA=TT-10372-1&tJ=_channel:diolinux:1&tK=1487875754&tM=search&tL=search&tN=search&tY=3&tZ=570467858 1,1,1487875750,4096 predictor::https://www.gstatic.com/images/branding/product/1x/translate_24dp.png 1,1,1487875750,4096 predictor::https://translate.googleapis.com/translate_a/l?client=te&alpha=true&hl=en&cb=_callbacks____0iziqt37w 1,1,1487875750,4096 predictor::https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_42x16dp.png 1,1,1487875750,4096 predictor::https://www.gstatic.com/images/branding/product/2x/translate_24dp.png 1,1,1487875750,4096 predictor::http://b.t.tailtarget.com/u? 1,1,1487875750,4096 predictor::http://translate.google.com/gen204?sl=pt&nca=te_ap&client=te&logld=v61 1,1,1487875750,4096 predictor::https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_68x28dp.png 1,1,1487875750,4096 predictor::https://www.google.com/images/cleardot.gif 1,1,1487875750,4096 predictor::https://translate.googleapis.com/translate_static/img/loading.gif 1,1,1487875750,4096 predictor::http://2.bp.blogspot.com/-rlQbCTvsOgk/Unh-5YetURI/AAAAAAAABIA/xOLxOJJltzI/s1600/backtotop.png 1,1,1487875750,4096 predictor::http://b.t.tailtarget.com/b?tA=TT-10372-1&tY=1&tS=3&tU=720B000AB62DAF580E0ED6C0026E99E2&tX=b.40&tZ=579649848 1,1,1487875750,4096 predictor::https://translate.googleapis.com/translate_static/img/te_bk.gif 1,1,1487875750,4096 predictor::https://translate.googleapis.com/translate_static/img/te_ctrl3.gif 1,1,1487875750,4096 predictor::http://tt-10372-1.seg.t.tailtarget.com/ca?tZ=641728593 1,1,1487875750,4096 predictor::http://t.tailtarget.com/__tt.gif?tA=TT-10372-1&tE=0&tF=&tI=_paulista_pernambuco_br_1487875512078_3015570370&tJ=&tQ=diolinux&tU=720B000AB62DAF580E0ED6C0026E99E2&tX=b.40&tY=1&tZ=373741104 1,1,1487875750,4096 predictor::https://a.disquscdn.com/next/embed/alfie.f51946af45e0b561c60f768335c9eb79.js 1,1,1487875750,4096 predictor::https://www.blogger.com/static/v1/v-css/368954415-lightbox_bundle.css 1,1,1487875750,4096 predictor::http://wd-edge.sharethis.com/button/getAllAppDefault.esi?cb=stLight.allDefault&app=all&publisher=ur.00000000-0000-0000-0000-000000000000&domain=diolinux.com.br 1,1,1487875750,4096 predictor::https://www.blogger.com/static/v1/jsbin/1493617956-lbx__pt_br.js 1,1,1487875750,4096 predictor::http://wd-edge.sharethis.com/button/checkOAuth.esi 1,1,1487875750,4096 predictor::http://w.sharethis.com/button/css/buttons.4d4008011051a133a045fe92d3143ad4.css 1,1,1487875750,4096 predictor::http://l.sharethis.com/cns?event=debug&fpc=38d397c-15a6c4e7553-16f10040-1&sessionID=1487875765588.99806&hostname=www.diolinux.com.br&location=%2F2013%2F07%2Fomo-instalar-o-sublime-text-3-no-via-ppa.html&shareHash=sthash.Hm2JRrU9&incomingHash=&publisher=ur.00000000-0000-0000-0000-000000000000&url=http%3A%2F%2Fwww.diolinux.com.br%2F2013%2F07%2Fomo-instalar-o-sublime-text-3-no-via-ppa.html&sharURL=&buttonType=custom&destination=copy&source=copy&result=pass&ts1487875827018.0= 1,1,1487875750,4096  �A

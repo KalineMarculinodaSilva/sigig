@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/alunoifpe/Downloads/WEB%20II%20-%20Aula_04%20-%20Instalando%20o%20CakePHP%20e%20Infraestrutura.pdf" added="2017-02-16T17:35:18Z" modified="2017-03-30T18:35:03Z" visited="2017-02-16T17:35:18Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-02-16T17:35:18Z" count="1"/>
+          <bookmark:application name="Visualizador de documentos" exec="&apos;evince %u&apos;" modified="2017-03-30T18:35:03Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alunoifpe/Downloads/WEB%20II%20-%20Aula_04%20-%20Instalando%20o%20CakePHP%20e%20Infraestrutura(1).pdf" added="2017-02-17T17:08:50Z" modified="2017-03-17T17:30:15Z" visited="2017-02-17T17:08:50Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-02-17T17:08:50Z" count="1"/>
+          <bookmark:application name="Visualizador de documentos" exec="&apos;evince %u&apos;" modified="2017-03-17T17:30:15Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alunoifpe/Downloads/WEB%20II%20-%20Aula_05%20-%20Primeira%20Aplica%C3%A7%C3%A3o%20-%20Tutorial%20Blog.pdf" added="2017-02-17T17:23:01Z" modified="2017-04-06T18:46:35Z" visited="2017-02-17T17:23:01Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-02-17T17:23:01Z" count="1"/>
+          <bookmark:application name="Visualizador de documentos" exec="&apos;evince %u&apos;" modified="2017-04-06T18:46:35Z" count="6"/>
+          <bookmark:application name="nautilus" exec="&apos;evince %U&apos;" modified="2017-04-06T18:46:33Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alunoifpe/Downloads/WEB%20II%20-%20Aula_07%20-%20Tutorial%20Autentica%C3%A7%C3%A3o%20e%20Autoriza%C3%A7%C3%A3o.pdf" added="2017-03-02T17:27:46Z" modified="2017-03-31T18:07:12Z" visited="2017-03-02T17:27:46Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-03-02T17:27:46Z" count="1"/>
+          <bookmark:application name="Visualizador de documentos" exec="&apos;evince %u&apos;" modified="2017-03-31T18:07:12Z" count="7"/>
+          <bookmark:application name="nautilus" exec="&apos;evince %U&apos;" modified="2017-03-30T17:52:04Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alunoifpe/Downloads/WEB%20II%20-%20Aula%2008%20-%20Tutorial%20Inclus%C3%A3o%20de%20Categorias.pdf" added="2017-03-02T18:05:23Z" modified="2017-03-17T17:41:56Z" visited="2017-03-02T18:05:23Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/pdf"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;firefox %u&apos;" modified="2017-03-02T18:05:23Z" count="1"/>
+          <bookmark:application name="Visualizador de documentos" exec="&apos;evince %u&apos;" modified="2017-03-17T17:41:56Z" count="5"/>
+          <bookmark:application name="nautilus" exec="&apos;evince %U&apos;" modified="2017-03-09T18:32:42Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alunoifpe/kaline/src/Template/Categories/add.ctp" added="2017-03-03T16:49:16Z" modified="2017-03-09T17:49:33Z" visited="2017-03-03T16:49:16Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-php"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;/opt/sublime_text/sublime_text %F&apos;" modified="2017-03-09T17:49:33Z" count="4"/>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2017-03-03T16:49:16Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alunoifpe/kaline/logs/error.log" added="2017-03-09T18:27:20Z" modified="2017-03-09T18:28:51Z" visited="2017-03-09T18:27:21Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-log"/>
+        <bookmark:groups>
+          <bookmark:group>gedit</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;gedit %U&apos;" modified="2017-03-09T18:27:20Z" count="1"/>
+          <bookmark:application name="gedit" exec="&apos;gedit %u&apos;" modified="2017-03-09T18:28:51Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alunoifpe/SGRH" added="2017-03-30T18:40:38Z" modified="2017-03-30T18:40:38Z" visited="2017-03-30T18:40:38Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2017-03-30T18:40:38Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alunoifpe/kaline/config/app.php" added="2017-03-31T17:12:28Z" modified="2017-03-31T17:12:28Z" visited="2017-03-31T17:12:28Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-php"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2017-03-31T17:12:28Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/alunoifpe/sgrh" added="2017-04-06T18:43:59Z" modified="2017-04-06T18:43:59Z" visited="2017-04-06T18:43:59Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="Sublime Text" exec="&apos;sublime_text %u&apos;" modified="2017-04-06T18:43:59Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

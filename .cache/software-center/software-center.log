@@ -1,0 +1,24 @@
+2015-11-04 09:48:15,841 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-11-04 09:48:18,887 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-11-04 09:48:18,909 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-11-04 09:48:19,063 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-11-04 09:48:24,797 - softwarecenter.ui.gtk3.views.lobbyview - WARNING - skipping exhibit for: 'u'leadwerks\r\nleadwerks-indie'' not available
+2015-11-04 09:48:26,240 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, 'Argumento inv\xc3\xa1lido -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-11-04 09:48:26,270 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, 'Argumento inv\xc3\xa1lido -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-11-04 09:48:30,581 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2015-11-04 09:51:50,272 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-11-04 09:51:54,766 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-11-04 10:07:16,623 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-11-04 10:07:16,865 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-11-04 10:08:17,927 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-11-04 10:08:24,091 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-11-04 10:09:14,639 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-11-04 10:09:15,767 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-11-04 10:10:00,699 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-11-04 10:10:03,766 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()

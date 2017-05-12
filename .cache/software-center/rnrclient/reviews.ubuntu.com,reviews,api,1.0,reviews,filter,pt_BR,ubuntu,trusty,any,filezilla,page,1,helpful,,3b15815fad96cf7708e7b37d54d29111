@@ -1,0 +1,53 @@
+status: 200
+content-length: 1201
+expires: Wed, 04 Nov 2015 13:00:38 GMT
+content-location: https://reviews.ubuntu.com/reviews/api/1.0/reviews/filter/pt_BR/ubuntu/trusty/any/filezilla/page/1/helpful/
+strict-transport-security: max-age=15768000; includeSubDomains; preload
+vary: Accept
+server: gunicorn/19.3.0
+last-modified: Wed, 04 Nov 2015 12:55:38 GMT
+x-bzr-revision-number: 313
+cache-control: max-age=300
+date: Wed, 04 Nov 2015 12:55:38 GMT
+content-type: application/json; charset=utf-8
+
+[
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "FileZilla", 
+        "language": "pt_BR", 
+        "reviewer_username": "cDsdM3F", 
+        "usefulness_total": 4, 
+        "usefulness_favorable": 2, 
+        "review_text": "Muito bom.", 
+        "date_deleted": null, 
+        "summary": "Leia em baixo", 
+        "version": "3.7.3-1ubuntu1", 
+        "id": 88525, 
+        "date_created": "2014-06-30 00:04:01", 
+        "reviewer_displayname": "Matheus", 
+        "package_name": "filezilla", 
+        "distroseries": "trusty"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "FileZilla", 
+        "language": "pt_BR", 
+        "reviewer_username": "cRxKG8r", 
+        "usefulness_total": 0, 
+        "usefulness_favorable": 0, 
+        "review_text": "Sempre uso!\nObrigado!", 
+        "date_deleted": null, 
+        "summary": "Show!", 
+        "version": "3.7.3-1ubuntu1", 
+        "id": 93232, 
+        "date_created": "2014-12-29 15:22:57", 
+        "reviewer_displayname": "Ítalo Cantalupo Lima", 
+        "package_name": "filezilla", 
+        "distroseries": "trusty"
+    }
+]

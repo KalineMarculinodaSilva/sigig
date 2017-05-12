@@ -1,0 +1,157 @@
+status: 200
+content-length: 3688
+expires: Wed, 04 Nov 2015 16:48:07 GMT
+content-location: https://reviews.ubuntu.com/reviews/api/1.0/review-stats/any/any/updates-last-1-days/
+strict-transport-security: max-age=15768000; includeSubDomains; preload
+vary: Accept,Accept-Encoding
+server: gunicorn/19.3.0
+last-modified: Wed, 04 Nov 2015 12:48:07 GMT
+-content-encoding: gzip
+x-bzr-revision-number: 313
+cache-control: max-age=14400
+date: Wed, 04 Nov 2015 12:48:25 GMT
+content-type: application/json; charset=utf-8
+-varied-accept-encoding: gzip, deflate
+
+[
+    {
+        "ratings_total": 92, 
+        "ratings_average": "4.75", 
+        "app_name": "", 
+        "package_name": "krusader", 
+        "histogram": "[0, 1, 4, 12, 75]"
+    }, 
+    {
+        "ratings_total": 2, 
+        "ratings_average": "1.00", 
+        "app_name": "", 
+        "package_name": "affinic-debugger-gui", 
+        "histogram": "[2, 0, 0, 0, 0]"
+    }, 
+    {
+        "ratings_total": 132, 
+        "ratings_average": "4.04", 
+        "app_name": "", 
+        "package_name": "keepass2", 
+        "histogram": "[11, 8, 18, 23, 72]"
+    }, 
+    {
+        "ratings_total": 7, 
+        "ratings_average": "4.71", 
+        "app_name": "", 
+        "package_name": "patchage", 
+        "histogram": "[0, 0, 1, 0, 6]"
+    }, 
+    {
+        "ratings_total": 14, 
+        "ratings_average": "4.93", 
+        "app_name": "", 
+        "package_name": "texstudio", 
+        "histogram": "[0, 0, 0, 1, 13]"
+    }, 
+    {
+        "ratings_total": 13, 
+        "ratings_average": "2.23", 
+        "app_name": "", 
+        "package_name": "unity-webapps-vkcom", 
+        "histogram": "[6, 2, 3, 0, 2]"
+    }, 
+    {
+        "ratings_total": 220, 
+        "ratings_average": "4.65", 
+        "app_name": "", 
+        "package_name": "keepassx", 
+        "histogram": "[2, 3, 11, 39, 165]"
+    }, 
+    {
+        "ratings_total": 4, 
+        "ratings_average": "4.50", 
+        "app_name": "", 
+        "package_name": "gmic", 
+        "histogram": "[0, 0, 0, 2, 2]"
+    }, 
+    {
+        "ratings_total": 202, 
+        "ratings_average": "4.49", 
+        "app_name": "", 
+        "package_name": "bluefish", 
+        "histogram": "[9, 6, 8, 33, 146]"
+    }, 
+    {
+        "ratings_total": 3, 
+        "ratings_average": "2.33", 
+        "app_name": "", 
+        "package_name": "lin-habu", 
+        "histogram": "[2, 0, 0, 0, 1]"
+    }, 
+    {
+        "ratings_total": 8, 
+        "ratings_average": "2.38", 
+        "app_name": "", 
+        "package_name": "mydesktopcalendar", 
+        "histogram": "[4, 1, 0, 2, 1]"
+    }, 
+    {
+        "ratings_total": 95, 
+        "ratings_average": "3.99", 
+        "app_name": "", 
+        "package_name": "uget", 
+        "histogram": "[10, 5, 9, 23, 48]"
+    }, 
+    {
+        "ratings_total": 34, 
+        "ratings_average": "4.35", 
+        "app_name": "", 
+        "package_name": "gitg", 
+        "histogram": "[2, 0, 1, 12, 19]"
+    }, 
+    {
+        "ratings_total": 12, 
+        "ratings_average": "3.58", 
+        "app_name": "", 
+        "package_name": "gnome-mines", 
+        "histogram": "[2, 2, 0, 3, 5]"
+    }, 
+    {
+        "ratings_total": 8, 
+        "ratings_average": "5.00", 
+        "app_name": "", 
+        "package_name": "openssh-server", 
+        "histogram": "[0, 0, 0, 0, 8]"
+    }, 
+    {
+        "ratings_total": 880, 
+        "ratings_average": "4.69", 
+        "app_name": "", 
+        "package_name": "clementine", 
+        "histogram": "[18, 12, 35, 99, 716]"
+    }, 
+    {
+        "ratings_total": 545, 
+        "ratings_average": "4.66", 
+        "app_name": "", 
+        "package_name": "audacity", 
+        "histogram": "[17, 7, 16, 63, 442]"
+    }, 
+    {
+        "ratings_total": 1, 
+        "ratings_average": "1.00", 
+        "app_name": "", 
+        "package_name": "python-pyode-doc", 
+        "histogram": "[1, 0, 0, 0, 0]"
+    }, 
+    {
+        "ratings_total": 20, 
+        "ratings_average": "4.75", 
+        "app_name": "", 
+        "package_name": "nemiver", 
+        "histogram": "[0, 0, 0, 5, 15]"
+    }, 
+    {
+        "ratings_total": 1, 
+        "ratings_average": "5.00", 
+        "app_name": "", 
+        "package_name": "caffeine", 
+        "histogram": "[0, 0, 0, 0, 1]"
+    }
+]

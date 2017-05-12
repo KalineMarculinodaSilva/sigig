@@ -1,0 +1,48 @@
+
+(unity-control-center:21615): Clutter-WARNING **: Whoever translated default:LTR did so wrongly.
+
+(unity-control-center:21627): Clutter-WARNING **: Whoever translated default:LTR did so wrongly.
+
+(unity-control-center:21615): sound-cc-panel-WARNING **: Unable to find stream for bar '(null)'
+
+(unity-control-center:21615): sound-cc-panel-WARNING **: active_output_update - couldn't find a stream from the supposed active output
+
+(unity-control-center:21615): sound-cc-panel-WARNING **: active_input_update - couldn't find a stream from the supposed active input
+
+** (process:16910): WARNING **: volume-control.vala:487: unable to sync volume to AccountsService: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface 'com.ubuntu.AccountsService.Sound'
+
+** (process:16910): WARNING **: volume-control.vala:487: unable to sync volume to AccountsService: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface 'com.ubuntu.AccountsService.Sound'
+
+** (process:16910): WARNING **: volume-control.vala:487: unable to sync volume to AccountsService: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface 'com.ubuntu.AccountsService.Sound'
+
+** (process:16910): WARNING **: volume-control.vala:487: unable to sync volume to AccountsService: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface 'com.ubuntu.AccountsService.Sound'
+
+** (process:16910): WARNING **: volume-control.vala:487: unable to sync volume to AccountsService: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface 'com.ubuntu.AccountsService.Sound'
+
+** (process:16910): WARNING **: volume-control.vala:487: unable to sync volume to AccountsService: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface 'com.ubuntu.AccountsService.Sound'
+
+** (process:16910): WARNING **: volume-control.vala:487: unable to sync volume to AccountsService: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface 'com.ubuntu.AccountsService.Sound'
+
+** (process:16910): WARNING **: volume-control.vala:487: unable to sync volume to AccountsService: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface 'com.ubuntu.AccountsService.Sound'
+
+** (process:16910): WARNING **: volume-control.vala:487: unable to sync volume to AccountsService: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface 'com.ubuntu.AccountsService.Sound'
+
+(unity-control-center:21644): Clutter-WARNING **: Whoever translated default:LTR did so wrongly.
+
+** (process:16910): WARNING **: volume-control.vala:487: unable to sync volume to AccountsService: GDBus.Error:org.freedesktop.DBus.Error.InvalidArgs: No such interface 'com.ubuntu.AccountsService.Sound'
+
+(unity-control-center:21746): Clutter-WARNING **: Whoever translated default:LTR did so wrongly.
+
+(unity-control-center:21615): Gtk-CRITICAL **: gtk_radio_button_set_group: assertion '!g_slist_find (group, radio_button)' failed
+
+(unity-control-center:21615): Gtk-CRITICAL **: gtk_radio_button_set_group: assertion '!g_slist_find (group, radio_button)' failed
+
+(unity-control-center:21615): Gtk-CRITICAL **: gtk_radio_button_set_group: assertion '!g_slist_find (group, radio_button)' failed
+
+(unity-control-center:21615): unity-control-center-WARNING **: Could not load /usr/share/themes/Adwaita/index.theme: Arquivo ou diretório não encontrado
+
+(unity-control-center:21615): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(unity-control-center:21615): Gtk-CRITICAL **: gtk_builder_get_object: assertion 'GTK_IS_BUILDER (builder)' failed
+
+(unity-control-center:21615): Gtk-CRITICAL **: gtk_icon_view_get_selected_items: assertion 'GTK_IS_ICON_VIEW (icon_view)' failed

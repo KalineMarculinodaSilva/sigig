@@ -1,0 +1,27 @@
+pci id for fd 4: 80ee:beef, driver (null)
+libGL error: core dri or dri2 extension not found
+libGL error: failed to load driver: vboxvideo
+Script para ibus iniciado em run_im.
+Script para auto iniciado em run_im.
+Script para default iniciado em run_im.
+init: processos at-spi2-registryd main terminados, recriando
+init: processos at-spi2-registryd main terminados, recriando
+init: processos at-spi2-registryd main terminados, recriando
+init: processos at-spi2-registryd main terminados, recriando
+init: processos at-spi2-registryd main terminados, recriando
+init: processos at-spi2-registryd main terminados, recriando
+init: processos at-spi2-registryd main terminados, recriando
+init: processos at-spi2-registryd main terminados, recriando
+init: processos at-spi2-registryd main terminados, recriando
+init: processos at-spi2-registryd main terminados, recriando
+init: at-spi2-registryd se recriando muito rapidamente, parado
+init: processos gnome-session (Unity) main (13008) terminados com status 1
+init: processo indicator-powermain (13117) morto pelo sinal TERM
+init: processo update-notifier-crash (/var/crash/_usr_bin_compiz.1000.crash)main (16387) morto pelo sinal TERM
+init: Desligado do notified D-Bus bus
+init: processo indicator-bluetoothmain (13114) morto pelo sinal TERM
+init: processo indicator-datetimemain (13124) morto pelo sinal TERM
+init: processo indicator-printersmain (13126) morto pelo sinal TERM
+init: processo indicator-sessionmain (13151) morto pelo sinal TERM
+init: processo hudmain (12998) morto pelo sinal TERM
+init: processo indicator-applicationmain (13152) morto pelo sinal TERM

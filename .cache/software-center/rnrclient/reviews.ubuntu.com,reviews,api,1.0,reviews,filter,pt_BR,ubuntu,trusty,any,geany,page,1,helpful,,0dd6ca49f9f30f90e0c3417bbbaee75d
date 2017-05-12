@@ -1,0 +1,72 @@
+status: 200
+content-length: 2067
+expires: Wed, 04 Nov 2015 13:03:23 GMT
+content-location: https://reviews.ubuntu.com/reviews/api/1.0/reviews/filter/pt_BR/ubuntu/trusty/any/geany/page/1/helpful/
+strict-transport-security: max-age=15768000; includeSubDomains; preload
+vary: Accept
+server: gunicorn/19.3.0
+last-modified: Wed, 04 Nov 2015 12:58:23 GMT
+x-bzr-revision-number: 313
+cache-control: max-age=300
+date: Wed, 04 Nov 2015 12:58:23 GMT
+content-type: application/json; charset=utf-8
+
+[
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "Geany", 
+        "language": "pt_BR", 
+        "reviewer_username": "6zrK6WY", 
+        "usefulness_total": 2, 
+        "usefulness_favorable": 2, 
+        "review_text": "Bem leve e completo, muito bom para edições rápidas.", 
+        "date_deleted": null, 
+        "summary": "Leve e prático", 
+        "version": "1.23.1+dfsg-1", 
+        "id": 89994, 
+        "date_created": "2014-08-26 02:33:02", 
+        "reviewer_displayname": "Gleuton Dutra", 
+        "package_name": "geany", 
+        "distroseries": "trusty"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "Geany", 
+        "language": "pt_BR", 
+        "reviewer_username": "LYrrAns", 
+        "usefulness_total": 1, 
+        "usefulness_favorable": 1, 
+        "review_text": "Não é o mais completo que existe, mas é o que melhor cumpre o que propõe, que é ser uma IDE leve, simples e produtiva. Muito bom.", 
+        "date_deleted": null, 
+        "summary": "Quase perfeito", 
+        "version": "1.23.1+dfsg-1", 
+        "id": 90757, 
+        "date_created": "2014-09-25 12:13:40", 
+        "reviewer_displayname": "Cleiton Il", 
+        "package_name": "geany", 
+        "distroseries": "trusty"
+    }, 
+    {
+        "origin": "ubuntu", 
+        "rating": 5, 
+        "hide": false, 
+        "app_name": "Geany", 
+        "language": "pt_BR", 
+        "reviewer_username": "yyrWXDe", 
+        "usefulness_total": 1, 
+        "usefulness_favorable": 1, 
+        "review_text": "Simples, leve, prático e cumpre o que promete. Ótimo para quem está começando a programar no linux. Há suporte para várias linguagens. ", 
+        "date_deleted": null, 
+        "summary": "Esqueça Dev C++", 
+        "version": "1.23.1+dfsg-1", 
+        "id": 90741, 
+        "date_created": "2014-09-24 17:03:47", 
+        "reviewer_displayname": "Aline Santos", 
+        "package_name": "geany", 
+        "distroseries": "trusty"
+    }
+]

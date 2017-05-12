@@ -1,0 +1,226 @@
+ERROR 2017-03-03 14:01:49 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2017-03-03 14:01:49 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2017-03-03 14:01:49 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(firefox:17681): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:17681): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(firefox:17681): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(firefox:17681): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:17728): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:17728): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:17728): GLib-GObject-CRITICAL **: g_object_ref: assertion 'object->ref_count > 0' failed
+
+(/usr/lib/firefox/plugin-container:17728): GLib-GObject-CRITICAL **: g_object_unref: assertion 'object->ref_count > 0' failed
+Nautilus-Share-Message: Called "net usershare info" but it failed: "compartilhamento de rede de usuário" retornou erro 255: net usershare: cannot open usershare directory /var/lib/samba/usershares. Error Arquivo ou diretório não encontrado
+Please ask your system administrator to enable user sharing.
+
+1488562834880	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+1488562834904	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+1488562834911	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+1488562834932	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+1488562835094	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+1488562835108	addons.update-checker	WARN	Update manifest for hsts-priming@mozilla.org did not contain an updates property
+1488562835119	addons.update-checker	WARN	Update manifest for diagnostics@mozilla.org did not contain an updates property
+1488562835251	addons.update-checker	WARN	Update manifest for disableSHA1rollout@mozilla.org did not contain an updates property
+Nautilus-Share-Message: Called "net usershare info" but it failed: "compartilhamento de rede de usuário" retornou erro 255: net usershare: cannot open usershare directory /var/lib/samba/usershares. Error Arquivo ou diretório não encontrado
+Please ask your system administrator to enable user sharing.
+
+1489081546444	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+1489081546458	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+1489081546467	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+1489081546484	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+1489081546619	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+1489081546637	addons.update-checker	WARN	Update manifest for hsts-priming@mozilla.org did not contain an updates property
+1489081546648	addons.update-checker	WARN	Update manifest for diagnostics@mozilla.org did not contain an updates property
+1489081546786	addons.update-checker	WARN	Update manifest for disableSHA1rollout@mozilla.org did not contain an updates property
+Nautilus-Share-Message: Called "net usershare info" but it failed: "compartilhamento de rede de usuário" retornou erro 255: net usershare: cannot open usershare directory /var/lib/samba/usershares. Error Arquivo ou diretório não encontrado
+Please ask your system administrator to enable user sharing.
+
+ERROR 2017-03-09 14:56:25 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2017-03-09 14:56:25 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2017-03-09 14:56:25 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gedit:19472): Gtk-WARNING **: GtkScrolledWindow 0x244b880 is mapped but visible child GtkScrollbar 0x2454aa0 is not mapped
+
+(gedit:19472): Gtk-WARNING **: GtkScrolledWindow 0x244b880 is mapped but visible child GtkScrollbar 0x2454ca0 is not mapped
+
+(gedit:19472): Gtk-WARNING **: GtkScrolledWindow 0x244b880 is mapped but visible child GtkScrollbar 0x2454aa0 is not mapped
+
+(gedit:19472): Gtk-WARNING **: GtkScrolledWindow 0x244b880 is mapped but visible child GtkScrollbar 0x2454ca0 is not mapped
+
+(gnome-terminal:17289): Vte-2.90-WARNING **: Não foi possível converter caracteres de UTF-8 para actual.
+
+(firefox:17681): Gtk-CRITICAL **: gtk_clipboard_set_with_data: assertion 'targets != NULL' failed
+ERROR 2017-03-09 15:59:14 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2017-03-09 15:59:14 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2017-03-09 15:59:14 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(deja-dup-monitor:17459): GLib-CRITICAL **: Source ID 50 was not found when attempting to remove it
+
+(deja-dup-monitor:17459): GLib-CRITICAL **: Source ID 50 was not found when attempting to remove it
+
+(evince:20256): Gtk-CRITICAL **: gtk_tree_model_foreach: assertion 'GTK_IS_TREE_MODEL (model)' failed
+1489772349684	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+1489772349712	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+1489772349730	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+1489772349736	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+1489772349885	addons.update-checker	WARN	Update manifest for hsts-priming@mozilla.org did not contain an updates property
+1489772349892	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+1489772349907	addons.update-checker	WARN	Update manifest for diagnostics@mozilla.org did not contain an updates property
+1489772350026	addons.update-checker	WARN	Update manifest for disableSHA1rollout@mozilla.org did not contain an updates property
+
+(firefox:17681): Gtk-CRITICAL **: gtk_clipboard_set_with_data: assertion 'targets != NULL' failed
+[GFX1]: Failed 2 buffer db=0 dw=0 for 0, 0, 1849, 1702
+ERROR 2017-03-17 15:06:44 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2017-03-17 15:06:44 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2017-03-17 15:06:44 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+ERROR 2017-03-17 15:12:42 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2017-03-17 15:12:42 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2017-03-17 15:12:42 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(deja-dup-monitor:17459): GLib-CRITICAL **: Source ID 86 was not found when attempting to remove it
+
+(deja-dup-monitor:17459): GLib-CRITICAL **: Source ID 86 was not found when attempting to remove it
+1490374347320	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+1490374347342	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+1490374347364	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+1490374347380	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+1490374347494	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+1490374347536	addons.update-checker	WARN	Update manifest for hsts-priming@mozilla.org did not contain an updates property
+1490374347549	addons.update-checker	WARN	Update manifest for diagnostics@mozilla.org did not contain an updates property
+1490374347647	addons.update-checker	WARN	Update manifest for disableSHA1rollout@mozilla.org did not contain an updates property
+ERROR 2017-03-24 13:59:51 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2017-03-24 13:59:51 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2017-03-24 13:59:51 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+ERROR 2017-03-30 15:16:03 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2017-03-30 15:16:03 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2017-03-30 15:16:03 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+1490898334940	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+1490898334949	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+1490898334969	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+1490898334986	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+1490898335075	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+1490898335098	addons.update-checker	WARN	Update manifest for hsts-priming@mozilla.org did not contain an updates property
+1490898335109	addons.update-checker	WARN	Update manifest for diagnostics@mozilla.org did not contain an updates property
+1490898335245	addons.update-checker	WARN	Update manifest for disableSHA1rollout@mozilla.org did not contain an updates property
+Nautilus-Share-Message: Called "net usershare info" but it failed: "compartilhamento de rede de usuário" retornou erro 255: net usershare: cannot open usershare directory /var/lib/samba/usershares. Error Arquivo ou diretório não encontrado
+Please ask your system administrator to enable user sharing.
+
+ERROR 2017-03-31 13:54:07 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2017-03-31 13:54:07 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2017-03-31 13:54:07 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+ERROR 2017-03-31 14:12:35 unity.settings UnitySettings.cpp:244 Invalid monitor index: -1. Returning index 0 monitor instead.
+
+(gnome-terminal:17289): Vte-2.90-WARNING **: Não foi possível converter caracteres de UTF-8 para actual.
+ERROR 2017-03-31 14:34:25 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2017-03-31 14:34:25 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2017-03-31 14:34:25 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+ERROR 2017-03-31 15:18:29 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2017-03-31 15:18:29 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2017-03-31 15:18:29 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+1490984729259	addons.update-checker	WARN	Update manifest for e10srollout@mozilla.org did not contain an updates property
+1490984729280	addons.update-checker	WARN	Update manifest for firefox@getpocket.com did not contain an updates property
+1490984729295	addons.update-checker	WARN	Update manifest for webcompat@mozilla.org did not contain an updates property
+1490984729301	addons.update-checker	WARN	Update manifest for aushelper@mozilla.org did not contain an updates property
+1490984729443	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+1490984729458	addons.update-checker	WARN	Update manifest for hsts-priming@mozilla.org did not contain an updates property
+1490984729471	addons.update-checker	WARN	Update manifest for diagnostics@mozilla.org did not contain an updates property
+1490984729601	addons.update-checker	WARN	Update manifest for disableSHA1rollout@mozilla.org did not contain an updates property
+ERROR 2017-03-31 15:38:29 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2017-03-31 15:38:29 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2017-03-31 15:38:29 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(gnome-terminal:17289): Vte-2.90-WARNING **: Não foi possível converter caracteres de UTF-8 para actual.
+
+(gnome-terminal:17289): Vte-2.90-WARNING **: Não foi possível converter caracteres de UTF-8 para actual.
+ERROR 2017-04-06 14:39:43 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2017-04-06 14:39:43 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2017-04-06 14:39:43 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+1491501198389	addons.repository	WARN	Search failed when repopulating cache
+1491501218455	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1491501258415	addons.update-checker	WARN	Request for https://versioncheck-bg.addons.mozilla.org/update/VersionCheck.php?reqVersion=2&id=webcompat@mozilla.org&version=1.0&maxAppVersion=51.*&status=userEnabled&appID={ec8030f7-c20a-464f-9b0e-13a3a9e97384}&appVersion=51.0.1&appOS=Linux&appABI=x86_64-gcc3&locale=pt-BR&currentAppVersion=51.0.1&updateType=112&compatMode=normal timed out
+1491501258420	addons.update-checker	WARN	Request for https://versioncheck-bg.addons.mozilla.org/update/VersionCheck.php?reqVersion=2&id=e10srollout@mozilla.org&version=1.7&maxAppVersion=51.*&status=userEnabled&appID={ec8030f7-c20a-464f-9b0e-13a3a9e97384}&appVersion=51.0.1&appOS=Linux&appABI=x86_64-gcc3&locale=pt-BR&currentAppVersion=51.0.1&updateType=112&compatMode=normal timed out
+1491501258424	addons.update-checker	WARN	Request for https://versioncheck-bg.addons.mozilla.org/update/VersionCheck.php?reqVersion=2&id=firefox@getpocket.com&version=1.0.5&maxAppVersion=51.*&status=userEnabled&appID={ec8030f7-c20a-464f-9b0e-13a3a9e97384}&appVersion=51.0.1&appOS=Linux&appABI=x86_64-gcc3&locale=pt-BR&currentAppVersion=51.0.1&updateType=112&compatMode=normal timed out
+1491501258430	addons.update-checker	WARN	Request for https://versioncheck-bg.addons.mozilla.org/update/VersionCheck.php?reqVersion=2&id=aushelper@mozilla.org&version=1.0&maxAppVersion=51.*&status=userEnabled&appID={ec8030f7-c20a-464f-9b0e-13a3a9e97384}&appVersion=51.0.1&appOS=Linux&appABI=x86_64-gcc3&locale=pt-BR&currentAppVersion=51.0.1&updateType=112&compatMode=normal timed out
+1491501258433	addons.update-checker	WARN	Request for https://versioncheck-bg.addons.mozilla.org/update/VersionCheck.php?reqVersion=2&id=langpack-pt-BR@firefox.mozilla.org&version=51.0.1&maxAppVersion=51.*&status=userEnabled&appID={ec8030f7-c20a-464f-9b0e-13a3a9e97384}&appVersion=51.0.1&appOS=Linux&appABI=x86_64-gcc3&locale=pt-BR&currentAppVersion=51.0.1&updateType=112&compatMode=normal timed out
+1491501258435	addons.update-checker	WARN	Request for https://versioncheck-bg.addons.mozilla.org/update/VersionCheck.php?reqVersion=2&id=langpack-pt-PT@firefox.mozilla.org&version=51.0.1&maxAppVersion=51.*&status=userEnabled&appID={ec8030f7-c20a-464f-9b0e-13a3a9e97384}&appVersion=51.0.1&appOS=Linux&appABI=x86_64-gcc3&locale=pt-BR&currentAppVersion=51.0.1&updateType=112&compatMode=normal timed out
+1491501258438	addons.update-checker	WARN	Request for https://versioncheck-bg.addons.mozilla.org/update/VersionCheck.php?reqVersion=2&id=langpack-en-ZA@firefox.mozilla.org&version=51.0.1&maxAppVersion=51.*&status=userEnabled&appID={ec8030f7-c20a-464f-9b0e-13a3a9e97384}&appVersion=51.0.1&appOS=Linux&appABI=x86_64-gcc3&locale=pt-BR&currentAppVersion=51.0.1&updateType=112&compatMode=normal timed out
+1491501258449	addons.update-checker	WARN	Request for https://versioncheck-bg.addons.mozilla.org/update/VersionCheck.php?reqVersion=2&id={972ce4c6-7e08-4474-a285-3208198ce6fd}&version=51.0.1&maxAppVersion=51.0.1&status=userEnabled&appID={ec8030f7-c20a-464f-9b0e-13a3a9e97384}&appVersion=51.0.1&appOS=Linux&appABI=x86_64-gcc3&locale=pt-BR&currentAppVersion=51.0.1&updateType=112&compatMode=normal timed out
+1491501258450	addons.update-checker	WARN	Request for https://versioncheck-bg.addons.mozilla.org/update/VersionCheck.php?reqVersion=2&id=langpack-en-GB@firefox.mozilla.org&version=51.0.1&maxAppVersion=51.*&status=userEnabled&appID={ec8030f7-c20a-464f-9b0e-13a3a9e97384}&appVersion=51.0.1&appOS=Linux&appABI=x86_64-gcc3&locale=pt-BR&currentAppVersion=51.0.1&updateType=112&compatMode=normal timed out
+1491501258450	addons.update-checker	WARN	Request for https://versioncheck-bg.addons.mozilla.org/update/VersionCheck.php?reqVersion=2&id=ubufox@ubuntu.com&version=3.2&maxAppVersion=37.0a1&status=userEnabled&appID={ec8030f7-c20a-464f-9b0e-13a3a9e97384}&appVersion=51.0.1&appOS=Linux&appABI=x86_64-gcc3&locale=pt-BR&currentAppVersion=51.0.1&updateType=112&compatMode=normal timed out
+1491501258451	addons.update-checker	WARN	Request for https://versioncheck-bg.addons.mozilla.org/update/VersionCheck.php?reqVersion=2&id=hsts-priming@mozilla.org&version=1.0&maxAppVersion=52.*&status=userEnabled&appID={ec8030f7-c20a-464f-9b0e-13a3a9e97384}&appVersion=51.0.1&appOS=Linux&appABI=x86_64-gcc3&locale=pt-BR&currentAppVersion=51.0.1&updateType=112&compatMode=normal timed out
+1491501258460	addons.update-checker	WARN	Request for https://versioncheck-bg.addons.mozilla.org/update/VersionCheck.php?reqVersion=2&id=diagnostics@mozilla.org&version=1.0&maxAppVersion=*&status=userEnabled&appID={ec8030f7-c20a-464f-9b0e-13a3a9e97384}&appVersion=51.0.1&appOS=Linux&appABI=x86_64-gcc3&locale=pt-BR&currentAppVersion=51.0.1&updateType=112&compatMode=normal timed out
+1491501258461	addons.update-checker	WARN	Request for https://versioncheck-bg.addons.mozilla.org/update/VersionCheck.php?reqVersion=2&id=disableSHA1rollout@mozilla.org&version=1.2&maxAppVersion=52.*&status=userEnabled&appID={ec8030f7-c20a-464f-9b0e-13a3a9e97384}&appVersion=51.0.1&appOS=Linux&appABI=x86_64-gcc3&locale=pt-BR&currentAppVersion=51.0.1&updateType=112&compatMode=normal timed out
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+1491501318463	addons.update-checker	WARN	Request for https://versioncheck-bg.addons.mozilla.org/update/VersionCheck.php?reqVersion=2&id=firefox-hotfix@mozilla.org&version=20170302.01&maxAppVersion=%ITEM_MAXAPPVERSION%&status=userEnabled,incompatible&appID={ec8030f7-c20a-464f-9b0e-13a3a9e97384}&appVersion=51.0.1&appOS=Linux&appABI=x86_64-gcc3&locale=pt-BR&currentAppVersion=51.0.1&updateType=%UPDATE_TYPE%&compatMode=%COMPATIBILITY_MODE% timed out
+1491501338466	addons.productaddons	WARN	Failed downloading XML, status: 0, reason: timeout
+1491501338467	addons.manager	WARN	Failed to update system addons: Error: Failed downloading XML, status: 0, reason: timeout (resource://gre/modules/addons/ProductAddonChecker.jsm:120:16) JS Stack trace: downloadXML/</fail@ProductAddonChecker.jsm:120:16
+ERROR 2017-04-06 15:11:43 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2017-04-06 15:11:43 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2017-04-06 15:11:43 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+ERROR 2017-04-06 15:29:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:28 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2017-04-06 15:29:28 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2017-04-06 15:29:28 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+ERROR 2017-04-06 15:29:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:28 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:31 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:31 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:31 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:31 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:31 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:31 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:31 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2017-04-06 15:29:31 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2017-04-06 15:29:31 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+ERROR 2017-04-06 15:29:35 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:35 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:35 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:35 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:35 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:35 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:35 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:35 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:35 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2017-04-06 15:29:35 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2017-04-06 15:29:35 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+ERROR 2017-04-06 15:29:37 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:37 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:37 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:37 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:37 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:37 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:37 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:37 unity <unknown>:0 AtkObject* unity_a11y_get_accessible(nux::Object*): assertion 'object != NULL' failed
+ERROR 2017-04-06 15:29:48 unityy <unknown>:0 g_value_set_object: assertion 'g_value_type_compatible (G_OBJECT_TYPE (v_object), G_VALUE_TYPE (value))' failed
+
+(gnome-terminal:17289): Vte-2.90-WARNING **: Não foi possível converter caracteres de UTF-8 para actual.
+ERROR 2017-04-06 16:08:28 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2017-04-06 16:08:28 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2017-04-06 16:08:28 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(deja-dup-monitor:17459): GLib-CRITICAL **: Source ID 112 was not found when attempting to remove it
+
+(deja-dup-monitor:17459): GLib-CRITICAL **: Source ID 112 was not found when attempting to remove it
+
+(unity-control-center:27577): Clutter-WARNING **: Whoever translated default:LTR did so wrongly.
+ERROR 2017-05-04 14:54:29 unity <unknown>:0 atk_object_ref_state_set: assertion 'ATK_IS_OBJECT (accessible)' failed
+ERROR 2017-05-04 14:54:29 unity <unknown>:0 atk_state_set_contains_state: assertion 'ATK_IS_STATE_SET (set)' failed
+ERROR 2017-05-04 14:54:29 unityy <unknown>:0 g_object_unref: assertion 'G_IS_OBJECT (object)' failed

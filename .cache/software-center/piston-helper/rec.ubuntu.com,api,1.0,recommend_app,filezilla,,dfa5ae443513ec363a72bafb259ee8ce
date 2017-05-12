@@ -1,0 +1,387 @@
+status: 200
+content-length: 9424
+via: 1.1 papeda.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: https://rec.ubuntu.com/api/1.0/recommend_app/filezilla/
+x-cache: MISS from papeda.canonical.com
+x-cache-lookup: HIT from papeda.canonical.com:3128
+expires: Wed, 04 Nov 2015 13:00:38 GMT
+server: Apache
+last-modified: Wed, 04 Nov 2015 12:55:38 GMT
+etag: "493605bbfd677309b335a6fa287eeec0"
+strict-transport-security: max-age=2592000
+cache-control: max-age=300
+date: Wed, 04 Nov 2015 12:55:38 GMT
+content-type: application/json; charset=utf-8
+
+{
+    "rid": "c6c8923d5c6533abf37777ae2694a93e", 
+    "data": [
+        {
+            "lift": 1.83935369010954, 
+            "package_name": "gimp", 
+            "similarity": 0.3702
+        }, 
+        {
+            "lift": 1.74521058849699, 
+            "package_name": "p7zip-full", 
+            "similarity": 0.3409
+        }, 
+        {
+            "lift": 1.70334183482214, 
+            "package_name": "icedtea-netx-common", 
+            "similarity": 0.3141
+        }, 
+        {
+            "lift": 1.81726321875517, 
+            "package_name": "gparted", 
+            "similarity": 0.3055
+        }, 
+        {
+            "lift": 1.4462743662558, 
+            "package_name": "vlc", 
+            "similarity": 0.305
+        }, 
+        {
+            "lift": 1.6944236093525, 
+            "package_name": "mono-runtime", 
+            "similarity": 0.3007
+        }, 
+        {
+            "package_name": "openjdk-6-jre", 
+            "similarity": 0.2994
+        }, 
+        {
+            "lift": 1.59528586284664, 
+            "package_name": "gstreamer0.10-plugins-bad-multiverse", 
+            "similarity": 0.2948
+        }, 
+        {
+            "package_name": "inkscape", 
+            "similarity": 0.2898
+        }, 
+        {
+            "lift": 1.5942580151727, 
+            "package_name": "synaptic", 
+            "similarity": 0.2876
+        }, 
+        {
+            "lift": 1.59884303325503, 
+            "package_name": "ubuntu-restricted-extras", 
+            "similarity": 0.2847
+        }, 
+        {
+            "lift": 1.5819326271148, 
+            "package_name": "kdelibs5-data", 
+            "similarity": 0.2812
+        }, 
+        {
+            "lift": 1.58408722300971, 
+            "package_name": "kde-runtime", 
+            "similarity": 0.2793
+        }, 
+        {
+            "lift": 1.65208921521029, 
+            "package_name": "alacarte", 
+            "similarity": 0.2764
+        }, 
+        {
+            "package_name": "winetricks", 
+            "similarity": 0.2726
+        }, 
+        {
+            "lift": 1.20266057723772, 
+            "package_name": "gstreamer0.10-plugins-bad", 
+            "similarity": 0.2643
+        }, 
+        {
+            "package_name": "audacity", 
+            "similarity": 0.261
+        }, 
+        {
+            "lift": 1.17196600591811, 
+            "package_name": "gstreamer0.10-ffmpeg", 
+            "similarity": 0.2607
+        }, 
+        {
+            "lift": 1.19262149737205, 
+            "package_name": "gstreamer0.10-plugins-ugly", 
+            "similarity": 0.2602
+        }, 
+        {
+            "lift": 1.65863888947838, 
+            "package_name": "openjdk-7-jre", 
+            "similarity": 0.2573
+        }, 
+        {
+            "lift": 1.4270141682773, 
+            "package_name": "chromium-browser", 
+            "similarity": 0.2521
+        }, 
+        {
+            "package_name": "compizconfig-settings-manager", 
+            "similarity": 0.2467
+        }, 
+        {
+            "package_name": "wine1.4", 
+            "similarity": 0.2379
+        }, 
+        {
+            "lift": 1.23033428864367, 
+            "package_name": "metacity", 
+            "similarity": 0.235
+        }, 
+        {
+            "package_name": "mysql-server", 
+            "similarity": 0.2348
+        }, 
+        {
+            "lift": 1.11217089660766, 
+            "package_name": "flashplugin-installer", 
+            "similarity": 0.233
+        }, 
+        {
+            "package_name": "gnome-shell", 
+            "similarity": 0.2286
+        }, 
+        {
+            "lift": 1.04302535328052, 
+            "package_name": "gnome-contacts", 
+            "similarity": 0.2271
+        }, 
+        {
+            "lift": 1.20237015821596, 
+            "package_name": "gnome-nettool", 
+            "similarity": 0.2259
+        }, 
+        {
+            "package_name": "nautilus-dropbox", 
+            "similarity": 0.224
+        }, 
+        {
+            "package_name": "firefox", 
+            "similarity": 0.2209
+        }, 
+        {
+            "package_name": "software-center", 
+            "similarity": 0.2199
+        }, 
+        {
+            "package_name": "software-properties-gtk", 
+            "similarity": 0.2198
+        }, 
+        {
+            "package_name": "yelp", 
+            "similarity": 0.2197
+        }, 
+        {
+            "package_name": "system-config-printer-gnome", 
+            "similarity": 0.2197
+        }, 
+        {
+            "package_name": "xul-ext-ubufox", 
+            "similarity": 0.2197
+        }, 
+        {
+            "package_name": "update-manager", 
+            "similarity": 0.2196
+        }, 
+        {
+            "package_name": "xterm", 
+            "similarity": 0.2194
+        }, 
+        {
+            "package_name": "file-roller", 
+            "similarity": 0.2194
+        }, 
+        {
+            "package_name": "network-manager-gnome", 
+            "similarity": 0.2193
+        }, 
+        {
+            "package_name": "gcalctool", 
+            "similarity": 0.2193
+        }, 
+        {
+            "package_name": "gucharmap", 
+            "similarity": 0.2191
+        }, 
+        {
+            "package_name": "libreoffice-writer", 
+            "similarity": 0.2188
+        }, 
+        {
+            "package_name": "libreoffice-calc", 
+            "similarity": 0.2187
+        }, 
+        {
+            "package_name": "usb-creator-gtk", 
+            "similarity": 0.2187
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "libreoffice-math", 
+            "similarity": 0.2187
+        }, 
+        {
+            "package_name": "language-selector-gnome", 
+            "similarity": 0.2187
+        }, 
+        {
+            "package_name": "ibus", 
+            "similarity": 0.2186
+        }, 
+        {
+            "package_name": "libreoffice-draw", 
+            "similarity": 0.2185
+        }, 
+        {
+            "package_name": "libreoffice-impress", 
+            "similarity": 0.2183
+        }, 
+        {
+            "lift": 1.58755430913458, 
+            "package_name": "imagemagick"
+        }, 
+        {
+            "lift": 1.14673191670719, 
+            "package_name": "unity-2d"
+        }, 
+        {
+            "lift": 1.11377214140113, 
+            "package_name": "gnome-media"
+        }, 
+        {
+            "lift": 1.04077558556774, 
+            "package_name": "gkbd-capplet"
+        }, 
+        {
+            "lift": 1.01503889274456, 
+            "package_name": "im-config"
+        }, 
+        {
+            "lift": 1.01438890326356, 
+            "package_name": "gnome-calculator"
+        }, 
+        {
+            "lift": 1.00776621491399, 
+            "package_name": "remmina"
+        }, 
+        {
+            "lift": 1.00246826791203, 
+            "package_name": "unity-scope-gdrive"
+        }, 
+        {
+            "lift": 1.00200604232049, 
+            "package_name": "gnome-mines"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "pitivi"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "upnp-inspector"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "w3af"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "atanks"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "bombono-dvd"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "textedit.app"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "ntfsprogs"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "mtink"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "quicksynergy"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "rapidsvn"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "gtk-vector-screenshot"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "darkarealite"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "istanbul"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "drapes"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "kfilereplace"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "opendict"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "synergy"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "darkroom"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "vbaexpress"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "amphetamine"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "viewpdf.app"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "xsensors"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "vendetta-online"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "digikam"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "ftp.app"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "alarm-clock-applet"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "winefish"
+        }
+    ], 
+    "app": "filezilla"
+}

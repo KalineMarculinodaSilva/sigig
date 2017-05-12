@@ -1,0 +1,274 @@
+status: 200
+content-length: 6073
+via: 1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)
+content-location: https://rec.ubuntu.com/api/1.0/recommend_app/qtcreator/
+x-cache: HIT from sumac.canonical.com
+age: 169
+expires: Wed, 04 Nov 2015 13:01:15 GMT
+server: Apache
+last-modified: Wed, 04 Nov 2015 12:56:15 GMT
+etag: "8f11f05ce52efaf57eae114216af7504"
+strict-transport-security: max-age=2592000
+cache-control: max-age=300
+date: Wed, 04 Nov 2015 12:56:15 GMT
+content-type: application/json; charset=utf-8
+x-cache-lookup: HIT from sumac.canonical.com:3128
+
+{
+    "rid": "d2d12dc309fdf1824d6d45c5afa3f420", 
+    "data": [
+        {
+            "package_name": "qt4-dev-tools", 
+            "similarity": 2.2266
+        }, 
+        {
+            "package_name": "qt4-designer", 
+            "similarity": 1.4446
+        }, 
+        {
+            "package_name": "glade", 
+            "similarity": 0.1631
+        }, 
+        {
+            "package_name": "codeblocks", 
+            "similarity": 0.1441
+        }, 
+        {
+            "package_name": "devhelp", 
+            "similarity": 0.1344
+        }, 
+        {
+            "package_name": "monodevelop", 
+            "similarity": 0.1221
+        }, 
+        {
+            "package_name": "eclipse-platform", 
+            "similarity": 0.1194
+        }, 
+        {
+            "package_name": "anjuta", 
+            "similarity": 0.1135
+        }, 
+        {
+            "package_name": "geany", 
+            "similarity": 0.1127
+        }, 
+        {
+            "package_name": "winpdb", 
+            "similarity": 0.1095
+        }, 
+        {
+            "package_name": "bluefish", 
+            "similarity": 0.1081
+        }, 
+        {
+            "package_name": "meld", 
+            "similarity": 0.1018
+        }, 
+        {
+            "package_name": "bzr", 
+            "similarity": 0.0991
+        }, 
+        {
+            "package_name": "blender", 
+            "similarity": 0.0947
+        }, 
+        {
+            "package_name": "glade-gtk2", 
+            "similarity": 0.0944
+        }, 
+        {
+            "package_name": "wireshark", 
+            "similarity": 0.0892
+        }, 
+        {
+            "package_name": "netbeans", 
+            "similarity": 0.0878
+        }, 
+        {
+            "package_name": "idle-python2.7", 
+            "similarity": 0.0862
+        }, 
+        {
+            "package_name": "spyder", 
+            "similarity": 0.0849
+        }, 
+        {
+            "package_name": "htop", 
+            "similarity": 0.0812
+        }, 
+        {
+            "package_name": "emacs23", 
+            "similarity": 0.0801
+        }, 
+        {
+            "package_name": "vim-gnome", 
+            "similarity": 0.0779
+        }, 
+        {
+            "package_name": "mysql-server", 
+            "similarity": 0.0776
+        }, 
+        {
+            "package_name": "terminator", 
+            "similarity": 0.0774
+        }, 
+        {
+            "package_name": "arduino", 
+            "similarity": 0.0766
+        }, 
+        {
+            "package_name": "gtk-recordmydesktop", 
+            "similarity": 0.0761
+        }, 
+        {
+            "package_name": "ksnapshot", 
+            "similarity": 0.076
+        }, 
+        {
+            "package_name": "calligra-data", 
+            "similarity": 0.0755
+        }, 
+        {
+            "package_name": "inkscape", 
+            "similarity": 0.0752
+        }, 
+        {
+            "package_name": "dragonplayer", 
+            "similarity": 0.0749
+        }, 
+        {
+            "package_name": "kate", 
+            "similarity": 0.074
+        }, 
+        {
+            "package_name": "monodoc-browser", 
+            "similarity": 0.0726
+        }, 
+        {
+            "package_name": "mysql-client", 
+            "similarity": 0.0722
+        }, 
+        {
+            "package_name": "okular", 
+            "similarity": 0.0718
+        }, 
+        {
+            "package_name": "dia-gnome", 
+            "similarity": 0.0698
+        }, 
+        {
+            "package_name": "kopete", 
+            "similarity": 0.0697
+        }, 
+        {
+            "package_name": "shutter", 
+            "similarity": 0.069
+        }, 
+        {
+            "package_name": "calibre", 
+            "similarity": 0.0684
+        }, 
+        {
+            "package_name": "virtualbox-qt", 
+            "similarity": 0.0673
+        }, 
+        {
+            "package_name": "dolphin", 
+            "similarity": 0.0671
+        }, 
+        {
+            "package_name": "texmaker", 
+            "similarity": 0.0664
+        }, 
+        {
+            "package_name": "ktorrent", 
+            "similarity": 0.0663
+        }, 
+        {
+            "package_name": "mc", 
+            "similarity": 0.0657
+        }, 
+        {
+            "package_name": "geogebra", 
+            "similarity": 0.0653
+        }, 
+        {
+            "package_name": "amarok", 
+            "similarity": 0.0649
+        }, 
+        {
+            "package_name": "kolourpaint4", 
+            "similarity": 0.0648
+        }, 
+        {
+            "package_name": "gwenview", 
+            "similarity": 0.0642
+        }, 
+        {
+            "package_name": "filezilla", 
+            "similarity": 0.0639
+        }, 
+        {
+            "package_name": "easytag", 
+            "similarity": 0.0634
+        }, 
+        {
+            "package_name": "gitg", 
+            "similarity": 0.0633
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "w3af"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "checkgmail"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "subdownloader"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "balazar"
+        }, 
+        {
+            "rating": 4.0, 
+            "package_name": "wicd-gtk"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "liferea"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "pdfmod"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "stopwatch"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "drapes"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "umbrello"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "vbaexpress"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "minbar"
+        }, 
+        {
+            "rating": 3.0, 
+            "package_name": "gwibber"
+        }
+    ], 
+    "app": "qtcreator"
+}

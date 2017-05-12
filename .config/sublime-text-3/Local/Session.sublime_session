@@ -1,0 +1,415 @@
+{
+	"folder_history":
+	[
+		"/home/alunoifpe/sgrh",
+		"/home/alunoifpe/SGRH",
+		"/home/alunoifpe/kaline"
+	],
+	"last_version": 3126,
+	"last_window_id": 3,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 480.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 54.0,
+				"last_filter": "php",
+				"selected_items":
+				[
+					[
+						"php",
+						"Set Syntax: PHP"
+					]
+				],
+				"width": 485.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/alunoifpe/SGRH/config/app.php",
+				"/home/alunoifpe/SGRH/vendor/cakephp/cakephp/src/Database/Schema/Collection.php",
+				"/home/alunoifpe/SGRH/vendor/cakephp/cakephp/src/Collection/functions.php",
+				"/home/alunoifpe/kaline/src/Template/Users/login.ctp",
+				"/home/alunoifpe/kaline/src/Controller/ArticlesController.php",
+				"/home/alunoifpe/kaline/src/Model/Table/ArticlesTable.php",
+				"/home/alunoifpe/kaline/src/Template/Categories/add.ctp",
+				"/home/alunoifpe/kaline/src/Controller/CategoriesController.php",
+				"/home/alunoifpe/kaline/src/Controller/UsersController.php",
+				"/home/alunoifpe/kaline/src/Model/Entity/User.php",
+				"/home/alunoifpe/kaline/src/Model/Table/CategoriesTable.php",
+				"/home/alunoifpe/kaline/src/Model/Table/UsersTable.php",
+				"/home/alunoifpe/kaline/src/Template/Articles/edit.ctp",
+				"/home/alunoifpe/kaline/src/Controller/UserController.php",
+				"/home/alunoifpe/kaline/src/Controller/AppController.php",
+				"/home/alunoifpe/kaline/src/Template/Categories/index.ctp",
+				"/home/alunoifpe/kaline/src/Template/Users/add.ctp",
+				"/home/alunoifpe/kaline/src/Template/Categories/edit.ctp",
+				"/home/alunoifpe/src/Template/Categories/index.ctp",
+				"/home/alunoifpe/src/Model/Table/CategoriesTable.php",
+				"/home/alunoifpe/kaline/config/Migrations/20170302190423_CreateCategories.php",
+				"/home/alunoifpe/src/Template/Categories/edit.ctp",
+				"/home/alunoifpe/src/Template/Categories/add.ctp",
+				"/home/alunoifpe/kaline/config/Migrations/CreateCategories.php",
+				"/home/alunoifpe/kaline/src/View/AppView.php",
+				"/home/alunoifpe/kaline/src/View/AjaxView.php",
+				"/home/alunoifpe/kaline/src/Application.php",
+				"/home/alunoifpe/kaline/src/Template/Articles/add.ctp",
+				"/home/alunoifpe/kaline/src/Model/Table/UserTable.php",
+				"/home/alunoifpe/srcControllerUsersController.php",
+				"/home/alunoifpe/srcControllerUsersControlle.phpr"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"collection.php",
+						"vendor/cakephp/cakephp/src/Database/Schema/Collection.php"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 392.0,
+				"last_filter": "collection",
+				"selected_items":
+				[
+					[
+						"collection",
+						"collection"
+					]
+				],
+				"width": 728.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 294.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 640.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 54.0,
+				"last_filter": "php",
+				"selected_items":
+				[
+					[
+						"php",
+						"Set Syntax: PHP"
+					]
+				],
+				"width": 485.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/alunoifpe/sgrh"
+			],
+			"file_history":
+			[
+				"/home/alunoifpe/sgrh/config/app.php",
+				"/home/alunoifpe/SGRH/config/app.php",
+				"/home/alunoifpe/SGRH/vendor/cakephp/cakephp/src/Database/Schema/Collection.php",
+				"/home/alunoifpe/SGRH/vendor/cakephp/cakephp/src/Collection/functions.php",
+				"/home/alunoifpe/kaline/src/Template/Users/login.ctp",
+				"/home/alunoifpe/kaline/src/Controller/ArticlesController.php",
+				"/home/alunoifpe/kaline/src/Model/Table/ArticlesTable.php",
+				"/home/alunoifpe/kaline/src/Template/Categories/add.ctp",
+				"/home/alunoifpe/kaline/src/Controller/CategoriesController.php",
+				"/home/alunoifpe/kaline/src/Controller/UsersController.php",
+				"/home/alunoifpe/kaline/src/Model/Entity/User.php",
+				"/home/alunoifpe/kaline/src/Model/Table/CategoriesTable.php",
+				"/home/alunoifpe/kaline/src/Model/Table/UsersTable.php",
+				"/home/alunoifpe/kaline/src/Template/Articles/edit.ctp",
+				"/home/alunoifpe/kaline/src/Controller/UserController.php",
+				"/home/alunoifpe/kaline/src/Controller/AppController.php",
+				"/home/alunoifpe/kaline/src/Template/Categories/index.ctp",
+				"/home/alunoifpe/kaline/src/Template/Users/add.ctp",
+				"/home/alunoifpe/kaline/src/Template/Categories/edit.ctp",
+				"/home/alunoifpe/src/Template/Categories/index.ctp",
+				"/home/alunoifpe/src/Model/Table/CategoriesTable.php",
+				"/home/alunoifpe/kaline/config/Migrations/20170302190423_CreateCategories.php",
+				"/home/alunoifpe/src/Template/Categories/edit.ctp",
+				"/home/alunoifpe/src/Template/Categories/add.ctp",
+				"/home/alunoifpe/kaline/config/Migrations/CreateCategories.php",
+				"/home/alunoifpe/kaline/src/View/AppView.php",
+				"/home/alunoifpe/kaline/src/View/AjaxView.php",
+				"/home/alunoifpe/kaline/src/Application.php",
+				"/home/alunoifpe/kaline/src/Template/Articles/add.ctp",
+				"/home/alunoifpe/kaline/src/Model/Table/UserTable.php",
+				"/home/alunoifpe/srcControllerUsersController.php",
+				"/home/alunoifpe/srcControllerUsersControlle.phpr"
+			],
+			"find":
+			{
+				"height": 0.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/alunoifpe/sgrh"
+				}
+			],
+			"groups":
+			[
+				{
+					"sheets":
+					[
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 0.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,1,0,0,0,623,104,1263,584,1920,976",
+			"project": "",
+			"replace":
+			{
+				"height": 0.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"collection.php",
+						"vendor/cakephp/cakephp/src/Database/Schema/Collection.php"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 392.0,
+				"last_filter": "collection",
+				"selected_items":
+				[
+					[
+						"collection",
+						"collection"
+					]
+				],
+				"width": 728.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 294.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 3,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
